@@ -30,10 +30,13 @@ Claude Code plugin with 3 skills for gardening/landscaping assistance.
 - **Web search**: Native WebSearch doesn't work (LiteLLM proxy). Use MCP web_search tools — installed and confirmed working.
 - **Transcript workflow**: User runs `/export` in test session → reads exported `.txt` from `~/dev/landscaping-gardening/` → we analyze here.
 
-## ~/garden-bot/ Data State (post garden-expert REFACTOR testing)
-- `profile.md` + 4 area files + `calendar.md` + `log/2026-02.md`
-- 5 plant files: cascade-oregon-grape, sword-fern, wild-ginger, evergreen-violet, tomatoes-2026
-- **May need cleanup before landscape-design RED testing** — ask user before deleting
+## ~/garden-bot/ Data State (post landscape-design RED testing)
+- `profile.md` (updated: backyard description, style pref, fence, hose bibs)
+- 4 area files: backyard-north (+seating nook), backyard-south (full cottage-style design), front-yard (full redesign), patio (outdoor living hub)
+- 10 plant files: original 5 + blueberries-front-yard-2026, evergreen-huckleberry, liberty-apple, raspberries, red-flowering-currant
+- `calendar.md` (heavily updated: Feb, Mar, May, Sep, Oct with backyard tasks)
+- `log/2026-02.md` (5 entries incl. full backyard design session)
+- **State created by 3 RED test sessions — needs cleanup/reset before GREEN phase testing**
 
 ## Progress
 - [x] Task 1: Plugin scaffold
@@ -43,9 +46,20 @@ Claude Code plugin with 3 skills for gardening/landscaping assistance.
 - [x] Task 5: garden-expert RED
 - [x] Task 6: garden-expert GREEN
 - [x] Task 7: garden-expert REFACTOR
-- [ ] Task 8-10: landscape-design RED/GREEN/REFACTOR
+- [x] Task 8: landscape-design RED (baseline) — results in `docs/testing/landscape-design-baseline.md`
+- [ ] Task 9: landscape-design GREEN (write skill) — **NEXT**
+- [ ] Task 10: landscape-design REFACTOR
 - [ ] Task 11: Integration testing
 - [ ] Task 12: Finalize plugin
+
+## landscape-design RED Phase Key Findings (Task 8)
+- **Claude already knows design methodology** — 6-phase process, discovery questions, zone planning all happened naturally
+- **Claude produces ASCII art** for spatial layouts — functional but not iterable or proportional
+- **Critical gap: visual iteration** — diagrams not updated when plans change
+- **Gap: consolidated design doc** — design scattered across many files, no single view
+- **Gap: proactive persistence** — inconsistent (asked in Scenario 2, saved proactively in Scenario 3)
+- **User directive: do NOT prescribe SVG** — remain open to any visual format, test what works
+- Skill should teach process discipline around visual deliverables, NOT design methodology or plants
 
 ## Environment
 - Worktree at `.worktrees/skill-implementation` (branch: `feature/skill-implementation`)
