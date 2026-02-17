@@ -12,6 +12,8 @@ Claude Code plugin with 3 skills for gardening/landscaping assistance.
 ## Skill Authoring
 - Skills should be <500 words body. Only teach what Claude doesn't already know.
 - **Gating > procedures**: "Do X before Y" works; numbered "1. Ask 2. Create" steps get collapsed when user input already provides data.
+- **Persistence gating**: "Before ending your response, save..." + "Do not offer to save and wait for permission" — without this, Claude offers but doesn't act.
+- **Bold for critical instructions**: "**Wait for answers before giving a diagnosis.**" resists rationalization better than plain text.
 - Conversation-first patterns produce better output (richer context → personalized files).
 - Follow the Bitter Lesson: structure the data, not rigid workflows. Trust Claude's intelligence.
 - **REFACTOR workflow**: Edit SKILL.md → set up test env → user runs test in separate session → review transcript → update test results doc.
@@ -25,7 +27,13 @@ Claude Code plugin with 3 skills for gardening/landscaping assistance.
 - Test results: `docs/testing/{skill-name}-baseline.md` (RED, GREEN, REFACTOR phases)
 - TDD cycle: RED (baseline without skill) → GREEN (write skill, re-test) → REFACTOR (close gaps)
 - **Test setup**: Scenario 1 needs `~/garden-bot/` removed; Scenario 2-3 need it populated. Verify `~/dev/landscaping-gardening/` is empty.
-- **Transcripts**: Saved to `docs/testing/scenario*-{baseline,green}-transcript.txt` for before/after comparison.
+- **Web search**: Native WebSearch doesn't work (LiteLLM proxy). Use MCP web_search tools — installed and confirmed working.
+- **Transcript workflow**: User runs `/export` in test session → reads exported `.txt` from `~/dev/landscaping-gardening/` → we analyze here.
+
+## ~/garden-bot/ Data State (post garden-expert REFACTOR testing)
+- `profile.md` + 4 area files + `calendar.md` + `log/2026-02.md`
+- 5 plant files: cascade-oregon-grape, sword-fern, wild-ginger, evergreen-violet, tomatoes-2026
+- **May need cleanup before landscape-design RED testing** — ask user before deleting
 
 ## Progress
 - [x] Task 1: Plugin scaffold
