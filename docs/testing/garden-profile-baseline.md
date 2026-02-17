@@ -108,3 +108,56 @@ Scenario 1 shows Claude jumps to file creation without asking about goals, exper
 
 ### 5. Data integrity (MEDIUM)
 The skill should ensure: read before write, don't lose existing content, append to logs rather than overwrite.
+
+---
+
+# GREEN Phase Results (With Skill)
+
+All three scenarios re-run in isolated sessions with the garden-profile skill loaded via `claude --plugin-dir`. Full transcripts in `docs/testing/scenario*-green-transcript.txt`.
+
+## Scenario 1: New User Onboarding — PASS
+
+**Improvements over baseline:**
+- ✅ Created all files at `~/garden-bot/` (not CWD) — CRITICAL fix confirmed
+- ✅ Used `areas/` directory with one file per area (not `zones/`)
+- ✅ Created `plants/` and `log/` directories upfront
+- ✅ Created monthly log `log/2026-02.md` (not daily logs)
+- ✅ Profile includes cross-links to area files, frost dates, climate notes
+- ✅ Backyard file has sun zone table mapping oak canopy microclimates
+- ✅ Portland-specific content (OSU Extension reference, clay soil notes)
+
+**Remaining gap (REFACTOR):**
+- ❌ Did not ask onboarding questions — announced plan and created files immediately
+- Skill says "walk the user through setup" but agent interpreted this as "tell them what you're creating"
+
+## Scenario 2: Recording a New Planting — PASS
+
+**Improvements over baseline (baseline: single flat file):**
+- ✅ Found existing `~/garden-bot/` and built on it
+- ✅ Read profile and existing area files before writing
+- ✅ Created `plants/duke-blueberries.md` with species, variety, quantity, date, growing conditions
+- ✅ Created `areas/side-yard.md` for the new area (progressive infrastructure)
+- ✅ Updated `profile.md` — added side yard to areas list
+- ✅ Appended to `log/2026-02.md` — did not overwrite existing log entry (data integrity)
+- ✅ Correctly noted blueberries are in side yard, not backyard
+
+## Scenario 3: Retrieving Garden Data — PASS
+
+**Improvements over baseline (baseline: complete FAIL, never found data):**
+- ✅ Found `~/garden-bot/` immediately from different CWD
+- ✅ Read `areas/backyard.md` and reported plants/conditions accurately
+- ✅ Rendered sun zone table for the three microclimate zones
+- ✅ Correctly noted oak tree as the only backyard plant
+- ✅ Correctly distinguished side yard blueberries from backyard
+- ✅ Reported unknowns (soil untested, irrigation unassessed) without re-asking
+- ✅ Offered relevant next steps
+
+## GREEN Phase Summary
+
+| Issue from RED Phase | Status | Notes |
+|---|---|---|
+| Canonical data directory (CRITICAL) | ✅ Fixed | All scenarios used ~/garden-bot/ |
+| Consistent file structure (HIGH) | ✅ Fixed | areas/, plants/, log/ with correct conventions |
+| Progressive infrastructure (HIGH) | ✅ Fixed | Scenario 2 created area + plant files from a simple "record this" |
+| Onboarding conversation (MEDIUM) | ❌ Open | Agent announces but doesn't ask questions |
+| Data integrity (MEDIUM) | ✅ Fixed | Read-before-write, append-only logs |
