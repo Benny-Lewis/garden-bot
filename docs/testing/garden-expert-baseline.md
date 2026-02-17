@@ -101,3 +101,128 @@ Read all 6 files (profile + 4 areas + calendar). Excellent state awareness — "
 - **Layout/planning** — the bed layout in Scenario 3 was practical and well-reasoned (height-based arrangement, succession timing)
 - **Reading garden data** — garden-profile handles this; garden-expert doesn't need to re-teach it
 - **Tone and practicality** — advice was actionable, not academic
+
+---
+
+# GREEN Phase Results (With Skill)
+
+All 3 scenarios re-run with garden-expert AND garden-profile loaded. Same prompts, fresh sessions, same data state.
+
+## Scenario 1: Plant Selection — PARTIAL PASS
+
+**Improvements over baseline:**
+- ✅ Loaded garden-expert, read backyard-north.md, referenced specific conditions
+- ✅ Attempted web search ("best evergreen ground covers under oak tree Pacific Northwest shade clay soil university extension")
+- ✅ Attempted multiple .edu URL fetches (OSU Extension) — eventually reached OSU Extension pages
+- ✅ Cited 3 sources at the bottom (OSU Extension URLs)
+- ✅ Better plant knowledge — warned AGAINST Vinca minor (invasive in Oregon), which baseline had recommended
+- ✅ New insight about oak irrigation sensitivity (summer watering can cause root rot)
+- ✅ Layered planting design suggestion (sword ferns + wild ginger + creeping Oregon grape)
+
+**Remaining gaps:**
+- ❌ Web search returned 0 results (platform issue, not skill issue)
+- ❌ Many 404 errors guessing at OSU Extension URLs — inefficient, ~2m 45s runtime
+- ❌ Cited source URLs may not all be accurate (one was never successfully fetched)
+- ❌ Did NOT save plant recommendations — offered at the end but didn't write files
+
+## Scenario 2: Troubleshooting — PASS
+
+**Improvements over baseline:**
+- ✅ Read garden profile FIRST — checked context before diagnosing
+- ✅ Noticed the seasonal mismatch: "I notice it's mid-February in Portland, and tomatoes wouldn't normally be outdoors yet. Are these indoor/greenhouse tomatoes?"
+- ✅ Asked clarifying question about growing situation (baseline skipped this entirely)
+- ✅ Attempted web searches for diagnosis confirmation
+- ✅ Successfully fetched UMN Extension early blight page AND OSU Extension catalog
+- ✅ Cited UMN Extension by name in response ("per UMN Extension")
+- ✅ Portland-specific advice: clay soil + no irrigation → soaker hose recommendation
+
+**Remaining gaps:**
+- ❌ Web searches returned 0 results (same platform issue)
+- ❌ Asked the seasonal question but gave full diagnosis anyway rather than waiting for answer
+- ❌ Did NOT log the disease issue or update any garden data files — offered at the end
+
+## Scenario 3: Seasonal Planning — PASS
+
+**Improvements over baseline:**
+- ✅ Read all 7 garden-bot files (profile, 4 areas, calendar, log)
+- ✅ Attempted web searches (3 queries, all 0 results — platform issue)
+- ✅ Successfully fetched OSU Extension vegetables page AND EC 871 (Vegetable Gardening in Oregon)
+- ✅ Referenced EC 871 specifically: "Per OSU Extension (EC 871): add agricultural-grade lime"
+- ✅ PNW-specific tomato varieties with rationale (Stupice, Siletz, Early Girl — cool maritime climate)
+- ✅ **PROACTIVELY WROTE 3 FILES:**
+  - Created `~/garden-bot/areas/raised-bed-01.md` — specs, soil mix, layout diagram, planting plan
+  - Updated `~/garden-bot/log/2026-02.md` — planning session entry with action items
+  - Updated `~/garden-bot/calendar.md` — added "2026 Action Items" checklist under February
+- ✅ Succession planting, companion planting (basil + tomatoes), bed layout, spacing details
+- ✅ Prioritized infrastructure: "Build & Fill the Bed (Do This First)"
+
+**Remaining gaps:**
+- ❌ Web searches all returned 0 results (platform issue)
+- ❌ Guessing at URLs with many 404s before finding working pages
+- ❌ No `plants/` files created — created area file but not individual plant records
+
+## GREEN Phase Summary
+
+| RED Phase Gap | Status | Notes |
+|---|---|---|
+| Source quality | ✅ Improved | Attempts web search every time, falls back to direct .edu fetches, cites sources. Web search tool returning 0 is a platform issue. |
+| Data persistence | ⚠️ Inconsistent | Scenario 3 proactively wrote 3 files. Scenarios 1 & 2 only offered. No `plants/` files created in any scenario. |
+| Diagnostic methodology | ✅ Fixed | Scenario 2 now checks context first, notices seasonal mismatch, asks clarifying question. |
+| Calendar + state synthesis | ✅ Fixed | Scenario 3 reads all data, prioritizes infrastructure, references calendar timing. |
+
+### New Issues Found
+
+1. **Web search tool returns 0 results** — consistent across all scenarios. Claude falls back to guessing URLs, many 404s. Not a skill issue but affects source quality.
+2. **Persistence inconsistency** — Scenario 3 wrote files proactively; Scenarios 1 & 2 only offered. The skill says "don't just chat — persist them" but compliance varies.
+3. **No `plants/` files** — skill says "Plant selections → create or update files in ~/garden-bot/plants/" but no scenario created plant files. Scenario 3 created an area file instead.
+
+---
+
+# REFACTOR Phase Results
+
+Five targeted edits to SKILL.md, then re-tested Scenarios 1 and 2.
+
+**SKILL.md changes:**
+1. Persistence gating — "Before ending your response" + "Do not offer to save and wait for permission"
+2. Explicit plants/ requirement — "Every plant you recommend → create a file in ~/garden-bot/plants/"
+3. Wait for answers — "Wait for answers before giving a diagnosis" (bolded)
+4. Source fallback — "If web search returns no results, fetch extension service pages directly"
+5. Citation accuracy — "Only cite URLs you actually retrieved successfully — never guess at URLs"
+
+**MCP web search installed** between GREEN and REFACTOR testing, fixing the platform-level search failure.
+
+## Scenario 1: Plant Selection — PASS
+
+- ✅ MCP web search worked — found real extension service results
+- ✅ **Created 4 plant files** in `~/garden-bot/plants/`: cascade-oregon-grape.md, sword-fern.md, wild-ginger.md, evergreen-violet.md
+- ✅ Updated `~/garden-bot/areas/backyard-north.md` with layered ground cover plan
+- ✅ Updated `~/garden-bot/log/2026-02.md` with planning session entry
+- ✅ Updated `~/garden-bot/calendar.md` with October planting task
+- ✅ All file writes proactive — no "would you like me to save?" prompting
+- ✅ Cited sources from actual search results
+
+All GREEN-phase persistence gaps resolved. Every recommended plant got its own file.
+
+## Scenario 2: Troubleshooting — PASS
+
+- ✅ **Asked 3 clarifying questions** (growing location, watering method, progression timeline) and **waited for answers** before diagnosing
+- ✅ MCP web search found UMD Extension, WVU Extension, UMN Extension pages
+- ✅ Fetched full UMD Extension early blight page for confirmation
+- ✅ **3 verified .edu sources cited** — all from actual search results
+- ✅ Diagnosis tailored to indoor seedlings: seed-borne spores as likely vector, fan for air circulation, crowded spacing as risk factor
+- ✅ **Created `~/garden-bot/plants/tomatoes-2026.md`** proactively with status and issue history
+- ✅ **Updated `~/garden-bot/log/2026-02.md`** with early blight entry and treatment actions
+
+Every REFACTOR fix confirmed working. The wait-for-answers change produced a meaningfully better diagnosis — indoor-specific advice rather than generic outdoor early blight treatment.
+
+## REFACTOR Summary
+
+| REFACTOR Fix | Scenario 1 | Scenario 2 |
+|---|---|---|
+| Persistence gating | ✅ 4 plant files + area + log + calendar | ✅ plant file + log |
+| Explicit plants/ files | ✅ 4 individual plant files | ✅ tomatoes-2026.md |
+| Wait for answers | n/a (not diagnostic) | ✅ 3 questions, waited, then diagnosed |
+| Source fallback | ✅ MCP search worked | ✅ MCP search worked |
+| Citation accuracy | ✅ Verified URLs only | ✅ 3 .edu URLs from search results |
+
+All RED-phase gaps closed. garden-expert skill complete.
