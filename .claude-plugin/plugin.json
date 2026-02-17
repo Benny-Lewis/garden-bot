@@ -1,0 +1,10 @@
+{
+  "name": "garden-bot",
+  "version": "0.1.0",
+  "description": "Gardening and landscaping assistant with persistent garden profiles, expert plant advice, and landscape design with visual mockups",
+  "author": {
+    "name": "blewis"
+  },
+  "license": "MIT",
+  "keywords": ["gardening", "landscaping", "plants", "landscape-design", "garden-planning"]
+}
