@@ -151,3 +151,90 @@ Scenario 2 asked "Want me to save this?" while Scenario 3 saved proactively. The
 - **Data persistence** — updates area files, calendar, log, plant files (garden-profile + garden-expert handle this)
 - **Design aesthetics** — cottage style, offset beds, flowers with food, soft edges
 - **User dialogue** — asks discovery questions, confirms before finalizing
+
+---
+
+## GREEN Phase Results
+
+**Skill written:** `skills/landscape-design/SKILL.md` (311 words — well under 500 word limit)
+
+Three sections address the three RED gaps:
+1. **Visual Layouts + Iteration Discipline** — produce visual layouts with proportions/labels/dimensions/orientation; regenerate immediately when design changes; "the visual and the text must always agree"
+2. **Consolidated Design View** — save design section in the area file as single source of truth (embedded visual + zone summary + key decisions)
+3. **Save Design Work Proactively** — persistence gating ("Do not offer to save and wait for permission")
+
+Deliberately did NOT create `references/svg-patterns.md` — per user directive, format is not prescribed. Testing confirmed ASCII art works well when the skill provides behavioral guidance.
+
+**Data state:** `~/garden-bot/` reset to pre-design state between each scenario (5 design-phase plant files removed, area files stripped of design sections, calendar/log reverted).
+
+### Scenario 1 GREEN: Ad-hoc Design Question
+
+**Same prompt as RED.** Result: **All 3 gaps fixed.**
+
+| Gap | RED Behavior | GREEN Behavior |
+|-----|-------------|----------------|
+| Visual layout | ❌ Zero visual output — text only | ✅ ASCII art diagram with dimensions, orientation (N/S/E/W), labeled zones, approximate proportions |
+| Consolidated design | ❌ No design section in area file | ✅ Saved "Edible Cottage Northwest" design section in front-yard.md with embedded visual, zone summary, key decisions |
+| Proactive persistence | ❌ N/A (Scenario 1 RED saved proactively via garden-expert) | ✅ Saved 5 plant files, calendar, log without asking |
+
+**Major improvement:** RED Scenario 1 produced zero spatial output — everything was text description. GREEN produced a visual layout with labeled zones and dimensions as part of the design process.
+
+### Scenario 2 GREEN: Mockup Request
+
+**Same prompt as RED.** Result: **All 3 gaps fixed.**
+
+| Gap | RED Behavior | GREEN Behavior |
+|-----|-------------|----------------|
+| Visual layout | ⚠️ ASCII art — functional but no dimensions on diagram, not to scale | ✅ ASCII art with dimensions, proportions, labels, orientation |
+| Consolidated design | ❌ Layout only in chat, not saved as design deliverable | ✅ Design section saved in backyard-south.md with embedded visual, zone summary table, key decisions |
+| Proactive persistence | ❌ Asked "Want me to save this?" | ✅ "Let me save this design" — saved proactively without asking |
+
+**Session efficiency:** 2 min 46 sec — direct response to a direct request. Skill didn't add overhead.
+
+### Scenario 3 GREEN: Structured Design Process (Critical Iteration Test)
+
+**Same prompt as RED.** Result: **All 3 gaps fixed — including the #1 RED failure (visual iteration).**
+
+| Gap | RED Behavior | GREEN Behavior |
+|-----|-------------|----------------|
+| Visual iteration | ❌ User changed from 4 beds to 2, diagram still showed 4 beds | ✅ **3 visual iterations**: Draft 1 (4 separate beds) → Draft 2 (U-shape south-opening, 12ft interior) → Draft 3 (U-shape north-opening, 8ft interior). Each regenerated immediately on user feedback. |
+| Consolidated design | ❌ Design scattered across 7 files, no single view | ✅ Created `backyard.md` (full yard overview) + detailed `backyard-south.md` (U-bed structure, planting plan diagrams, materials) + updated `patio.md` |
+| Proactive persistence | ⚠️ Saved proactively in RED Scenario 3 | ✅ Saved 4 files proactively — consistent behavior |
+
+**Additional observations:**
+- Produced a **comparison table** across drafts (dimensions, interior width, orientation, access)
+- Created **two diagram types**: structural layout (U-bed shape) AND planting plan (what goes where in each arm)
+- Session was 2 min 59 sec with 3 design iterations — efficient multi-turn design process
+- Created `backyard.md` as a full-yard overview file (emergent pattern — not prescribed by skill)
+
+---
+
+## GREEN Phase Analysis
+
+### All 3 RED Gaps Are Fixed
+
+**1. Visual iteration (CRITICAL gap):** The #1 RED failure — diagrams not updating when plans change — is completely resolved. Scenario 3 demonstrated 3 full visual iterations, each regenerated immediately when the user requested changes. The skill's "iteration discipline" section ("regenerate the visual layout immediately") and "the visual and the text must always agree" directly addressed this.
+
+**2. Consolidated design view:** All 3 scenarios saved design sections in area files with embedded visuals, zone summaries, and key decisions. The area file serves as single source of truth for "what does this area look like?"
+
+**3. Proactive persistence:** All 3 scenarios saved without asking permission. The persistence gating pattern ("Do not offer to save and wait for permission") is proven across all three skills now (garden-profile, garden-expert, landscape-design).
+
+### Bitter Lesson Confirmed
+
+The skill is 311 words and teaches zero design methodology. Claude's built-in intelligence handles:
+- Design process (discovery → zones → layout → detail)
+- Spatial reasoning (sun, shade, access, proportions)
+- Plant selection and seasonal planning
+- Budget estimation and phased timelines
+
+The skill only teaches **process discipline around visual deliverables** — when to produce them, when to update them, where to save them. This is the minimal effective intervention.
+
+### Format Discovery
+
+ASCII art emerged as the natural visual format across all scenarios. It works because:
+- Embeds directly in markdown files (no separate image files)
+- Supports labels, dimensions, orientation markers
+- Iterates easily (regenerate in the same response)
+- Readable in any text editor or terminal
+
+The decision not to prescribe SVG was correct — ASCII art is sufficient for the design communication task, and the skill's format-agnostic approach ("produce a visual layout") let Claude use what works naturally.

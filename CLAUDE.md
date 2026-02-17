@@ -30,13 +30,14 @@ Claude Code plugin with 3 skills for gardening/landscaping assistance.
 - **Web search**: Native WebSearch doesn't work (LiteLLM proxy). Use MCP web_search tools — installed and confirmed working.
 - **Transcript workflow**: User runs `/export` in test session → reads exported `.txt` from `~/dev/landscaping-gardening/` → we analyze here.
 
-## ~/garden-bot/ Data State (post landscape-design RED testing)
-- `profile.md` (updated: backyard description, style pref, fence, hose bibs)
-- 4 area files: backyard-north (+seating nook), backyard-south (full cottage-style design), front-yard (full redesign), patio (outdoor living hub)
-- 10 plant files: original 5 + blueberries-front-yard-2026, evergreen-huckleberry, liberty-apple, raspberries, red-flowering-currant
-- `calendar.md` (heavily updated: Feb, Mar, May, Sep, Oct with backyard tasks)
-- `log/2026-02.md` (5 entries incl. full backyard design session)
-- **State created by 3 RED test sessions — needs cleanup/reset before GREEN phase testing**
+## ~/garden-bot/ Data State (post landscape-design GREEN Scenario 3)
+- `profile.md` (basic — reset to pre-design state for GREEN testing)
+- 4 area files: backyard-north (ground cover plan), backyard-south (U-shaped bed design from Scenario 3), front-yard (basic), patio (potting area from Scenario 3)
+- `backyard.md` — NEW file created by Scenario 3 (full yard overview with layout)
+- 5 plant files: cascade-oregon-grape, sword-fern, wild-ginger, evergreen-violet, tomatoes-2026
+- `calendar.md` (basic seasonal entries)
+- `log/2026-02.md` (4 entries: initial setup, oak understory, tomato blight, full backyard design)
+- **State modified by GREEN Scenario 3 — needs cleanup/reset before REFACTOR testing**
 
 ## Progress
 - [x] Task 1: Plugin scaffold
@@ -47,19 +48,18 @@ Claude Code plugin with 3 skills for gardening/landscaping assistance.
 - [x] Task 6: garden-expert GREEN
 - [x] Task 7: garden-expert REFACTOR
 - [x] Task 8: landscape-design RED (baseline) — results in `docs/testing/landscape-design-baseline.md`
-- [ ] Task 9: landscape-design GREEN (write skill) — **NEXT**
-- [ ] Task 10: landscape-design REFACTOR
+- [x] Task 9: landscape-design GREEN (write skill) — all 3 gaps fixed, results in baseline doc
+- [ ] Task 10: landscape-design REFACTOR — **NEXT**
 - [ ] Task 11: Integration testing
 - [ ] Task 12: Finalize plugin
 
-## landscape-design RED Phase Key Findings (Task 8)
-- **Claude already knows design methodology** — 6-phase process, discovery questions, zone planning all happened naturally
-- **Claude produces ASCII art** for spatial layouts — functional but not iterable or proportional
-- **Critical gap: visual iteration** — diagrams not updated when plans change
-- **Gap: consolidated design doc** — design scattered across many files, no single view
-- **Gap: proactive persistence** — inconsistent (asked in Scenario 2, saved proactively in Scenario 3)
-- **User directive: do NOT prescribe SVG** — remain open to any visual format, test what works
-- Skill should teach process discipline around visual deliverables, NOT design methodology or plants
+## landscape-design Key Findings (Tasks 8-9)
+- **RED gaps identified:** visual iteration, consolidated design doc, proactive persistence
+- **GREEN results:** All 3 gaps fixed across all 3 test scenarios
+- Skill is 311 words — teaches process discipline around visual deliverables only (Bitter Lesson confirmed)
+- ASCII art emerged as natural visual format — embeds in markdown, iterates easily, no separate files
+- Iteration discipline ("regenerate immediately when design changes") was the key intervention
+- **REFACTOR candidates:** Minor — diagram saved to file sometimes omits context from chat version; no formal legend/symbology; emergent `backyard.md` file pattern not prescribed
 
 ## Environment
 - Worktree at `.worktrees/skill-implementation` (branch: `feature/skill-implementation`)
