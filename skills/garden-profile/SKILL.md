@@ -40,14 +40,14 @@ Before answering any garden question, check `~/garden-bot/` for existing data. R
 
 ## First-Time Setup
 
-If `~/garden-bot/` doesn't exist, walk the user through setup:
+If `~/garden-bot/` doesn't exist, **have a conversation before creating any files.** The user's first message gives you a starting point, but there's always more to learn. Ask about things like:
 
-1. Ask for location, USDA zone, and property overview
-2. Create `profile.md` with their answers
-3. Ask about yard areas (front, back, side, etc.)
-4. Create area files with dimensions, sun exposure, soil, and notable features
+- Gardening goals and experience level
+- Soil conditions, drainage, irrigation
+- Existing plants or features from previous owners
+- What they want to grow or how they want to use the space
 
-Don't create files silently — confirm what you're setting up.
+Create files only after you understand the user's situation — not just their address and zone. The richer the conversation, the more useful the initial profile.
 
 ## Progressive Infrastructure
 

@@ -161,3 +161,38 @@ All three scenarios re-run in isolated sessions with the garden-profile skill lo
 | Progressive infrastructure (HIGH) | ✅ Fixed | Scenario 2 created area + plant files from a simple "record this" |
 | Onboarding conversation (MEDIUM) | ❌ Open | Agent announces but doesn't ask questions |
 | Data integrity (MEDIUM) | ✅ Fixed | Read-before-write, append-only logs |
+
+---
+
+# REFACTOR Phase Results
+
+## Change Made
+
+Replaced the First-Time Setup section's procedural steps ("1. Ask for location... 2. Create profile.md...") with gating language: **"Have a conversation before creating any files."** Added explicit guidance that the user's first message is a starting point, not the whole picture, and listed the kinds of things to ask about (goals, experience, soil, irrigation, existing features, intended use).
+
+**Key skill-authoring lesson:** Interleaved "ask then create" steps get collapsed by the agent when the user's prompt already provides some data. Gating language ("create files only after you understand the user's situation") is respected as a prerequisite.
+
+## Scenario 1 Re-test: New User Onboarding — PASS
+
+**Onboarding gap fixed:**
+- ✅ Agent asked 5 contextual questions before creating any files
+- ✅ Questions covered: goals, experience level, existing plants/features, soil & drainage, intended use of each space
+- ✅ Waited for user answers before proceeding
+- ✅ Friendly tone: "No need to answer everything perfectly"
+
+**File quality improved over GREEN (richer context from conversation):**
+- ✅ `profile.md` includes goals, experience (Colorado origin), soil observations — none of which were in GREEN version
+- ✅ Backyard split into `backyard-south.md` (veggie garden) and `backyard-north.md` (shade garden) based on user's stated goals
+- ✅ `patio.md` created as separate area (not tracked in GREEN)
+- ✅ Area files include "Ideas to Explore" and "Constraints" sections with actionable, personalized suggestions
+- ✅ `calendar.md` — full 12-month Portland 8b planting guide (not created in GREEN)
+- ✅ Oak tree root zone constraints noted in backyard-north (avoid digging, root flare care)
+- ✅ All files at `~/garden-bot/` with correct structure
+
+## REFACTOR Summary
+
+| Issue from GREEN Phase | Status | Notes |
+|---|---|---|
+| Onboarding conversation | ✅ Fixed | Gating language works — agent asks questions and waits before creating files |
+
+All five RED-phase issues now resolved. garden-profile skill complete.
