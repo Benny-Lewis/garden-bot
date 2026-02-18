@@ -1,3 +1,5 @@
+> **Historical document** — reflects what was planned, not what shipped. Key deviations: ASCII replaced SVG, reference files never needed, CWD replaced ~/garden-bot/, MPL-2.0 replaced MIT, manual testing replaced subagent testing. See shipped skills for actual implementation.
+
 # Garden-Bot Skills Implementation Plan
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
