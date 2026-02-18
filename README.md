@@ -21,7 +21,7 @@ claude --plugin-dir ./garden-bot
 
 ### garden-profile
 
-Manages persistent garden data at `~/garden-bot/` — your property profile, yard areas, plant inventory, calendar, and activity log. On first use, has a conversation to understand your property before creating files. All data is human-readable markdown.
+Manages persistent garden data in the current working directory — your property profile, yard areas, plant inventory, calendar, and activity log. On first use, has a conversation to understand your property before creating files. All data is human-readable markdown.
 
 ### garden-expert
 
@@ -33,10 +33,17 @@ Visual layout and spatial planning for yard areas. Produces ASCII art diagrams s
 
 ## Data Directory
 
-All garden data lives in `~/garden-bot/`:
+Garden data is stored in whichever directory you run Claude from. Create a folder for your garden, `cd` into it, and start Claude with the plugin:
+
+```bash
+mkdir my-garden && cd my-garden
+claude --plugin-dir /path/to/garden-bot
+```
+
+The plugin will create and manage these files in that directory:
 
 ```
-~/garden-bot/
+./
 ├── profile.md          # Zone, location, soil, property overview
 ├── areas/              # One file per yard area
 ├── plants/             # One file per plant or planting group

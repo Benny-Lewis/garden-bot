@@ -5,7 +5,7 @@ description: Use when the user wants to plan, design, or redesign a yard area, c
 
 # Landscape Design
 
-Visual layout and design deliverables for garden and landscape planning. Always reads `~/garden-bot/` first (via garden-profile) for area dimensions, conditions, and existing features.
+Visual layout and design deliverables for garden and landscape planning. Always reads the working directory first (via garden-profile) for area dimensions, conditions, and existing features.
 
 ## Visual Layouts
 
@@ -16,7 +16,7 @@ Visual layout and design deliverables for garden and landscape planning. Always 
 - Dimensions or scale reference
 - Orientation (N/S/E/W)
 - A legend or key for symbols used
-- Consistent symbology — check existing area diagrams in `~/garden-bot/` and reuse their conventions
+- Consistent symbology — check existing area diagrams in the working directory and reuse their conventions
 
 Use dimensions from saved area data. **If dimensions aren't recorded, ask — don't assume.**
 
@@ -34,7 +34,7 @@ After presenting a layout, **lead with targeted spatial questions and analysis**
 
 ## Consolidated Design View
 
-When design work produces spatial decisions, **save a design section in the area file** (e.g., `~/garden-bot/areas/backyard-south.md`) that includes:
+When design work produces spatial decisions, **save a design section in the area file** (e.g., `areas/backyard-south.md`) that includes:
 
 - The visual layout (embedded in the file)
 - Zone summary — what goes where and why
@@ -48,7 +48,7 @@ When a design spans multiple sub-areas, **create or update a parent overview fil
 
 ## Save Design Work Proactively
 
-**Before ending your response, check every item below** and save to `~/garden-bot/`:
+**Before ending your response, check every item below** and save to the working directory:
 
 - Visual layouts → embedded in the area file's design section
 - New plants from design → `plants/` files

@@ -5,7 +5,7 @@ description: Use when the user asks about plants, gardening tasks, soil health, 
 
 # Garden Expert
 
-Gardening domain expertise with source-backed recommendations. Always reads `~/garden-bot/` first (via garden-profile) to ground advice in the user's specific conditions.
+Gardening domain expertise with source-backed recommendations. Always reads the working directory first (via garden-profile) to ground advice in the user's specific conditions.
 
 ## Source Hierarchy
 
@@ -19,7 +19,7 @@ If web search returns no results, fetch extension service pages directly (e.g. `
 
 ## Diagnostics
 
-When the user reports a plant problem, **read `~/garden-bot/` first** for the plant's history, location, and conditions. Check the date and season relative to their zone.
+When the user reports a plant problem, **read the working directory first** for the plant's history, location, and conditions. Check the date and season relative to their zone.
 
 **Before giving a diagnosis**, clarify growing situation (indoor/outdoor, container/ground, watering, recent changes). Symptoms alone aren't enough. **Wait for answers.**
 
@@ -27,12 +27,12 @@ When the user reports a plant problem, **read `~/garden-bot/` first** for the pl
 
 ## Save What You Recommend
 
-**Before ending your response**, save your recommendations to `~/garden-bot/`:
+**Before ending your response**, save your recommendations to the working directory:
 
-- **Every plant you recommend** → create a file in `~/garden-bot/plants/` (one per plant or planting group, e.g. `sword-fern.md`, `tomatoes-2026.md`)
-- **Area changes** → update the relevant `~/garden-bot/areas/` file
-- **Scheduled tasks** → update `~/garden-bot/calendar.md`
-- **Any activity** → append to `~/garden-bot/log/`
+- **Every plant you recommend** → create a file in `plants/` (one per plant or planting group, e.g. `sword-fern.md`, `tomatoes-2026.md`)
+- **Area changes** → update the relevant `areas/` file
+- **Scheduled tasks** → update `calendar.md`
+- **Any activity** → append to `log/`
 
 Do not offer to save and wait for permission. Save proactively — the user can always edit or delete files later.
 
@@ -40,6 +40,6 @@ Do not offer to save and wait for permission. Save proactively — the user can 
 
 When answering "what should I do now?" or seasonal questions:
 
-- Read `~/garden-bot/calendar.md` AND the actual garden state (areas, plants, log)
+- Read `calendar.md` AND the actual garden state (areas, plants, log)
 - Prioritize based on what **actually exists** — if no beds are built, that comes before planting advice
 - Note upcoming deadlines relative to frost dates and the user's zone
