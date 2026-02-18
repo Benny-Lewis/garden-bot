@@ -238,3 +238,40 @@ ASCII art emerged as the natural visual format across all scenarios. It works be
 - Readable in any text editor or terminal
 
 The decision not to prescribe SVG was correct — ASCII art is sufficient for the design communication task, and the skill's format-agnostic approach ("produce a visual layout") let Claude use what works naturally.
+
+---
+
+## REFACTOR Phase
+
+### Phase 1: Test Unknowns (mini RED)
+
+Two new scenarios to run with the current skill unchanged, testing behaviors we haven't observed:
+
+**Scenario 4: Design continuity across sessions**
+- Setup: `~/garden-bot/` with Scenario 3's backyard design saved (visual layout in area files)
+- Prompt: Ask to modify the existing backyard design (e.g., move fire pit, add pergola)
+- Tests: Does agent read saved visual? Regenerate with changes? Update the file?
+
+**Scenario 5: Incremental change**
+- Setup: Same state (or after Scenario 4)
+- Prompt: Ask for a small dimensional tweak (e.g., widen U-bed interior from 8 to 10 ft)
+- Tests: Does a minor change trigger full visual regeneration, or text-only description?
+
+### Phase 2: Edit SKILL.md
+
+Address all findings in a single edit — both observed GREEN gaps (Category A) and confirmed Phase 1 failures (Category B):
+
+| # | Finding | Category | Source |
+|---|---------|----------|--------|
+| 2 | Key decisions & rationale not consistently saved | A — observed | Scenario 3 saved structural detail but no "why" section |
+| 4 | Area overview not updated after design | A — observed | Scenario 3 still says "Current state: Lawn" after full design |
+| 5 | No legend on full-yard diagrams | A — observed | Detail views get legends, overview diagrams don't |
+| 6 | Dimensions assumed vs asked | A — observed | Scenario 2 assumed width; Scenario 3 asked |
+| 7 | Ad-hoc symbology across sessions | A — observed | Trees, fire pits, hose bibs all use different conventions per session |
+| 8 | Emergent parent area file pattern | A — observed | `backyard.md` overview created but not prescribed |
+| 1 | Design continuity across sessions | B — test first | May or may not fail in Phase 1 |
+| 3 | Incremental changes trigger visual update | B — test first | May or may not fail in Phase 1 |
+
+### Phase 3: Re-test
+
+Run scenarios against edited skill to verify fixes without breaking GREEN behaviors (visual layouts, consolidated design, proactive persistence).
