@@ -6,5 +6,7 @@
     "name": "blewis"
   },
   "license": "MPL-2.0",
-  "keywords": ["gardening", "landscaping", "plants", "landscape-design", "garden-planning"]
+  "keywords": ["gardening", "landscaping", "plants", "landscape-design", "garden-planning"],
+  "repository": "https://github.com/Benny-Lewis/garden-bot",
+  "homepage": "https://github.com/Benny-Lewis/garden-bot"
 }
