@@ -47,7 +47,7 @@ If `~/garden-bot/` doesn't exist, **have a conversation before creating any file
 - Existing plants or features from previous owners
 - What they want to grow or how they want to use the space
 
-Create files only after you understand the user's situation — not just their address and zone. The richer the conversation, the more useful the initial profile.
+**Create files only after you understand the user's situation** — not just their address and zone. The richer the conversation, the more useful the initial profile.
 
 ## Progressive Infrastructure
 
@@ -60,4 +60,4 @@ Build the data directory incrementally — don't require full setup before recor
 
 ## Schema Flexibility
 
-Add fields as warranted. These files don't follow a rigid template. Common fields for areas: size, sun, soil, irrigation, features, plants. Common fields for plants: species, variety, location, date planted, care notes. But adapt to what's useful for the user's situation.
+Add fields as warranted. These files don't follow a rigid template. Common fields for profile.md: zone, frost dates, location, soil type, property size, water source, goals. Common fields for areas: size, sun, soil, irrigation, features, plants. Common fields for plants: species, variety, location, date planted, care notes. But adapt to what's useful for the user's situation.

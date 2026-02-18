@@ -19,11 +19,11 @@ If web search returns no results, fetch extension service pages directly (e.g. `
 
 ## Diagnostics
 
-When the user reports a plant problem:
+When the user reports a plant problem, **read `~/garden-bot/` first** for the plant's history, location, and conditions. Check the date and season relative to their zone.
 
-1. **Check context first** — read `~/garden-bot/` for the plant's history, location, and conditions. Check the date and season relative to their zone.
-2. **Ask before diagnosing** — clarify growing situation (indoor/outdoor, container/ground, watering, recent changes) before jumping to a diagnosis. Symptoms alone aren't enough. **Wait for answers before giving a diagnosis.**
-3. **Search for confirmation** — use extension service diagnostic resources to confirm your identification. Cite the source.
+**Before giving a diagnosis**, clarify growing situation (indoor/outdoor, container/ground, watering, recent changes). Symptoms alone aren't enough. **Wait for answers.**
+
+**After gathering context**, search extension service diagnostic resources to confirm your identification. Cite the source.
 
 ## Save What You Recommend
 
