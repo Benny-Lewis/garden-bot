@@ -36,7 +36,7 @@ Visual layout and spatial planning for yard areas. Produces ASCII art diagrams s
 Garden data is stored in whichever directory you run Claude from. Create a folder for your garden, `cd` into it, and start Claude with the plugin:
 
 ```bash
-mkdir ~/my-garden && cd ~/my-garden
+mkdir my-garden && cd my-garden
 claude --plugin-dir /path/to/garden-bot
 ```
 
