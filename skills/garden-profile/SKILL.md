@@ -5,14 +5,14 @@ description: Use when setting up garden tracking, recording plants or plantings,
 
 # Garden Profile
 
-Manages persistent garden data at `~/garden-bot/`. Always check this directory first — it may already contain the user's garden profile, areas, and plant inventory.
+Manages persistent garden data in the **current working directory**. Always check the working directory first — it may already contain the user's garden profile, areas, and plant inventory.
 
 ## Data Directory
 
-**Location:** `~/garden-bot/` (create on first use)
+**Location:** the current working directory (the user chooses where to store data by running Claude from that folder)
 
 ```
-~/garden-bot/
+./
 ├── profile.md          # Zone, location, soil, property overview
 ├── areas/              # One file per yard area
 │   ├── front-yard.md
@@ -28,7 +28,7 @@ Manages persistent garden data at `~/garden-bot/`. Always check this directory f
 
 ## Reading Data
 
-Before answering any garden question, check `~/garden-bot/` for existing data. Read `profile.md` and relevant area/plant files. Never ask the user for information that's already recorded.
+Before answering any garden question, check the working directory for existing data. Read `profile.md` and relevant area/plant files. Never ask the user for information that's already recorded.
 
 ## Writing Data
 
@@ -40,7 +40,7 @@ Before answering any garden question, check `~/garden-bot/` for existing data. R
 
 ## First-Time Setup
 
-If `~/garden-bot/` doesn't exist, **have a conversation before creating any files.** The user's first message gives you a starting point, but there's always more to learn. Ask about things like:
+If the working directory has no `profile.md`, **have a conversation before creating any files.** The user's first message gives you a starting point, but there's always more to learn. Ask about things like:
 
 - Gardening goals and experience level
 - Soil conditions, drainage, irrigation

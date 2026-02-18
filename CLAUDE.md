@@ -5,7 +5,7 @@ Claude Code plugin with 3 skills for gardening/landscaping assistance.
 ## Architecture
 - **Plugin manifest:** `.claude-plugin/plugin.json` (MPL-2.0)
 - **Skills:** `skills/{garden-profile,garden-expert,landscape-design}/SKILL.md`
-- **User data:** `~/garden-bot/` (profile.md, areas/, plants/, log/, calendar.md)
+- **User data:** current working directory (profile.md, areas/, plants/, log/, calendar.md)
 - **Design doc:** `docs/plans/2026-02-16-garden-bot-design.md`
 - **Implementation plan:** `docs/plans/2026-02-16-garden-bot-implementation.md`
 
@@ -23,14 +23,14 @@ Claude Code plugin with 3 skills for gardening/landscaping assistance.
 - User runs tests in fresh Claude Code sessions at `~/dev/landscaping-gardening/`
 - Plugin loaded via: `claude --plugin-dir ~/dev/garden-bot/.worktrees/skill-implementation`
 - Natural prompts, no mention of testing. Behavior observed from transcripts.
-- Clean data state between scenarios — always ask user before `rm -rf ~/garden-bot/`
+- Clean data state between scenarios — always ask user before deleting garden data directory
 - Test results: `docs/testing/{skill-name}-baseline.md` (RED, GREEN, REFACTOR phases)
 - TDD cycle: RED (baseline without skill) → GREEN (write skill, re-test) → REFACTOR (close gaps)
-- **Test setup**: Scenario 1 needs `~/garden-bot/` removed; Scenario 2-3 need it populated. Verify `~/dev/landscaping-gardening/` is empty.
+- **Test setup**: Scenario 1 needs garden data directory removed; Scenario 2-3 need it populated. Verify test working directory is empty.
 - **Web search**: Native WebSearch doesn't work (LiteLLM proxy). Use MCP web_search tools — installed and confirmed working.
 - **Transcript workflow**: User runs `/export` in test session → reads exported `.txt` from `~/dev/landscaping-gardening/` → we analyze here.
 
-## ~/garden-bot/ Data State (post Phase 4 Round 2 testing)
+## Test Data State (post Phase 4 Round 2 testing)
 - `profile.md` (modified by Session 1 — backyard 40x30=1200 sq ft, patio NW corner)
 - 5 area files: backyard.md (parent overview), backyard-north (unchanged), backyard-south (quadrant beds SW, fire pit SE), front-yard (unchanged), patio (connections updated)
 - 5 plant files: cascade-oregon-grape, sword-fern, wild-ginger, evergreen-violet, tomatoes-2026
