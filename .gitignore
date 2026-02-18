@@ -1,1 +1,4 @@
 .worktrees/
+.claude/
+docs/testing/snapshots/
+docs/testing/transcripts/
