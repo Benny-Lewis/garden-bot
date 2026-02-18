@@ -4,10 +4,16 @@ A Claude Code plugin for gardening and landscaping assistance. Manages a persist
 
 ## Install
 
-**From a marketplace** (if listed):
+**From marketplace:**
 
 ```
-/plugin install garden-bot@marketplace-name
+/plugin marketplace add Benny-Lewis/Benny-Lewis-plugins
+```
+
+Then browse available plugins and install garden-bot:
+
+```
+/plugin
 ```
 
 **From source:**
