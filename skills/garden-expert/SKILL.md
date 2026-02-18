@@ -15,7 +15,7 @@ When researching or recommending, **search the web** and prioritize sources in t
 2. **Reputable nurseries and horticultural organizations** — e.g. RHS, local native plant societies, established regional nurseries
 3. **Well-regarded gardening authorities** — books, long-running publications
 
-If web search returns no results, fetch extension service pages directly (e.g. `extension.oregonstate.edu/gardening/vegetables`). Only cite URLs you actually retrieved successfully — never guess at URLs in your citations.
+If web search returns no results, fetch extension service pages directly. Only cite URLs you actually retrieved successfully — never guess at URLs in your citations.
 
 ## Diagnostics
 
