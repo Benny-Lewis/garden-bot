@@ -1,0 +1,18 @@
+Here's what changed in the revised layout:
+
+| Feature | Before (Option B) | Revised |
+|---------|-------------------|---------|
+| **Compost** | NE corner (near patio) | **SW corner** (next to beds) |
+| **South bed** | Single 36×4 ft span | Split into **Bed A** (~6×4 ft) west of path + **Bed B** (~18×4 ft) east of path |
+| **Bed C** | East side, 4×8 ft | East side, stretched to **4×10 ft** |
+| **Seating** | 12×8 ft, west-center | Unchanged |
+| **Circulation** | Single N-S path | N-S path + **E-W connector** between seating/compost and beds — full loop, no dead ends |
+
+**Total growing space:** ~6 + 18 + 10 = **~136 sq ft** across 3 beds (down slightly from the original due to the compost relocation, but circulation is much cleaner).
+
+`? Insight -------------------------------------`
+- The E-W connector path between the compost and the south beds means you can wheel a barrow from compost straight to any bed without stepping on planting areas
+- Splitting the south bed at the path crossing actually improves access — you can reach the center of each bed from multiple sides without stretching more than 2 ft
+`-------------------------------------------------`
+
+How does this look? Once you approve, I'll save the final design to the area file and log it.

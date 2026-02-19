@@ -1,0 +1,23 @@
+Your garden is now being tracked. Here's what I set up:
+
+```
+./
++-- profile.md          # Zone 8b, clay soil, goals, water setup
++-- areas/
+¦   +-- front-yard.md   # 30×15, south-facing, full sun
+¦   +-- backyard.md     # 40×30, oak shade + sunny patio zone
++-- calendar.md         # (existing — February tasks)
++-- log/
+    +-- 2026-02.md      # Today's setup logged
+```
+
+`? Insight -------------------------------------`
+I split your backyard into two logical zones — **under the oak** (shade, root competition) and **the south half near the patio** (better sun, hose access). These zones will want very different plants. For your edible area, the patio zone is the clear winner: close to water, best backyard sun, and you can start with raised beds or containers to sidestep the clay drainage problem entirely.
+`-------------------------------------------------`
+
+**Where you might go from here:**
+- **Front yard curb appeal plan** — I can suggest low-maintenance plants that thrive in Portland clay with full sun
+- **Edible area near the patio** — raised bed vs. containers, what to grow for a beginner in late February
+- **Soil improvement** — a compost/amendment strategy for the clay (this pays off everything else long-term)
+
+What sounds most useful to tackle first?

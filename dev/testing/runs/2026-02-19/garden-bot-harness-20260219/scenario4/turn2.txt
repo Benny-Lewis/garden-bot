@@ -1,0 +1,9 @@
+All saved. Here's what was updated:
+
+- **`areas/backyard-south.md`** — new layout, zone summary, and key decisions reflecting the fire pit move and bed reduction
+- **`areas/backyard.md`** — overview updated to match (fire pit east, 2 beds west/center)
+- **`log/2026-02.md`** — revision logged
+
+`? Insight -------------------------------------`
+With only 2 beds instead of 4, you'll want to be more intentional about what goes in them — succession planting and interplanting can help you get close to the same yield from half the bed count. The freed-up space also gives you a more open feel between the growing area and the fire pit.
+`-------------------------------------------------`

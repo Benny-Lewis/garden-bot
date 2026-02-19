@@ -1,0 +1,29 @@
+Now I have the full picture. Here's the current state and the updated design:
+
+`? Insight -------------------------------------`
+The current design has the fire pit on the **west side** with the bench, and **4 raised beds in a 2x2 grid** on the east side. "Opposite side" means moving the fire pit from west to east, and reducing beds from 4 to 2 frees up space for it there.
+`-------------------------------------------------`
+
+Here's the updated layout with the fire pit moved to the **east side** and beds reduced to **2**:
+
+```
+N
++--------------------------------------+
+| Patio                                |
+|  [Bench]                             |
+|                                      |
+|  [Bed 1]  [Bed 2]      [Fire Pit]   |
+|                                      |
++--------------------------------------+
+S
+```
+
+**What changed:**
+- **Fire pit** moved from west to east side
+- **Raised beds** reduced from 4 (2x2 grid) to 2 (single row), staying on the west/center area
+- **Bench** stays on the west near the patio — still accessible but now separated from the fire pit
+
+A few spatial questions before I save:
+
+1. **Bench placement** — Do you want the bench to move with the fire pit to the east side (as a lounge pairing), or keep it on the west near the beds as shown?
+2. **Bed positioning** — The 2 remaining beds are shown side-by-side on the west/center. Would you prefer them along the south edge, or is this placement good?

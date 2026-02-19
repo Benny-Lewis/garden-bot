@@ -1,0 +1,4 @@
+C:\Users\Ben\AppData\Local\Temp\garden-bot-harness-20260219\scenario1\profile.md
+C:\Users\Ben\AppData\Local\Temp\garden-bot-harness-20260219\scenario1\areas\backyard.md
+C:\Users\Ben\AppData\Local\Temp\garden-bot-harness-20260219\scenario1\areas\front-yard.md
+C:\Users\Ben\AppData\Local\Temp\garden-bot-harness-20260219\scenario1\log\2026-02.md

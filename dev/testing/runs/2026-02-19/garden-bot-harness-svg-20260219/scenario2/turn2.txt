@@ -1,0 +1,42 @@
+## Diagnosis: Early Blight (*Alternaria solani*)
+
+Your symptoms are textbook **early blight** — the concentric "bullseye" ring pattern on yellowing lower leaves is the defining characteristic of this fungal disease. It starts on the oldest (lowest) leaves and works its way up, which matches what you're seeing.
+
+### Why it's happening on your indoor seedlings
+
+Your overhead watering every other day is the primary culprit. When water hits the soil surface it **splashes fungal spores up onto the lower leaves**. Under grow lights with limited airflow, the leaf surfaces stay wet long enough for the spores to germinate and infect — they only need about 5 days of favorable conditions to produce visible spots.
+
+### What to do now (in priority order)
+
+1. **Switch to bottom-watering immediately.** Set your trays in a shallow dish of water and let the soil wick it up. This is the single most impactful change — it eliminates the splash that spreads spores.
+
+2. **Remove all affected leaves.** Pinch off any leaf with spots and throw it in the trash (not compost). You can safely remove up to one-third of the plant's leaves.
+
+3. **Add a small fan** blowing gently across the trays. Air circulation helps leaves dry faster and makes conditions less favorable for the fungus.
+
+4. **Increase spacing** between seedlings if they're crowded — this also improves airflow.
+
+5. **Let the soil surface dry out** between waterings. The fungus thrives at 90%+ humidity.
+
+### If spots keep spreading
+
+If the disease continues progressing after 5-7 days of cultural changes, you can apply a **copper-based fungicide** (like Bonide Copper Fungicide, available at most Portland garden centers). It won't cure existing spots but will protect healthy tissue. Follow label directions.
+
+### For transplanting outdoors (after mid-April)
+
+- Mulch heavily around the base to block soil splash
+- Space plants widely (24-36") for airflow
+- Continue watering at the soil line, never overhead
+- For future years, look for varieties with **"EB" resistance** in seed catalogs
+
+`? Insight -------------------------------------`
+Early blight is one of the most common tomato diseases and nearly impossible to completely avoid in the Pacific Northwest. The good news: tomato plants can tolerate considerable early blight without major yield loss. The cultural controls above — especially bottom-watering and leaf removal — are usually sufficient without fungicides. UMN Extension notes that "most home gardeners don't need to treat tomatoes with a fungicide."
+`-------------------------------------------------`
+
+Sources:
+- [Early Blight in Tomato and Potato | UMN Extension](https://extension.umn.edu/disease-management/early-blight-tomato-and-potato)
+- [Early Blight of Tomato | NC State Extension](https://content.ces.ncsu.edu/early-blight-of-tomato)
+- [Early Blight of Tomatoes | WVU Extension](https://extension.wvu.edu/lawn-gardening-pests/plant-disease/fruit-vegetable-diseases/early-blight-of-tomatoes)
+- [Tomato Leaf Spot Diseases | UMN Extension](https://extension.umn.edu/plant-diseases/tomato-leaf-spot-diseases)
+
+Saved: `plants/tomatoes-2026.md` (created), `log/2026-02.md` (updated)

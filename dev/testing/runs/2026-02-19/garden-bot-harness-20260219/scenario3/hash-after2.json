@@ -1,0 +1,54 @@
+[
+    {
+        "Path":  "C:\\Users\\Ben\\AppData\\Local\\Temp\\garden-bot-harness-20260219\\scenario3\\calendar.md",
+        "Hash":  "CAA895DF2470139734211CD89B157C746DFB8E3220CC3F32CD14BB0C8ADD0755"
+    },
+    {
+        "Path":  "C:\\Users\\Ben\\AppData\\Local\\Temp\\garden-bot-harness-20260219\\scenario3\\hash-after.json",
+        "Hash":  "D62A326BCEE075FFDF7783C8E08C5476A24CA37A4469A52FA4A6BDC4AA63FDDC"
+    },
+    {
+        "Path":  "C:\\Users\\Ben\\AppData\\Local\\Temp\\garden-bot-harness-20260219\\scenario3\\hash-before.json",
+        "Hash":  "D62A326BCEE075FFDF7783C8E08C5476A24CA37A4469A52FA4A6BDC4AA63FDDC"
+    },
+    {
+        "Path":  "C:\\Users\\Ben\\AppData\\Local\\Temp\\garden-bot-harness-20260219\\scenario3\\hash-mid.json",
+        "Hash":  "D62A326BCEE075FFDF7783C8E08C5476A24CA37A4469A52FA4A6BDC4AA63FDDC"
+    },
+    {
+        "Path":  "C:\\Users\\Ben\\AppData\\Local\\Temp\\garden-bot-harness-20260219\\scenario3\\profile.md",
+        "Hash":  "7D37E03F617C646A2C8FC2BE50DA5B5BEEA0713A0B3EE0E419504A56ED1B10D5"
+    },
+    {
+        "Path":  "C:\\Users\\Ben\\AppData\\Local\\Temp\\garden-bot-harness-20260219\\scenario3\\turn1.txt",
+        "Hash":  "118EF1226A88D0FC9529BF4F82AEE31E1BA6D29850EA6F3F3497104E987E355F"
+    },
+    {
+        "Path":  "C:\\Users\\Ben\\AppData\\Local\\Temp\\garden-bot-harness-20260219\\scenario3\\turn2.txt",
+        "Hash":  "E78A01ED71C71CE87C065D93B6DD482F0F9761E3F576C969F4885BF4CF693F17"
+    },
+    {
+        "Path":  "C:\\Users\\Ben\\AppData\\Local\\Temp\\garden-bot-harness-20260219\\scenario3\\areas\\front-yard.md",
+        "Hash":  "D2BB6716DCE1A8271F7762BE5BC123E493730AFFD62D352D4535B1B877DEFCB6"
+    },
+    {
+        "Path":  "C:\\Users\\Ben\\AppData\\Local\\Temp\\garden-bot-harness-20260219\\scenario3\\log\\2026-02.md",
+        "Hash":  "E2CDB872335E5DE102F29218675088814BB53743FADFE8CAEC31CA89B51600C4"
+    },
+    {
+        "Path":  "C:\\Users\\Ben\\AppData\\Local\\Temp\\garden-bot-harness-20260219\\scenario3\\plants\\artichoke.md",
+        "Hash":  "6C7F88045C020E8C7F96FEEB38BD9136FD54A97F4FECF841B3E2B23D8A78CAD4"
+    },
+    {
+        "Path":  "C:\\Users\\Ben\\AppData\\Local\\Temp\\garden-bot-harness-20260219\\scenario3\\plants\\blueberry.md",
+        "Hash":  "95553D2628B987A29694CBF6BB936ACECA99504F63D9FA5F7E3B5F396A2FB759"
+    },
+    {
+        "Path":  "C:\\Users\\Ben\\AppData\\Local\\Temp\\garden-bot-harness-20260219\\scenario3\\plants\\dwarf-fig.md",
+        "Hash":  "AEC93473005D06878006C8925BED48FF793B8F5D1F78414440EDBA7A58F827AD"
+    },
+    {
+        "Path":  "C:\\Users\\Ben\\AppData\\Local\\Temp\\garden-bot-harness-20260219\\scenario3\\plants\\rhubarb.md",
+        "Hash":  "179392A321CE470C24A02C492E70DF495DC11B06EF08A7AE288F448C33273033"
+    }
+]

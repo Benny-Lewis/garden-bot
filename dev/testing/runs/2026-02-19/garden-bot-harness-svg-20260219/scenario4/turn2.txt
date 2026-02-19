@@ -1,0 +1,12 @@
+Design saved. Here's a summary of the changes:
+
+`? Insight -------------------------------------`
+**Reducing beds from 4?2** frees up significant space for the fire pit lounge while still giving you ~100 sq ft of growing area. In Portland's 8b zone, two well-managed 10×5 beds can be very productive — succession planting and interplanting will help you get the most out of them.
+`-------------------------------------------------`
+
+**Saved:**
+- `areas/backyard-south-layout.svg` — updated layout with fire pit east, 2 beds west
+- `areas/backyard-south.md` — revised zone summary and key decisions
+- `areas/backyard.md` — updated overview to match
+- `calendar.md` — updated March tasks (2 beds on west, fire pit on east)
+- `log/2026-02.md` — appended revision entry

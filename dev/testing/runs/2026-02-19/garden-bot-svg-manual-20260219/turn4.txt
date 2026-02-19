@@ -1,0 +1,12 @@
+Design saved. Here's what was written:
+
+**Saved:**
+- `areas/backyard-south.md` — updated with full design section (zone summary, key decisions, layout link)
+- `areas/backyard-south-layout.svg` — final layout visual (L-shaped beds, compost in SW)
+- `log/2026-02.md` — appended design session entry
+- Removed draft option A/B SVGs
+
+`? Insight -------------------------------------`
+- The area file is now the **single source of truth** for backyard-south — it links to the SVG and explains every spatial decision. If you iterate further, both the SVG and the text will update together.
+- With ~136 sq ft of raised beds on clay loam in Zone 8b, you have enough space for a solid 3-season kitchen garden. The compost bin placement means you can build soil quality each year with minimal hauling.
+`-------------------------------------------------`

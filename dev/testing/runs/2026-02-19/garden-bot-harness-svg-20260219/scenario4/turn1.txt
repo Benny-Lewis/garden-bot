@@ -1,0 +1,17 @@
+Here's the updated layout for your review:
+
+### What changed
+| | Before | After |
+|---|---|---|
+| **Fire pit** | West side | **East side** |
+| **Raised beds** | 4 beds, east | **2 beds, west** |
+| **Bed size** | — | 10×5 ft each |
+
+### Spatial notes
+- **West / Growing Zone** — Two raised beds stacked vertically with a walking path between them. Gets strong afternoon sun (ideal for vegetables in Portland).
+- **East / Fire Pit Lounge** — Fire pit centered with a seating ring around it. Shaded by evening, which is comfortable when the fire is going.
+- A dashed green line marks the zone boundary roughly at the midpoint.
+
+Does this look right before I save the design files? Anything you'd adjust — bed sizes, spacing, fire pit position within the east zone?
+
+Once confirmed, I'll update the area file, backyard overview, and calendar.

@@ -1,0 +1,14 @@
+Everything's saved. Here's what was written:
+
+| File | What |
+|---|---|
+| `areas/side-yard.md` | Full design with layout, zones, decisions, plant list, hardscape |
+| `plants/` (7 files) | One file per species — vine maple, sword fern, deer fern, oceanspray, red flowering currant, low Oregon grape, kinnikinnick |
+| `calendar.md` | Month-by-month installation and care schedule |
+| `log/2026-02.md` | Design session entry |
+
+`? Insight -------------------------------------`
+The calendar has you **sourcing stone in February** and **installing hardscape in March before planting**. This is critical — you don't want to be rolling boulders past new plantings. The planting sequence (shrubs first in March, ferns and groundcover in April) gives the structural plants a head start before the understory fills in.
+`-------------------------------------------------`
+
+The big early action item: start shopping for that boulder seat and feature stone now. Good basalt pieces go fast at Portland stone yards. Want me to dig into sourcing, or shall we refine anything in the design?

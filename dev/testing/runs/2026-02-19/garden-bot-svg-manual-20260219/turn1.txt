@@ -1,0 +1,28 @@
+Both layouts should now be open in your browser. Here's a summary of the tradeoffs:
+
+## Option A: Central Path
+| Aspect | Detail |
+|--------|--------|
+| **Beds** | 3 beds (~14×4 ft each) = **~168 sq ft** of growing space |
+| **Seating** | ~8×6 ft — cozy, fits a small bistro set |
+| **Compost** | SE corner — slightly farther from patio |
+| **Flow** | Central path splits the space symmetrically |
+| **Best for** | Maximizing food production |
+
+## Option B: L-shaped Beds
+| Aspect | Detail |
+|--------|--------|
+| **Beds** | Long south bed (~36×4 ft) + east bed (~4×8 ft) = **~176 sq ft** |
+| **Seating** | ~12×8 ft — generous, fits a table + 4 chairs comfortably |
+| **Compost** | NE corner — right off the patio for easy kitchen-scrap access |
+| **Flow** | Open center creates a more relaxed feel |
+| **Best for** | Balancing gathering space with production |
+
+`? Insight -------------------------------------`
+- **Compost placement matters:** Option B puts it near the kitchen door (via patio), which makes daily kitchen-scrap composting much more likely to actually happen
+- **South-facing bed orientation:** The long east-west bed in Option B catches maximum sun — ideal for tomatoes, peppers, and other heat-lovers in Portland's Zone 8b
+- **Clay loam + raised beds:** Great combo — raised beds solve clay drainage issues while you can amend the soil inside with compost from your own bin over time
+
+`-------------------------------------------------`
+
+Which option do you prefer, or would you like me to combine elements from both? For example, I could put the larger seating area from B with the 3-bed arrangement from A.

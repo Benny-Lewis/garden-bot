@@ -1,0 +1,16 @@
+Option A (Cottage Edible Garden) is saved. Here's what I created/updated:
+
+`? Insight -------------------------------------`
+**Why these edibles work for curb appeal:** The key to edible landscaping in a front yard is choosing plants that look ornamental first. Artichoke reads as a dramatic silver perennial, blueberries look like any flowering hedge, and a dwarf fig has the architectural presence of any ornamental small tree. Neighbors see a beautiful cottage garden — you see dinner.
+`-------------------------------------------------`
+
+**Saved:**
+- `areas/front-yard.md` — full design with layout, zone summary, key decisions, and plant table
+- `plants/dwarf-fig.md` — Little Miss Figgy details
+- `plants/blueberry.md` — 3-bush hedge with variety recommendations
+- `plants/artichoke.md` — Green Globe / Imperial Star
+- `plants/rhubarb.md` — Victoria / Crimson Red
+- `calendar.md` — month-by-month installation and care timeline (Feb through Nov)
+- `log/2026-02.md` — design session recorded
+
+Your next action item from the calendar: **mark out your bed edges** this month so you're ready to start soil prep and planting in March.

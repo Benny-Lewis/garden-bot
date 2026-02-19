@@ -1,0 +1,25 @@
+Your garden is now being tracked. Here's what I set up:
+
+```
+./
++-- profile.md          ? Zone, soil, goals, property overview
++-- areas/
+¦   +-- front-yard.md   ? 30×15 south-facing, curb appeal goals
+¦   +-- backyard.md     ? 40×30, oak + patio, edible garden goals
++-- log/
+    +-- 2026-02.md      ? Activity log started
+```
+
+`? Insight -------------------------------------`
+**Key takeaways for your property:**
+- **Front yard** — south-facing full sun is your best asset. PNW-native perennials and ornamental grasses can give you year-round curb appeal with almost zero maintenance once established.
+- **Backyard edibles** — the sunny area between the patio and the oak's drip line is the sweet spot. Raised beds are strongly recommended here: they sidestep your clay drainage problems, warm up faster in spring, and keep you from battling compacted soil.
+- **The oak** — protect it. Don't dig, grade, or pile soil within the drip line. Shade-tolerant groundcovers (sword fern, wild ginger) work beautifully under PNW oaks.
+`-------------------------------------------------`
+
+From here, some natural next steps whenever you're ready:
+- **Design a front yard layout** — plan which areas to convert from lawn to low-maintenance beds
+- **Plan your edible area** — size, raised bed placement, what to grow this first season
+- **Start a spring task calendar** — February/March is when Portland gardeners start prepping beds and starting seeds indoors
+
+What would you like to tackle first?
