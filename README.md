@@ -18,6 +18,17 @@ git clone https://github.com/Benny-Lewis/garden-bot.git
 claude --plugin-dir ./garden-bot
 ```
 
+## Requirements
+
+- Web search must be available for `garden-expert` to provide source-backed recommendations with reliable citations.
+- If web search is unavailable, `garden-expert` can still respond but quality and citation reliability may degrade.
+
+## Search Troubleshooting
+
+- Verify your Claude session has web search enabled.
+- Re-run in a fresh session if searches return empty results repeatedly.
+- Treat repeated empty-search runs as an environment/tooling issue, not a signal to add static gardening reference docs.
+
 ## Skills
 
 ### garden-profile
@@ -30,7 +41,7 @@ Gardening domain expertise with web-sourced recommendations. Prioritizes univers
 
 ### landscape-design
 
-Visual layout and spatial planning for yard areas. Produces ASCII art diagrams showing feature placement with dimensions, orientation, and a legend. Presents designs for approval before saving. Tracks design decisions, updates all affected files, and maintains consistency between the visual and the written plan.
+Visual layout and spatial planning for yard areas. Produces SVG diagrams showing feature placement with dimensions/scale, orientation, labels, and a legend. Presents designs for approval before saving. Tracks design decisions, updates all affected files, and maintains consistency between the visual and the written plan.
 
 ## Data Directory
 

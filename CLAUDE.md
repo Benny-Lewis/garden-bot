@@ -10,6 +10,7 @@ Claude Code plugin with 3 skills for gardening/landscaping assistance.
 - **Implementation plan:** `dev/plans/2026-02-16-garden-bot-implementation.md`
 - **Development docs:** `dev/plans/` (design, implementation plan, retrospectives)
 - **Test results:** `dev/testing/results/`
+- **Regression harness:** `dev/testing/regression-harness.md`
 
 ## Skill Authoring
 - Skills should be <500 words body. Only teach what Claude doesn't already know.
@@ -19,6 +20,8 @@ Claude Code plugin with 3 skills for gardening/landscaping assistance.
 - Conversation-first patterns produce better output (richer context → personalized files).
 - Follow the Bitter Lesson: structure the data, not rigid workflows. Trust Claude's intelligence.
 - **REFACTOR workflow**: Edit SKILL.md → set up test env → user runs test in separate session → review transcript → update test results doc.
+- Do not add broad gardening knowledge reference docs. Keep skills focused on process, grounding, and persistence.
+- If a reference file is needed, keep it short and operational (lookup aid), and add explicit gating in SKILL.md for when it should be read.
 
 ## Conventions
 - Don't mention "claude" in git commit messages

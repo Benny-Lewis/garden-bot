@@ -5,54 +5,62 @@ description: Use when the user wants to plan, design, or redesign a yard area, c
 
 # Landscape Design
 
-Visual layout and design deliverables for garden and landscape planning. Always reads the working directory first (via garden-profile) for area dimensions, conditions, and existing features.
+Create and maintain spatial landscape designs. Read the working directory first (via garden-profile) for dimensions and constraints.
 
 ## Visual Layouts
 
-**When design work involves spatial arrangement, produce a visual layout** showing where features go relative to each other. Include:
+When design work is spatial, produce a visual layout with:
 
 - Approximate proportions (not just labeled boxes)
 - Labels for all features
 - Dimensions or scale reference
 - Orientation (N/S/E/W)
-- A legend or key for symbols used
-- Consistent symbology — check existing area diagrams in the working directory and reuse their conventions
+- A legend/key
+- Consistent symbology (reuse conventions from existing area diagrams)
 
 Use dimensions from saved area data. **If dimensions aren't recorded, ask — don't assume.**
 
-Produce layouts as inline art directly in your response — **use basic ASCII characters** (`+ - | . * #`) for consistent rendering across terminals. **Do not generate scripts, coordinate systems, or rendering tools.**
+Use SVG visuals. Before approval, write preview files only (for example `{area-name}-option-a.svg`, `{area-name}-option-b.svg`) and open them for review. Before approval, do not update `{area-name}-layout.svg`, area `.md`, `calendar.md`, `log/`, or `plants/`. After approval, save `{area-name}-layout.svg` and related files. Use only `<rect>`, `<circle>`, `<text>`, `<line>`; no scripts/animations. Colors: green=planting, brown=beds, gray=hardscape, blue=water. Open in Google Chrome when available, otherwise default web browser. Never open editor/design apps.
 
 ### Iteration Discipline
 
-**When the design changes, regenerate the visual layout immediately.** If the user changes from 4 beds to 2, moves the compost bin, or removes a feature — produce an updated diagram before continuing. Never leave a stale visual that contradicts the current plan.
+When the design changes, regenerate the visual immediately before continuing.
 
-**Present the visual and get user feedback before saving any design to files — new or modified.** Don't save a design the user hasn't seen and approved.
+Present the visual and get feedback before saving any design (new or modified).
 
-After presenting a layout, **lead with targeted spatial questions and analysis** — don't wait for open-ended direction.
+Do not add unrequested features to committed designs. Put extras in `Optional ideas` until approved.
 
-**The visual and the text must always agree.** This is the most important rule.
+After showing a layout, lead with targeted spatial questions and analysis.
+
+When multiple layouts are plausible, show 2 options with tradeoffs before saving either one.
+
+The visual and text must always agree.
 
 ## Consolidated Design View
 
-When design work produces spatial decisions, **save a design section in the area file** (e.g., `areas/backyard-south.md`) that includes:
+When spatial decisions are made, save a design section in the area file with:
 
-- The visual layout (embedded in the file)
+- Link to the layout SVG (`![Layout](backyard-south-layout.svg)`)
 - Zone summary — what goes where and why
 - Key decisions — **what** was chosen and **why** (not just structural details)
 
-This is the single source of truth for "what does this area look like?" Even if details appear in other files (plants, calendar, log), the area file should give a complete design picture on its own.
+If the user gives style words (for example Japanese, cottage, PNW native), translate them into concrete choices (forms, materials, plant structure, circulation) in the zone summary.
 
-**Update all sections of affected area files** — not just the design section. Don't leave stale notes, goals, or descriptions that contradict the new design.
+Update all sections of affected area files, not only the design section. Remove stale notes/goals/descriptions.
 
-When a design spans multiple sub-areas, **create or update a parent overview file** (e.g., `backyard.md` for `backyard-north.md` + `backyard-south.md`) with a full-yard visual and zone summary.
+When a design spans multiple sub-areas, create/update a parent overview file with a full-yard visual and zone summary.
 
 ## Save Design Work Proactively
 
-**Before ending your response, check every item below** and save to the working directory:
+After user approval and before ending your response, save to the working directory:
 
-- Visual layouts → embedded in the area file's design section
+- Visual layouts → `{area-name}-layout.svg` next to the area file, linked from its design section
 - New plants from design → `plants/` files
 - Scheduled tasks → `calendar.md`
 - Design session activity → `log/` **(append-only at the end of the file — add new entries, never edit or reorder previous entries)**
 
-**Do not offer to save and wait for permission.** Save proactively — the user can always edit or delete files later.
+If you mention future actions (build, buy, plant, move, install, prune), you MUST add them to `calendar.md` with a concrete month/date.
+
+Do not offer to save and wait for permission. Save proactively.
+
+End every response with `Saved:` listing changed files. If none, write `Saved: none` and a short reason. This must be the final line.

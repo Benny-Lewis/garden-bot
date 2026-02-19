@@ -34,7 +34,11 @@ When the user reports a plant problem, **read the working directory first** for 
 - **Scheduled tasks** → update `calendar.md`
 - **Any activity** → append to `log/`
 
+If advice includes time-based follow-up (today, in X days, a month/date, after frost), add those actions to `calendar.md`.
+
 Do not offer to save and wait for permission. Save proactively — the user can always edit or delete files later.
+
+End every response with `Saved:` and list each file you created or updated. If no files were changed, write `Saved: none` and a short reason. This must be the final line.
 
 ## Calendar Awareness
 
