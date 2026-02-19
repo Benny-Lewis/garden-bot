@@ -193,3 +193,98 @@ Run this order after usage resets:
 Bitter Lesson alignment was preserved:
 - favor lightweight behavioral gating and save discipline over adding domain knowledge.
 - no new gardening knowledge/reference payload was added to skills.
+
+---
+
+## Update: Targeted Retest Cycle (2026-02-19, later session)
+
+### New Automation Added
+
+- Added `dev/testing/scripts/retest-runner.ps1` to:
+  - seed isolated scenario folders,
+  - run multi-turn `claude -p/-c` flows,
+  - capture per-turn snapshots/diffs,
+  - capture browser/editor process snapshots,
+  - record environment facts (including `.svg` association and Chrome availability).
+
+### Targeted Run v2 (`garden-bot-retest-20260219-targeted-v2`)
+
+- Evidence root:
+  - `dev/testing/runs/2026-02-19/garden-bot-retest-20260219-targeted-v2`
+
+- Key outcomes:
+  - Scenario 4 showed correct pre-approval gating in this run:
+    - pre-approval diff added preview only (`areas/backyard-south-option-a.svg`),
+    - post-approval diff updated canonical files and removed preview.
+  - Scenario 2 and Scenario 5 had major behavioral failures:
+    - missing/incorrect persistence despite claiming saves,
+    - missing strict single-line `Saved:` footer behavior.
+  - Scenario 3 stalled on repeated "need dimensions" behavior and did not progress to canonical save.
+
+- Environment evidence:
+  - `environment-check.txt` showed `.svg` file association set to Illustrator (`Applications\\Illustrator.exe`).
+  - Chrome exists at `C:\Program Files\Google\Chrome\Application\chrome.exe`.
+  - Process snapshots showed Chrome processes but no proof of a clean deterministic open action per turn.
+
+### Prompt/Skill Hardening Applied After v2
+
+- `skills/landscape-design/SKILL.md`
+  - strengthened read-first behavior (cite known dimensions/zone before asking),
+  - added "never claim save without completed writes",
+  - enforced strict single-line final `Saved:` format,
+  - added Windows-specific Chrome-direct launch guidance (avoid `.svg` app association fallback).
+  - word count rechecked: 492.
+
+- `skills/garden-expert/SKILL.md`
+  - strengthened read-first behavior and no-false-missing-data rule,
+  - added "never claim save without completed writes",
+  - enforced strict single-line final `Saved:` format.
+
+- `dev/testing/scripts/retest-runner.ps1`
+  - improved scenario prompts (explicit dimensions/context in follow-ups),
+  - added isolation fix: builds run-local `plugin-under-test` (only `CLAUDE.md` + `skills/`) to prevent contamination from archived repo data,
+  - passes `--add-dir <scenarioDir>` explicitly for scenario workspace access.
+
+### Targeted Run v3 Status (`garden-bot-retest-20260219-targeted-v3`)
+
+- Run aborted at Scenario 3 turn 3 due Claude usage limit reset window.
+- Evidence root:
+  - `dev/testing/runs/2026-02-19/garden-bot-retest-20260219-targeted-v3`
+- `scenario3/turn3.txt` captured:
+  - `You're out of extra usage · resets 4pm (America/Los_Angeles)`
+
+### Remaining Work (next continuation)
+
+1. Re-run targeted scenarios with the isolation-fixed runner after usage reset:
+- Scenario 3
+- Scenario 4
+- Scenario 2
+- Scenario 5
+
+2. Build strict pass/fail matrix with evidence paths against every invariant in:
+- `dev/testing/regression-harness.md`
+
+3. If targeted passes, run full harness (Scenarios 1-5) using the same runner setup.
+
+4. If failures remain, apply minimum structural skill edits only (Bitter Lesson style), then re-run failed scenarios before final full harness.
+
+---
+
+## Update: Checkpoint Planning Pack Complete (2026-02-19, latest)
+
+The staged analysis-and-plan workflow is complete through Checkpoint 6.
+
+### New planning/results documents
+
+- `dev/testing/results/retest-evidence-inventory-2026-02-19.md` (Checkpoint 1)
+- `dev/testing/results/retest-severity-matrix-2026-02-19-checkpoint2.md` (Checkpoint 2)
+- `dev/testing/results/retest-root-cause-map-2026-02-19-checkpoint3.md` (Checkpoint 3)
+- `dev/plans/2026-02-19-checkpoint4-improvement-plan.md` (Checkpoint 4)
+- `dev/plans/2026-02-19-checkpoint5-retest-matrix.md` (Checkpoint 5)
+- `dev/plans/2026-02-19-checkpoint6-go-packet.md` (Checkpoint 6)
+
+### Current guidance
+
+- Treat pre-fix targeted-v2/v3 behavior findings as provisional where isolation could affect outcomes.
+- Use the isolation-safe runner configuration for all authoritative reruns.
+- Use the Checkpoint 6 go packet as the canonical execution source after usage reset.
