@@ -33,8 +33,19 @@ function New-PluginBundle {
 
   $bundle = Join-Path $RunRootPath "plugin-under-test"
   New-Item -ItemType Directory -Force -Path $bundle | Out-Null
-  Copy-Item (Join-Path $RepoRootPath "CLAUDE.md") (Join-Path $bundle "CLAUDE.md") -Force
-  Copy-Item (Join-Path $RepoRootPath "skills") (Join-Path $bundle "skills") -Recurse -Force
+  $bundleClaude = Join-Path $bundle "CLAUDE.md"
+  $bundleSkills = Join-Path $bundle "skills"
+
+  if (Test-Path $bundleClaude) {
+    Remove-Item $bundleClaude -Force
+  }
+
+  if (Test-Path $bundleSkills) {
+    Remove-Item $bundleSkills -Recurse -Force
+  }
+
+  Copy-Item (Join-Path $RepoRootPath "CLAUDE.md") $bundleClaude -Force
+  Copy-Item (Join-Path $RepoRootPath "skills") $bundleSkills -Recurse -Force
   return $bundle
 }
 
