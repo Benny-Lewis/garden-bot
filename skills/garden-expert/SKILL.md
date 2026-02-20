@@ -50,3 +50,8 @@ When answering "what should I do now?" or seasonal questions:
 - Prioritize based on what **actually exists** — if no beds are built, that comes before planting advice
 - Note upcoming deadlines relative to frost dates and the user's zone
 
+## Examples
+
+- Should trigger: "My tomato seedlings have yellow leaves with spots. Diagnose and next steps."
+- Should not trigger: "Design my side yard with two SVG options."
+- Expected behavior: source-backed diagnosis + persistence updates, ending with strict `Saved:` final line.

@@ -92,6 +92,24 @@ Invariants:
 - Saves only the approved option.
 - Ends with `Saved:` as the final line, listing touched files.
 
+## Trigger Smoke (Skill Routing)
+
+Record which skill(s) activated for each prompt and whether routing matched expectation.
+
+Should trigger:
+- `garden-profile`: "I planted two blueberries today. Please record this in my garden files."
+- `garden-expert`: "My cucumber leaves have powdery white coating. Diagnose and tell me what to do."
+- `landscape-design`: "Redesign my front yard and show two layout options."
+
+Should not trigger:
+- `garden-profile`: "What fungal disease causes leaf spots on roses?"
+- `garden-expert`: "Create an SVG layout for my backyard entertaining area."
+- `landscape-design`: "Record today's watering and fertilizer notes in my log."
+
+Evidence:
+- Add a row in the retest matrix for trigger-smoke outcomes (expected route vs observed route).
+- Cite transcript snippets showing activated skill behavior.
+
 ## Pass Criteria
 
 - All invariants in all scenarios pass.

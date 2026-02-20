@@ -62,3 +62,14 @@ When you create or update files, save directly in this turn.
 Never claim files were saved unless those writes completed this turn.
 
 Final line must be single-line `Saved: <paths>` or `Saved: none - <reason>`. Nothing may follow.
+
+## Failure Modes
+
+- If expected garden files are missing, state what is missing, ask targeted follow-ups, then create only the files needed for this turn.
+- If a file is unreadable or write fails (for example permission denied), report the path and error plainly, continue with accessible files, and end with `Saved: none - <reason>` when no writes succeed.
+
+## Examples
+
+- Should trigger: "Start tracking my garden and save today's updates."
+- Should not trigger: "What disease causes black spots on tomato leaves?"
+- Expected behavior: manage local garden files and persistence; do not run diagnosis workflow unless persistence is requested.

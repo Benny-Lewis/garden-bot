@@ -1,4 +1,4 @@
-﻿---
+---
 name: landscape-design
 description: Use when the user asks to plan, design, or redesign a yard area, create a visual layout/site plan, arrange features in space, or iterate on an existing landscape design. Do not use for diagnosis/care-only requests.
 ---
@@ -11,12 +11,12 @@ Create and maintain spatial landscape designs. Read existing garden files first 
 
 When design work is spatial, produce a visual layout with:
 
-- Approximate proportions (not just labeled boxes)
+- Approximate proportions
 - Labels for all features
 - Dimensions or scale reference
 - Orientation (N/S/E/W)
 - A legend/key
-- Consistent symbology (reuse conventions from existing area diagrams)
+- Consistent symbology
 
 Use dimensions from saved area data. **If dimensions aren't recorded, ask â€” don't assume.**
 
@@ -65,3 +65,8 @@ Never claim files were saved unless those writes completed this turn.
 
 Final line must be single-line `Saved: <paths>` or `Saved: none - <reason>`. Nothing may follow.
 
+## Examples
+
+- Should trigger: "Design my front yard with two SVG options."
+- Should not trigger: "Diagnose tomato leaf spots."
+- Expected behavior: preview options first; save canonical layout only after approval.
