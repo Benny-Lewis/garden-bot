@@ -29,6 +29,27 @@ claude --plugin-dir ./garden-bot
 - Re-run in a fresh session if searches return empty results repeatedly.
 - Treat repeated empty-search runs as an environment/tooling issue, not a signal to add static gardening reference docs.
 
+## Enforced Contracts
+
+- Final response line contract: the final non-empty line must be exactly `Saved: <paths>` or `Saved: none - <reason>`.
+- Design save gating:
+  - Before approval, write preview SVG files only (`areas/{area-name}-option-a.svg`, `areas/{area-name}-option-b.svg`).
+  - Before approval, do not modify canonical design files (`areas/{area-name}-layout.svg`, area `.md`, `calendar.md`, `log/`, `plants/`).
+  - After approval, write canonical `areas/{area-name}-layout.svg` and related markdown updates.
+- SVG open policy:
+  - Open SVG in Google Chrome when available; otherwise use the default web browser.
+  - On Windows, launch Chrome directly instead of relying on `.svg` association.
+  - Never open editor/design apps for SVG review.
+
+## Regression Evidence Requirements
+
+For regression runs (`dev/testing/scripts/retest-runner.ps1`), collect and retain:
+
+- `saved-contract-turn*.txt` for each turn.
+- `diff-snap*.txt` snapshot diffs for normal turns.
+- `snap-failure-*.csv` and `diff-*-failure-vs-*.txt` for failed/interrupted turns.
+- For scenarios 3/4/5: `open-evidence.md` with opened file path, observed app, timestamp, and screenshot reference or explicit note.
+
 ## Skills
 
 ### garden-profile

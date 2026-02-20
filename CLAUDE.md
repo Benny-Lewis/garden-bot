@@ -25,3 +25,20 @@ Claude Code plugin with 3 skills for gardening/landscaping assistance.
 
 ## Conventions
 - Don't mention "claude" in git commit messages
+
+## Enforced Runtime Contracts
+- Final response contract: final non-empty line must be `Saved: <paths>` or `Saved: none - <reason>`.
+- Design preview-vs-canonical gating:
+  - Before approval, write preview SVGs only under `areas/` (`{area-name}-option-a.svg`, `{area-name}-option-b.svg`).
+  - Before approval, do not modify canonical `areas/{area-name}-layout.svg`, area `.md`, `calendar.md`, `log/`, or `plants/`.
+  - After approval, write canonical layout + related area/plant/calendar/log updates in the same turn.
+- SVG open policy:
+  - Open SVGs in Google Chrome when available, otherwise default web browser.
+  - On Windows, launch Chrome directly rather than relying on `.svg` association.
+  - Never open editor/design apps for SVG review.
+
+## Regression Run Evidence
+- Required artifacts per turn: `saved-contract-turn*.txt`.
+- Required diff artifacts: `diff-snap*.txt`; for failed turns also `snap-failure-*.csv` and `diff-*-failure-vs-*.txt`.
+- Required design-scenario artifacts (3/4/5): `open-evidence.md` with opened path, observed app, timestamp, and screenshot reference or explicit note.
+- `open_target_verified` may be `PASS` only with direct user-observed evidence in `open-evidence.md`.
