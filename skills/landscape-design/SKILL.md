@@ -1,11 +1,11 @@
----
+﻿---
 name: landscape-design
 description: Use when the user wants to plan, design, or redesign a yard area, create a visual layout or site plan, arrange features in a space, or iterate on an existing landscape design
 ---
 
 # Landscape Design
 
-Create and maintain spatial landscape designs. Read the working directory first (via garden-profile) for dimensions and constraints.
+Create and maintain spatial landscape designs. Read existing garden files first and cite known dimensions/zone before asking new questions.
 
 ## Visual Layouts
 
@@ -18,9 +18,9 @@ When design work is spatial, produce a visual layout with:
 - A legend/key
 - Consistent symbology (reuse conventions from existing area diagrams)
 
-Use dimensions from saved area data. **If dimensions aren't recorded, ask — don't assume.**
+Use dimensions from saved area data. **If dimensions aren't recorded, ask â€” don't assume.**
 
-Use SVG visuals. Before approval, write preview files only (for example `{area-name}-option-a.svg`, `{area-name}-option-b.svg`) and open them for review. Before approval, do not update `{area-name}-layout.svg`, area `.md`, `calendar.md`, `log/`, or `plants/`. After approval, save `{area-name}-layout.svg` and related files. Use only `<rect>`, `<circle>`, `<text>`, `<line>`; no scripts/animations. Colors: green=planting, brown=beds, gray=hardscape, blue=water. Open in Google Chrome when available, otherwise default web browser. Never open editor/design apps.
+Use SVG visuals. Before approval, write preview files only in `areas/` (for example `areas/{area-name}-option-a.svg`, `areas/{area-name}-option-b.svg`) and open them for review. Before approval, do not update `areas/{area-name}-layout.svg`, area `.md`, `calendar.md`, `log/`, or `plants/`. After approval, save `areas/{area-name}-layout.svg` and related files. Use only `<rect>`, `<circle>`, `<text>`, `<line>`; no scripts/animations. Colors: green=planting, brown=beds, gray=hardscape, blue=water. Open in Google Chrome when available, otherwise default web browser. On Windows, launch Chrome directly instead of relying on `.svg` association. Never open editor/design apps.
 
 ### Iteration Discipline
 
@@ -34,15 +34,13 @@ After showing a layout, lead with targeted spatial questions and analysis.
 
 When multiple layouts are plausible, show 2 options with tradeoffs before saving either one.
 
-The visual and text must always agree.
-
 ## Consolidated Design View
 
 When spatial decisions are made, save a design section in the area file with:
 
 - Link to the layout SVG (`![Layout](backyard-south-layout.svg)`)
-- Zone summary — what goes where and why
-- Key decisions — **what** was chosen and **why** (not just structural details)
+- Zone summary â€” what goes where and why
+- Key decisions â€” **what** was chosen and **why** (not just structural details)
 
 If the user gives style words (for example Japanese, cottage, PNW native), translate them into concrete choices (forms, materials, plant structure, circulation) in the zone summary.
 
@@ -54,13 +52,16 @@ When a design spans multiple sub-areas, create/update a parent overview file wit
 
 After user approval and before ending your response, save to the working directory:
 
-- Visual layouts → `{area-name}-layout.svg` next to the area file, linked from its design section
-- New plants from design → `plants/` files
-- Scheduled tasks → `calendar.md`
-- Design session activity → `log/` **(append-only at the end of the file — add new entries, never edit or reorder previous entries)**
+- Visual layouts -> `areas/{area-name}-layout.svg` next to the area file, linked from its design section
+- New plants from design -> `plants/` files
+- Scheduled tasks -> `calendar.md`
+- Design session activity -> `log/` **(append-only at the end of the file - add new entries, never edit or reorder previous entries)**
 
 If you mention future actions (build, buy, plant, move, install, prune), you MUST add them to `calendar.md` with a concrete month/date.
 
 Do not offer to save and wait for permission. Save proactively.
 
-End every response with `Saved:` listing changed files. If none, write `Saved: none` and a short reason. This must be the final line.
+Never claim files were saved unless those writes completed this turn.
+
+Final line must be single-line `Saved: <paths>` or `Saved: none - <reason>`. Nothing may follow.
+
