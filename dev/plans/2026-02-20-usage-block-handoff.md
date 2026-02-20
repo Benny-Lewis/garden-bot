@@ -4,7 +4,7 @@
 
 - Testing is blocked by Claude usage cap.
 - Latest interruption evidence:
-  - `dev/testing/runs/2026-02-19/garden-bot-retest-20260219-targeted-v6/scenario3/turn3.txt`
+  - `dev/testing/runs/2026-02-19/garden-bot-retest-20260219-targeted-v7/scenario3/turn1.txt`
   - Message indicates reset at **Feb 23, 2026, 4:00 PM (America/Los_Angeles)**.
 
 ## What Was Completed
@@ -59,6 +59,17 @@
 - `dev/testing/results/retest-matrix-2026-02-19-targeted-v6-partial.md`
   - gate blocks standardized.
 
+9. Targeted `v7` run attempted after runner launchability hardening:
+- Run: `dev/testing/runs/2026-02-19/garden-bot-retest-20260219-targeted-v7`
+- Matrix: `dev/testing/results/retest-matrix-2026-02-19-targeted-v7.md`
+- Interrupted at scenario3 turn1 due usage cap (no file mutations in failure diff).
+
+10. Runner launchability hardening for local environment:
+- `dev/testing/scripts/retest-runner.ps1` now resolves `claude.exe` from:
+  - PATH (`Get-Command claude`),
+  - `~/.local/bin/claude.exe`,
+  - latest VS Code Claude extension native binary.
+
 ## Current Risks
 
 - Interrupted turns can still partially write files before failing (must inspect failure diffs).
@@ -66,16 +77,16 @@
 
 ## Next Steps After Reset
 
-1. Run targeted rerun:
+1. Run targeted rerun after reset:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File dev/testing/scripts/retest-runner.ps1 `
   -Mode targeted `
-  -RunName garden-bot-retest-20260219-targeted-v7
+  -RunName garden-bot-retest-20260219-targeted-v8
 ```
 
 2. Build authoritative targeted matrix:
-- `dev/testing/results/retest-matrix-2026-02-19-targeted-v7.md`
+- `dev/testing/results/retest-matrix-2026-02-19-targeted-v8.md`
 
 3. If targeted passes, run full harness:
 

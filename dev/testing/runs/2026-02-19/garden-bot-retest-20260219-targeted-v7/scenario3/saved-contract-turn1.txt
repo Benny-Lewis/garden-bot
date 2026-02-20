@@ -1,0 +1,4 @@
+﻿Status: FAIL
+Reason: final-line-not-saved-contract
+FinalNonEmptyLine: You're out of extra usage · resets Feb 23, 4pm (America/Los_Angeles)
+Rule: final non-empty line must be Saved: <paths> or Saved: none - <reason>

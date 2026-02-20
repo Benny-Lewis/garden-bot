@@ -8,6 +8,7 @@ param(
 $ErrorActionPreference = "Stop"
 $PSDefaultParameterValues['Set-Content:Encoding'] = 'utf8'
 $PSDefaultParameterValues['Export-Csv:Encoding'] = 'utf8'
+$script:ClaudeCommand = $null
 
 function Get-RepoRoot {
   return (Resolve-Path (Join-Path $PSScriptRoot "..\..\..")).Path
@@ -185,6 +186,41 @@ function Write-OpenEvidenceStub {
   ) | Set-Content -Path $artifact
 }
 
+function Get-ClaudeCommand {
+  if ($script:ClaudeCommand) {
+    return $script:ClaudeCommand
+  }
+
+  $command = Get-Command "claude" -ErrorAction SilentlyContinue | Select-Object -First 1
+  if ($command) {
+    $script:ClaudeCommand = $command.Source
+    return $script:ClaudeCommand
+  }
+
+  $candidates = @()
+
+  $localBinCandidate = Join-Path $env:USERPROFILE ".local\bin\claude.exe"
+  if (Test-Path $localBinCandidate) {
+    $candidates += $localBinCandidate
+  }
+
+  $extensionRoot = Join-Path $env:USERPROFILE ".vscode\extensions"
+  if (Test-Path $extensionRoot) {
+    $extCandidates = Get-ChildItem -Path $extensionRoot -Directory -Filter "anthropic.claude-code-*-win32-x64" -ErrorAction SilentlyContinue |
+      Sort-Object Name -Descending |
+      ForEach-Object { Join-Path $_.FullName "resources\native-binary\claude.exe" } |
+      Where-Object { Test-Path $_ }
+    $candidates += $extCandidates
+  }
+
+  if ($candidates.Count -gt 0) {
+    $script:ClaudeCommand = $candidates[0]
+    return $script:ClaudeCommand
+  }
+
+  throw "Could not find Claude CLI. Install Claude Code or add claude.exe to PATH."
+}
+
 function Invoke-ClaudeTurn {
   param(
     [string]$ScenarioDir,
@@ -216,9 +252,10 @@ function Invoke-ClaudeTurn {
   }
 
   $args = $baseArgs + @("--", $Prompt)
+  $claudeCommand = Get-ClaudeCommand
   Push-Location $ScenarioDir
   try {
-    $result = & claude @args 2>&1
+    $result = & $claudeCommand @args 2>&1
   } finally {
     Pop-Location
   }

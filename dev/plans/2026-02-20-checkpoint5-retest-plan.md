@@ -14,7 +14,8 @@ Run a clean, authoritative rerun sequence after usage reset with stronger struct
 ## Current Readiness
 
 - Track A structural fixes are implemented.
-- Immediate next execution step is `targeted-v7` when usage allows.
+- `targeted-v7` was attempted and interrupted at scenario3 turn1 due usage cap.
+- Immediate next execution step is `targeted-v8` after reset.
 
 ## Pre-Execution Changes Required (Track A)
 
@@ -58,11 +59,11 @@ Run:
 ```powershell
 powershell -ExecutionPolicy Bypass -File dev/testing/scripts/retest-runner.ps1 `
   -Mode targeted `
-  -RunName garden-bot-retest-20260219-targeted-v7
+  -RunName garden-bot-retest-20260219-targeted-v8
 ```
 
 Output matrix:
-- `dev/testing/results/retest-matrix-2026-02-19-targeted-v7.md`
+- `dev/testing/results/retest-matrix-2026-02-19-targeted-v8.md`
 
 ### Targeted Gate (must all hold)
 
@@ -115,7 +116,7 @@ Stop and revise plan if any occur:
 
 ## Exit Criteria
 
-1. Targeted `v7` matrix complete and gate passed.
+1. Targeted `v8` matrix complete and gate passed.
 2. Full `v1` matrix complete and all invariants passed.
 3. All design scenarios have direct `open_target_verified` evidence.
 4. No unresolved `P0/P1` issues from checkpoint2.
