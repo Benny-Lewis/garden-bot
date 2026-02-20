@@ -1,6 +1,7 @@
 # Checkpoint 4 Improvement Plan (Minimal Structural Changes)
 
 Date: 2026-02-19  
+Status: Historical plan; superseded by `dev/plans/2026-02-20-checkpoint4-improvement-plan.md`  
 Principle: Bitter Lesson alignment (improve gating/structure/measurement, avoid adding domain payload).
 
 ## Objective

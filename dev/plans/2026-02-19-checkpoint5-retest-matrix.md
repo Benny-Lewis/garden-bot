@@ -1,6 +1,7 @@
 # Checkpoint 5 Retest Matrix and Execution Checklist
 
 Date: 2026-02-19  
+Status: Historical checklist; superseded by `dev/plans/2026-02-20-checkpoint5-retest-plan.md`  
 Purpose: Authoritative rerun plan after usage reset, using isolation-safe harness.
 
 ## Preconditions

@@ -1,5 +1,9 @@
 # Usage-Reset Handoff (2026-02-19)
 
+Status: Historical handoff. Superseded for active execution by:
+- `dev/plans/2026-02-20-checkpoint6-go-packet.md`
+- `dev/plans/2026-02-20-usage-block-handoff.md`
+
 ## Current State
 
 - Work-in-progress changes are local and not yet committed.
@@ -60,9 +64,45 @@
 - Go packet (Checkpoint 6):
   - `dev/plans/2026-02-19-checkpoint6-go-packet.md`
 
+## Latest Execution Update (2026-02-20)
+
+1. Targeted run v4 completed:
+- Run root: `dev/testing/runs/2026-02-19/garden-bot-retest-20260219-targeted-v4`
+- Matrix: `dev/testing/results/retest-matrix-2026-02-19-targeted-v4.md`
+- Finding: multiple `Saved:` vs diff mismatches.
+
+2. Isolation flaw discovered and fixed in runner:
+- Root cause: Claude turns were not forced to execute from scenario directory.
+- Fix applied in `dev/testing/scripts/retest-runner.ps1`:
+  - `Push-Location $ScenarioDir` / `Pop-Location` around `claude` invocation.
+  - snapshot tracking now includes all scenario files except harness artifacts (`turn*`, `snap*`, `diff-*`, `process-*`), so preview SVGs at scenario root are captured.
+
+3. Leaked root artifacts from v4 were archived:
+- `dev/testing/runs/2026-02-19/garden-bot-retest-20260219-targeted-v4/leakage-artifacts/`
+- Repo root was cleaned of leaked test outputs (`areas/`, `plants/`, `profile.md`, layout SVGs, etc.).
+
+4. Targeted run v5 started with fixed isolation:
+- Run root: `dev/testing/runs/2026-02-19/garden-bot-retest-20260219-targeted-v5`
+- Partial matrix: `dev/testing/results/retest-matrix-2026-02-19-targeted-v5-partial.md`
+- Improvement proven: scenario-local preview writes captured (`scenario3/front-yard-option-a.svg`, `scenario3/front-yard-option-b.svg`).
+- User-observed open evidence captured in:
+  - `dev/testing/results/open-target-evidence-2026-02-20.md`
+  - Confirms scenario3 preview SVGs opened in Chrome (not Illustrator).
+- Blocker: interrupted at `scenario3/turn3.txt` due usage cap reset message.
+
+5. Targeted run v6 also interrupted by usage cap:
+- Run root: `dev/testing/runs/2026-02-19/garden-bot-retest-20260219-targeted-v6`
+- Partial matrix: `dev/testing/results/retest-matrix-2026-02-19-targeted-v6-partial.md`
+- Interruption evidence: `scenario3/turn3.txt` now reports reset at **Feb 23, 4pm (America/Los_Angeles)**.
+- Important: despite failure, partial canonical writes occurred in scenario3 and were captured in:
+  - `scenario3/diff-snap2-current-after-failed-turn3.txt`
+
+6. Additional harness hardening applied:
+- `dev/testing/scripts/retest-runner.ps1` now captures a failure snapshot and failure diff automatically on non-zero Claude turn exit.
+
 ## Remaining Work
 
-1. Re-run targeted sequence using updated runner:
+1. Re-run targeted sequence using updated runner (fresh run, post-usage reset):
 - Scenario 3
 - Scenario 4
 - Scenario 2
@@ -83,7 +123,7 @@
 
 ## Canonical Next-Step Source
 
-Use `dev/plans/2026-02-19-checkpoint6-go-packet.md` as the primary execution guide after reset.
+Use `dev/plans/2026-02-20-checkpoint6-go-packet.md` as the primary execution guide after reset.
 
 ## Resume Commands
 
@@ -94,7 +134,7 @@ git status --short
 
 powershell -ExecutionPolicy Bypass -File dev/testing/scripts/retest-runner.ps1 `
   -Mode targeted `
-  -RunName garden-bot-retest-20260219-targeted-v4
+  -RunName garden-bot-retest-20260219-targeted-v7
 ```
 
 After targeted passes:

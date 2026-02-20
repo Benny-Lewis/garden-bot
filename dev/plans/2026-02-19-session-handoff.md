@@ -1,5 +1,9 @@
 # Session Handoff (2026-02-19)
 
+Status: Historical handoff. Superseded for active execution by:
+- `dev/plans/2026-02-20-checkpoint6-go-packet.md`
+- `dev/plans/2026-02-20-usage-block-handoff.md`
+
 ## Goal
 
 Continue plugin hardening and finish SVG-era regression testing in a new session.
@@ -288,3 +292,49 @@ The staged analysis-and-plan workflow is complete through Checkpoint 6.
 - Treat pre-fix targeted-v2/v3 behavior findings as provisional where isolation could affect outcomes.
 - Use the isolation-safe runner configuration for all authoritative reruns.
 - Use the Checkpoint 6 go packet as the canonical execution source after usage reset.
+
+---
+
+## Update: Targeted v4/v5 Isolation Hardening (2026-02-20)
+
+1. Targeted v4 executed and matrix produced:
+- `dev/testing/results/retest-matrix-2026-02-19-targeted-v4.md`
+- High-severity save/write mismatches were observed.
+
+2. New harness issue discovered from v4:
+- Claude writes leaked into repo root (outside scenario folders), contaminating write-path conclusions.
+
+3. Harness fix applied:
+- `dev/testing/scripts/retest-runner.ps1`
+  - forces `claude` execution from scenario CWD (`Push-Location $ScenarioDir`),
+  - snapshot scope expanded to all scenario files excluding harness artifacts.
+
+4. Cleanup performed:
+- Leaked root outputs archived to:
+  - `dev/testing/runs/2026-02-19/garden-bot-retest-20260219-targeted-v4/leakage-artifacts/`
+
+5. Targeted v5 executed with hardened isolation:
+- run root:
+  - `dev/testing/runs/2026-02-19/garden-bot-retest-20260219-targeted-v5`
+- partial matrix:
+  - `dev/testing/results/retest-matrix-2026-02-19-targeted-v5-partial.md`
+- key proof:
+  - scenario-local preview writes captured in `scenario3` (`front-yard-option-a.svg`, `front-yard-option-b.svg`).
+- blocker:
+  - usage cap interruption at `scenario3/turn3.txt`.
+
+6. Next run command after reset:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File dev/testing/scripts/retest-runner.ps1 `
+  -Mode targeted `
+  -RunName garden-bot-retest-20260219-targeted-v7
+```
+
+7. Additional update after v6 attempt:
+- `dev/testing/runs/2026-02-19/garden-bot-retest-20260219-targeted-v6/scenario3/turn3.txt`
+  - usage interruption now reports reset at Feb 23, 4pm PT.
+- `dev/testing/results/retest-matrix-2026-02-19-targeted-v6-partial.md`
+  - documents incomplete run and partial-write behavior during failed turn.
+- `dev/testing/scripts/retest-runner.ps1`
+  - now records `snap-failure-*.csv` plus failure diff when a Claude turn exits non-zero.
