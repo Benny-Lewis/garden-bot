@@ -1,7 +1,7 @@
 # Checkpoint 6 Go Packet (Analysis Cycle 2026-02-20)
 
 Date: 2026-02-20  
-Status: Ready to resume execution after usage reset window.
+Status: Usage-blocked after attempted `targeted-v7`; resume after reset window.
 
 ## Canonical Docs (Use in This Order)
 
@@ -12,6 +12,8 @@ Status: Ready to resume execution after usage reset window.
 5. `dev/plans/2026-02-20-checkpoint5-retest-plan.md`
 6. `dev/plans/2026-02-20-usage-block-handoff.md`
 7. `dev/plans/2026-02-20-commit-plan.md`
+8. `dev/testing/results/anthropic-guidance-compliance-2026-02-20.md`
+9. `dev/testing/results/retest-matrix-2026-02-19-targeted-v7.md`
 
 ## Immediate Actions on Resume
 
@@ -20,11 +22,11 @@ Status: Ready to resume execution after usage reset window.
 ```powershell
 powershell -ExecutionPolicy Bypass -File dev/testing/scripts/retest-runner.ps1 `
   -Mode targeted `
-  -RunName garden-bot-retest-20260219-targeted-v7
+  -RunName garden-bot-retest-20260219-targeted-v8
 ```
 
 2. Produce:
-- `dev/testing/results/retest-matrix-2026-02-19-targeted-v7.md`
+- `dev/testing/results/retest-matrix-2026-02-19-targeted-v8.md`
 
 3. If targeted gate passes, run full harness:
 
@@ -46,6 +48,7 @@ Track A structural fixes from `dev/plans/2026-02-20-checkpoint4-improvement-plan
 - UTF-8 output defaults,
 - normalized `areas/` path convention in landscape skill + regression harness,
 - matrix gate-block template added.
+- runner launchability hardened to resolve local `claude.exe` paths.
 
 ## Non-Negotiable Constraints
 

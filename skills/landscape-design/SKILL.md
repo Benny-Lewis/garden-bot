@@ -1,6 +1,6 @@
 ﻿---
 name: landscape-design
-description: Use when the user wants to plan, design, or redesign a yard area, create a visual layout or site plan, arrange features in a space, or iterate on an existing landscape design
+description: Use when the user asks to plan, design, or redesign a yard area, create a visual layout/site plan, arrange features in space, or iterate on an existing landscape design. Do not use for diagnosis/care-only requests.
 ---
 
 # Landscape Design

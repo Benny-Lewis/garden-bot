@@ -1,6 +1,6 @@
 ---
 name: garden-expert
-description: Use when the user asks about plants, gardening tasks, soil health, pest or disease diagnosis, what to plant, when to plant, crop rotation, seed starting, harvest timing, or garden scheduling
+description: Provides source-backed diagnosis and gardening care guidance. Use when the user asks about plant problems, treatment plans, planting timing, or what-to-plant decisions (for example "what disease is this", "what should I plant now", or "when should I prune"). Do not use for pure spatial layout/design requests.
 ---
 
 # Garden Expert
