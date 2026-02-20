@@ -1,0 +1,77 @@
+Both SVG previews should be opening in your browser now. Here's the breakdown:
+
+---
+
+## Option A — Layered Native Grove
+
+A naturalistic, layered design anchored by a **western serviceberry** (Amelanchier alnifolia) as a small multi-stem tree on the west side, with understory of evergreen huckleberry, salal, and kinnikinnick.
+
+**Plant list:**
+| Plant | Role | Edible? | Notes |
+|---|---|---|---|
+| Western Serviceberry | Anchor tree, 10-15 ft | Yes — June berries | Spring white flowers, fall color |
+| Evergreen Huckleberry (×2) | Mid-layer shrub | Yes — Aug-Oct berries | Glossy evergreen, bronze new growth |
+| Salal | Low evergreen mass | Yes — berries (subtle) | Classic PNW native groundcover |
+| Blueberry (×3) | East bed cluster | Yes — summer fruit | Blazing fall color |
+| Kinnikinnick | Groundcover | Mildly | Evergreen mat, pink flowers |
+| Creeping Thyme | Groundcover/strip | Yes — culinary herb | Fragrant, walkable |
+| Rosemary | Foundation | Yes — culinary | Evergreen structure |
+| Lavender | Foundation | Culinary/tea | Pollinator magnet |
+| Sword Fern | Foundation (west) | No | Evergreen native texture |
+| Low Oregon Grape (×3) | Planting strip | Yes — tart berries | Oregon state flower, evergreen |
+
+**Pros:** High biodiversity, year-round seasonal interest, strong native habitat value, serviceberry gives vertical drama. Most visitors won't realize 80% of the yard is edible.
+
+**Cons:** Takes 2-3 years to fill in. Serviceberry drops berries on walkway if not sited carefully. More organic/less tidy look — depends on maintenance.
+
+---
+
+## Option B — Modern Edible Hedgerow
+
+A cleaner, more geometric layout with **formal blueberry hedge** on the west side, a dedicated **herb panel** near the street, and a **clipped evergreen huckleberry hedge** in the planting strip.
+
+**Plant list:**
+| Plant | Role | Edible? | Notes |
+|---|---|---|---|
+| Blueberry (×3) | Formal hedge row | Yes — summer fruit | Brilliant fall color, clipped to 4 ft |
+| Evergreen Huckleberry (hedge) | Planting strip screen | Yes — fall berries | Clipped to 3 ft, dense |
+| Tall Oregon Grape | East bed accent | Yes — tart berries | Year-round structure, yellow spring bloom |
+| Karl Foerster Grass (×2) | Vertical accent | No | Clean modern lines, 5 ft |
+| Rosemary, Lavender, Sage, Oregano | Herb panel | Yes — all culinary | Fragrant, textured, low |
+| Compact Mahonia (×2) | Foundation | Yes — berries | Evergreen, compact form |
+| Kinnikinnick | East groundcover | Mildly | Evergreen mat |
+| Woolly Thyme | Blueberry underplanting | Yes | Silver-green mat |
+| Cor-ten steel edging | Hardscape detail | — | Modern material accent |
+
+**Pros:** Immediately reads as "designed." Cleaner lines, fewer species to manage. Herb panel is a conversation piece. The huckleberry hedge gives street-side privacy while producing berries nobody recognizes as food.
+
+**Cons:** Fewer species = less habitat. Needs clipping 1-2×/year to stay formal. Karl Foerster grass is non-native (though non-invasive). Less "wild PNW" feel.
+
+---
+
+## Key Tradeoffs
+
+| | Option A | Option B |
+|---|---|---|
+| **Stealth edible %** | ~80% of plants | ~70% of plants |
+| **Curb appeal timeline** | 2-3 years to fill | Looks finished year 1 |
+| **Maintenance** | Lower once established | Regular clipping needed |
+| **Native purity** | Nearly 100% native | ~80% native |
+| **Style** | Naturalistic PNW | Clean modern |
+| **Wildlife value** | Higher | Moderate |
+
+`? Insight -------------------------------------`
+Both designs use the "stealth edible" strategy of choosing edibles with strong ornamental qualities. The key insight from [OSU Extension's edible landscaping guide](https://extension.oregonstate.edu/sites/extd8/files/documents/12281/ediblelandscaping.pdf) is that the most successful edible front yards use edibles *as* the structural framework (hedges, anchors, groundcovers) rather than tucking them between ornamentals. Blueberries-as-hedge and huckleberry-as-screen are prime examples — they do the landscape job first and produce food as a bonus.
+`-------------------------------------------------`
+
+What catches your eye? I can also mix elements between the two — for example, the serviceberry anchor from A with the formal herb panel from B.
+
+Sources:
+- [OSU Extension — Gardening with Oregon Native Plants](https://extension.oregonstate.edu/catalog/pub/ec-1577-gardening-oregon-native-plants-west-cascades)
+- [OSU Extension — Edible Landscaping](https://extension.oregonstate.edu/sites/extd8/files/documents/12281/ediblelandscaping.pdf)
+- [OSU Extension — Growing Blueberries](https://extension.oregonstate.edu/catalog/ec-1304-growing-blueberries-your-home-garden)
+- [Portland Nursery — Northwest Natives](https://www.portlandnursery.com/natives)
+- [Portland Nursery — Natives with Edible Fruits](https://www.portlandnursery.com/natives/edible-fruits)
+- [WNPS — Gardening with Edible Native Shrubs](https://www.wnps.org/blog/gardening-with-edible-and-useful-native-shrubs)
+
+Saved: none — preview only per your request; awaiting your choice before saving canonical files

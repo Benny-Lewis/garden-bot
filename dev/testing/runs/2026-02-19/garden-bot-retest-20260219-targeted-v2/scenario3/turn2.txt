@@ -1,0 +1,14 @@
+Great details — the walkway, foundation strip, and planting strip give me good structure to work with. Before I can draw accurate SVGs, I need a few more measurements:
+
+**Must-have for the layout:**
+1. **Overall front yard dimensions** — approximate width (along the street) and depth (street/sidewalk to house)?
+2. **Driveway** — is there one? If so, which side and how wide?
+3. **Sun exposure** — full sun, part shade, or varies across the yard?
+
+**Helpful for plant selection:**
+4. **Where in PNW?** (City or USDA zone — e.g., Seattle is 8b, Portland is 8b, east of Cascades is quite different)
+5. **Existing trees or large shrubs** to keep?
+
+Once I have the yard footprint I'll generate two SVG options — one with a more structured/symmetrical approach and one with a naturalistic asymmetric layout — both integrating stealth edibles with PNW natives.
+
+Saved: none — waiting for dimensions before generating layouts.

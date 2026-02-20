@@ -1,0 +1,15 @@
+`? Insight -------------------------------------`
+The side yard design reuses three species from the front yard (vine maple, salal, sword fern), which creates visual continuity across the property — a key principle in residential landscape design. The new species (Oregon oxalis, red huckleberry, deer fern) are all native shade-tolerant plants that distinguish this area's character while staying within the PNW palette.
+`-------------------------------------------------`
+
+All saved. Here's what was written:
+
+- **`side-yard-layout.svg`** — canonical layout (Woodland Corridor)
+- **`areas/side-yard.md`** — area file with design section, zone summary, key decisions, and plant list
+- **`plants/oregon-oxalis.md`**, **`plants/red-huckleberry.md`**, **`plants/deer-fern.md`** — new plant files
+- **`plants/vine-maple.md`**, **`plants/salal.md`**, **`plants/sword-fern.md`** — updated with side yard locations
+- **`profile.md`** — added side yard to property section
+- **`calendar.md`** — added March path prep, April planting tasks, July huckleberry harvest
+- **`log/2026-02.md`** — appended design approval entry
+
+Saved: `side-yard-layout.svg`, `areas/side-yard.md`, `plants/oregon-oxalis.md`, `plants/red-huckleberry.md`, `plants/deer-fern.md`, `plants/vine-maple.md`, `plants/salal.md`, `plants/sword-fern.md`, `profile.md`, `calendar.md`, `log/2026-02.md`

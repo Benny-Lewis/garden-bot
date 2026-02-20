@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520">
+  <rect x="0" y="0" width="800" height="520" fill="#f6f3ea" />
+  <rect x="40" y="40" width="720" height="440" fill="none" stroke="#333" stroke-width="2" />
+  <text x="50" y="30" font-size="14" fill="#111">Backyard South — Revised Layout</text>
+
+  <!-- Raised Beds (2) — West side -->
+  <rect x="120" y="140" width="100" height="70" fill="#8b5a2b" stroke="#333" />
+  <rect x="120" y="240" width="100" height="70" fill="#8b5a2b" stroke="#333" />
+  <text x="120" y="125" font-size="13" fill="#111">Raised Beds (2)</text>
+
+  <!-- Fire Pit — East side -->
+  <circle cx="620" cy="230" r="55" fill="#9e9e9e" stroke="#333" />
+  <text x="575" y="235" font-size="14" fill="#111">Fire Pit</text>
+
+  <!-- Seating — center south near patio -->
+  <rect x="290" y="360" width="180" height="70" fill="#d0d0d0" stroke="#333" />
+  <text x="325" y="402" font-size="13" fill="#111">Seating</text>
+
+  <!-- Orientation -->
+  <line x1="40" y1="495" x2="760" y2="495" stroke="#333" />
+  <text x="45" y="512" font-size="12" fill="#111">South (Patio Side)</text>
+
+  <!-- Legend -->
+  <rect x="560" y="420" width="16" height="12" fill="#8b5a2b" stroke="#333" />
+  <text x="582" y="431" font-size="11" fill="#111">Raised Bed</text>
+  <circle cx="568" cy="450" r="8" fill="#9e9e9e" stroke="#333" />
+  <text x="582" y="454" font-size="11" fill="#111">Fire Pit</text>
+  <rect x="560" y="462" width="16" height="12" fill="#d0d0d0" stroke="#333" />
+  <text x="582" y="473" font-size="11" fill="#111">Seating</text>
+</svg>

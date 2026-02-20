@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 720" font-family="Arial, sans-serif">
+  <!-- Title -->
+  <text x="380" y="28" text-anchor="middle" font-size="16" font-weight="bold">Option A: Modern Framework</text>
+  <text x="380" y="46" text-anchor="middle" font-size="11" fill="#666">30' wide × 15' deep · South-facing full sun · Portland OR · Zone 8b</text>
+
+  <!-- Compass -->
+  <text x="710" y="90" text-anchor="middle" font-size="10" font-weight="bold">N</text>
+  <line x1="710" y1="93" x2="710" y2="115" stroke="#333" stroke-width="1.5"/>
+  <text x="710" y="126" text-anchor="middle" font-size="10">S</text>
+  <text x="693" y="110" text-anchor="middle" font-size="9">W</text>
+  <text x="727" y="110" text-anchor="middle" font-size="9">E</text>
+
+  <!-- Scale bar -->
+  <line x1="80" y1="640" x2="280" y2="640" stroke="#333" stroke-width="2"/>
+  <line x1="80" y1="635" x2="80" y2="645" stroke="#333" stroke-width="2"/>
+  <line x1="280" y1="635" x2="280" y2="645" stroke="#333" stroke-width="2"/>
+  <text x="180" y="655" text-anchor="middle" font-size="10">10 ft</text>
+
+  <!-- ==================== STRUCTURES ==================== -->
+
+  <!-- House wall -->
+  <rect x="80" y="68" width="600" height="22" fill="#777" stroke="#555"/>
+  <text x="380" y="83" text-anchor="middle" font-size="10" fill="white" font-weight="bold">HOUSE (N)</text>
+
+  <!-- Front door -->
+  <rect x="353" y="68" width="44" height="22" fill="#5D4037" stroke="#333" stroke-width="1.5"/>
+  <text x="375" y="83" text-anchor="middle" font-size="8" fill="white">DOOR</text>
+
+  <!-- Foundation strip background -->
+  <rect x="80" y="90" width="600" height="40" fill="#A1887F" opacity="0.3" stroke="#8D6E63"/>
+
+  <!-- Walkway -->
+  <rect x="355" y="90" width="80" height="280" fill="#BDBDBD" stroke="#999"/>
+
+  <!-- Sidewalk -->
+  <rect x="80" y="370" width="600" height="80" fill="#BDBDBD" stroke="#999"/>
+  <text x="380" y="415" text-anchor="middle" font-size="10" fill="#555">SIDEWALK</text>
+
+  <!-- Planting strip background -->
+  <rect x="80" y="450" width="600" height="100" fill="#A1887F" opacity="0.25" stroke="#8D6E63"/>
+
+  <!-- Street -->
+  <rect x="80" y="550" width="600" height="30" fill="#9E9E9E" stroke="#777"/>
+  <text x="380" y="570" text-anchor="middle" font-size="10" fill="white">STREET (S)</text>
+
+  <!-- ==================== MAIN YARD - LAWN ==================== -->
+
+  <!-- Lawn areas -->
+  <rect x="80" y="130" width="275" height="240" fill="#C5E1A5" stroke="#A5D6A7" opacity="0.5"/>
+  <rect x="435" y="130" width="245" height="240" fill="#C5E1A5" stroke="#A5D6A7" opacity="0.5"/>
+
+  <!-- ==================== LEFT BED (14' wide section) ==================== -->
+
+  <!-- Left planting bed -->
+  <rect x="95" y="165" width="220" height="180" rx="4" fill="#795548" opacity="0.3" stroke="#6D4C41" stroke-dasharray="4,2"/>
+  <text x="205" y="185" text-anchor="middle" font-size="9" fill="#4E342E">LEFT BED  11' × 9'</text>
+
+  <!-- Serviceberry tree (focal point) -->
+  <circle cx="175" cy="250" r="32" fill="#4CAF50" opacity="0.5" stroke="#388E3C" stroke-width="1.5"/>
+  <circle cx="175" cy="250" r="5" fill="#5D4037"/>
+  <text x="175" y="295" text-anchor="middle" font-size="8" fill="#2E7D32" font-weight="bold">Serviceberry</text>
+  <text x="175" y="305" text-anchor="middle" font-size="7" fill="#558B2F">(native + edible)</text>
+
+  <!-- Oregon grape mass (under/around serviceberry) -->
+  <circle cx="130" cy="225" r="16" fill="#689F38" opacity="0.45" stroke="#558B2F"/>
+  <circle cx="145" cy="270" r="16" fill="#689F38" opacity="0.45" stroke="#558B2F"/>
+  <circle cx="220" cy="235" r="16" fill="#689F38" opacity="0.45" stroke="#558B2F"/>
+  <text x="265" y="230" text-anchor="start" font-size="7" fill="#33691E">Oregon Grape ×3</text>
+  <text x="265" y="240" text-anchor="start" font-size="7" fill="#558B2F">(native + edible)</text>
+
+  <!-- Kinnikinnick groundcover -->
+  <rect x="100" y="310" width="200" height="28" rx="10" fill="#81C784" opacity="0.4" stroke="#66BB6A"/>
+  <text x="200" y="328" text-anchor="middle" font-size="7" fill="#2E7D32">Kinnikinnick groundcover (native)</text>
+
+  <!-- ==================== RIGHT BED (12' wide section) ==================== -->
+
+  <!-- Right planting bed -->
+  <rect x="460" y="165" width="200" height="180" rx="4" fill="#795548" opacity="0.3" stroke="#6D4C41" stroke-dasharray="4,2"/>
+  <text x="560" y="185" text-anchor="middle" font-size="9" fill="#4E342E">RIGHT BED  10' × 9'</text>
+
+  <!-- Blueberry mass -->
+  <circle cx="500" cy="240" r="20" fill="#7CB342" opacity="0.5" stroke="#558B2F"/>
+  <circle cx="545" cy="230" r="20" fill="#7CB342" opacity="0.5" stroke="#558B2F"/>
+  <circle cx="525" cy="270" r="20" fill="#7CB342" opacity="0.5" stroke="#558B2F"/>
+  <text x="525" y="305" text-anchor="middle" font-size="8" fill="#33691E" font-weight="bold">Blueberries ×3</text>
+  <text x="525" y="315" text-anchor="middle" font-size="7" fill="#558B2F">(edible, fall color)</text>
+
+  <!-- Kinnikinnick groundcover right -->
+  <rect x="465" y="320" width="185" height="22" rx="10" fill="#81C784" opacity="0.4" stroke="#66BB6A"/>
+  <text x="558" y="335" text-anchor="middle" font-size="7" fill="#2E7D32">Kinnikinnick (native)</text>
+
+  <!-- ==================== FOUNDATION STRIP ==================== -->
+
+  <!-- Rosemary anchors -->
+  <circle cx="115" cy="110" r="12" fill="#66BB6A" opacity="0.5" stroke="#43A047"/>
+  <text x="115" y="100" text-anchor="middle" font-size="7" fill="#2E7D32">Rosemary</text>
+
+  <circle cx="640" cy="110" r="12" fill="#66BB6A" opacity="0.5" stroke="#43A047"/>
+  <text x="640" y="100" text-anchor="middle" font-size="7" fill="#2E7D32">Rosemary</text>
+
+  <!-- Thyme + alpine strawberry groundcover -->
+  <rect x="135" y="95" width="215" height="30" rx="8" fill="#A5D6A7" opacity="0.4" stroke="#81C784"/>
+  <text x="242" y="114" text-anchor="middle" font-size="7" fill="#2E7D32">Thyme + Alpine Strawberry (edible)</text>
+
+  <rect x="440" y="95" width="190" height="30" rx="8" fill="#A5D6A7" opacity="0.4" stroke="#81C784"/>
+  <text x="535" y="114" text-anchor="middle" font-size="7" fill="#2E7D32">Thyme + Alpine Strawberry</text>
+
+  <!-- ==================== PLANTING STRIP ==================== -->
+
+  <!-- Vine maple -->
+  <circle cx="280" cy="500" r="28" fill="#4CAF50" opacity="0.45" stroke="#388E3C"/>
+  <circle cx="280" cy="500" r="4" fill="#5D4037"/>
+  <text x="280" y="535" text-anchor="middle" font-size="8" fill="#2E7D32" font-weight="bold">Vine Maple</text>
+  <text x="280" y="545" text-anchor="middle" font-size="7" fill="#558B2F">(native)</text>
+
+  <!-- Idaho fescue masses -->
+  <rect x="100" y="470" width="140" height="60" rx="8" fill="#9CCC65" opacity="0.4" stroke="#7CB342"/>
+  <text x="170" y="505" text-anchor="middle" font-size="7" fill="#33691E">Idaho Fescue (native)</text>
+
+  <rect x="340" y="470" width="130" height="60" rx="8" fill="#9CCC65" opacity="0.4" stroke="#7CB342"/>
+  <text x="405" y="505" text-anchor="middle" font-size="7" fill="#33691E">Idaho Fescue</text>
+
+  <rect x="510" y="470" width="150" height="60" rx="8" fill="#9CCC65" opacity="0.4" stroke="#7CB342"/>
+  <text x="585" y="505" text-anchor="middle" font-size="7" fill="#33691E">Idaho Fescue</text>
+
+  <!-- ==================== DIMENSION LINES ==================== -->
+
+  <!-- Width dimension -->
+  <line x1="80" y1="600" x2="680" y2="600" stroke="#333" stroke-width="0.75"/>
+  <line x1="80" y1="595" x2="80" y2="605" stroke="#333" stroke-width="0.75"/>
+  <line x1="680" y1="595" x2="680" y2="605" stroke="#333" stroke-width="0.75"/>
+  <text x="380" y="615" text-anchor="middle" font-size="9" fill="#333">30'</text>
+
+  <!-- Depth dimension -->
+  <line x1="720" y1="90" x2="720" y2="370" stroke="#333" stroke-width="0.75"/>
+  <line x1="715" y1="90" x2="725" y2="90" stroke="#333" stroke-width="0.75"/>
+  <line x1="715" y1="370" x2="725" y2="370" stroke="#333" stroke-width="0.75"/>
+  <text x="740" y="235" text-anchor="middle" font-size="9" fill="#333" transform="rotate(90,740,235)">15'</text>
+
+  <!-- ==================== LEGEND ==================== -->
+  <text x="380" y="680" text-anchor="middle" font-size="9" fill="#555">Green = planting · Brown outline = beds · Gray = hardscape · Labeled (edible) = stealth edibles</text>
+  <text x="380" y="695" text-anchor="middle" font-size="9" fill="#888">PREVIEW — not saved</text>
+</svg>

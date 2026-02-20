@@ -1,0 +1,154 @@
+<svg viewBox="0 0 700 580" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <!-- Title -->
+  <text x="350" y="22" text-anchor="middle" font-size="15" font-weight="bold">Option A: Structured Modern</text>
+  <text x="350" y="38" text-anchor="middle" font-size="10" fill="#555">30 ft × 15 ft front yard · Portland, OR · Zone 8b · South-facing</text>
+
+  <!-- Compass rose -->
+  <text x="665" y="62" text-anchor="middle" font-size="10" font-weight="bold">N</text>
+  <line x1="665" y1="65" x2="665" y2="85" stroke="#333" stroke-width="1.5"/>
+  <text x="665" y="95" text-anchor="middle" font-size="10">S</text>
+
+  <!-- Scale bar -->
+  <line x1="30" y1="565" x2="230" y2="565" stroke="#333" stroke-width="2"/>
+  <line x1="30" y1="560" x2="30" y2="570" stroke="#333" stroke-width="2"/>
+  <line x1="230" y1="560" x2="230" y2="570" stroke="#333" stroke-width="2"/>
+  <text x="130" y="558" text-anchor="middle" font-size="9">10 ft</text>
+
+  <!-- STREET -->
+  <rect x="10" y="510" width="680" height="30" fill="#AAA" stroke="none"/>
+  <text x="350" y="529" text-anchor="middle" font-size="11" fill="#444">STREET (South)</text>
+
+  <!-- CURB -->
+  <rect x="30" y="505" width="640" height="5" fill="#888"/>
+
+  <!-- STREET PLANTING STRIP: 5 ft = 100px, y=405 to y=505 -->
+  <!-- Three rectangular beds -->
+  <rect x="30" y="405" width="195" height="100" fill="#8B6914" rx="3"/>
+  <rect x="233" y="405" width="180" height="100" fill="#8B6914" rx="3"/>
+  <rect x="421" y="405" width="249" height="100" fill="#8B6914" rx="3"/>
+
+  <!-- Strip bed plantings -->
+  <rect x="40" y="420" width="175" height="70" fill="#7CB342" rx="2"/>
+  <text x="128" y="450" text-anchor="middle" font-size="9" fill="#1B5E20">Creeping Thyme</text>
+  <text x="128" y="462" text-anchor="middle" font-size="8" fill="#1B5E20">+ Blue Fescue</text>
+
+  <rect x="243" y="420" width="160" height="70" fill="#7CB342" rx="2"/>
+  <text x="323" y="450" text-anchor="middle" font-size="9" fill="#1B5E20">Creeping Thyme</text>
+  <text x="323" y="462" text-anchor="middle" font-size="8" fill="#1B5E20">+ Blue Fescue</text>
+
+  <rect x="431" y="420" width="229" height="70" fill="#7CB342" rx="2"/>
+  <text x="546" y="450" text-anchor="middle" font-size="9" fill="#1B5E20">Creeping Thyme</text>
+  <text x="546" y="462" text-anchor="middle" font-size="8" fill="#1B5E20">+ Blue Fescue</text>
+
+  <!-- SIDEWALK -->
+  <rect x="30" y="385" width="640" height="20" fill="#BDBDBD"/>
+  <text x="350" y="399" text-anchor="middle" font-size="9" fill="#555">SIDEWALK</text>
+
+  <!-- MAIN YARD: 13 ft = 260px, y=125 to y=385 -->
+
+  <!-- WALKWAY: 4 ft wide, slightly right of center -->
+  <!-- Center at 16ft from left = x=30+320=350, so x=310 to x=390 -->
+  <rect x="310" y="70" width="80" height="315" fill="#D7CCC8"/>
+  <text x="350" y="275" text-anchor="middle" font-size="9" fill="#666" transform="rotate(-90,350,275)">WALKWAY</text>
+
+  <!-- Gravel borders along walkway -->
+  <rect x="296" y="125" width="14" height="260" fill="#E0E0E0"/>
+  <rect x="390" y="125" width="14" height="260" fill="#E0E0E0"/>
+
+  <!-- LEFT MAIN BED: x=40 to x=290, y=135 to y=375 -->
+  <rect x="40" y="135" width="250" height="240" fill="#8B6914" rx="3"/>
+  <rect x="50" y="145" width="230" height="220" fill="#7CB342" rx="2"/>
+
+  <!-- Serviceberry tree -->
+  <circle cx="130" cy="220" r="30" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+  <circle cx="130" cy="220" r="5" fill="#5D4037"/>
+  <text x="130" y="260" text-anchor="middle" font-size="9" font-weight="bold" fill="#1B5E20">Serviceberry</text>
+  <text x="130" y="271" text-anchor="middle" font-size="8" fill="#1B5E20">(edible berries)</text>
+
+  <!-- Native grass mass - left bed -->
+  <text x="210" y="200" text-anchor="middle" font-size="9" fill="#1B5E20">Blue Fescue</text>
+  <text x="210" y="212" text-anchor="middle" font-size="8" fill="#1B5E20">mass planting</text>
+  <circle cx="190" cy="180" r="6" fill="#8BC34A" stroke="#558B2F" stroke-width="0.5"/>
+  <circle cx="210" cy="175" r="6" fill="#8BC34A" stroke="#558B2F" stroke-width="0.5"/>
+  <circle cx="230" cy="182" r="6" fill="#8BC34A" stroke="#558B2F" stroke-width="0.5"/>
+  <circle cx="250" cy="178" r="6" fill="#8BC34A" stroke="#558B2F" stroke-width="0.5"/>
+  <circle cx="200" cy="192" r="6" fill="#8BC34A" stroke="#558B2F" stroke-width="0.5"/>
+  <circle cx="220" cy="188" r="6" fill="#8BC34A" stroke="#558B2F" stroke-width="0.5"/>
+  <circle cx="240" cy="194" r="6" fill="#8BC34A" stroke="#558B2F" stroke-width="0.5"/>
+
+  <!-- Thyme groundcover edge - left bed -->
+  <rect x="55" y="320" width="220" height="40" fill="#9CCC65" rx="2"/>
+  <text x="165" y="344" text-anchor="middle" font-size="9" fill="#33691E">Creeping Thyme groundcover (edible)</text>
+
+  <!-- RIGHT MAIN BED: x=410 to x=660, y=135 to y=375 -->
+  <rect x="410" y="135" width="250" height="240" fill="#8B6914" rx="3"/>
+  <rect x="420" y="145" width="230" height="220" fill="#7CB342" rx="2"/>
+
+  <!-- Blueberry row - 3 plants -->
+  <circle cx="470" cy="210" r="18" fill="#4CAF50" stroke="#1565C0" stroke-width="1.5"/>
+  <circle cx="530" cy="210" r="18" fill="#4CAF50" stroke="#1565C0" stroke-width="1.5"/>
+  <circle cx="590" cy="210" r="18" fill="#4CAF50" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="530" y="245" text-anchor="middle" font-size="9" font-weight="bold" fill="#1B5E20">Blueberry row × 3</text>
+  <text x="530" y="256" text-anchor="middle" font-size="8" fill="#1B5E20">(edible, fall color)</text>
+
+  <!-- Native grass - right bed -->
+  <text x="530" y="175" text-anchor="middle" font-size="9" fill="#1B5E20">Deschampsia</text>
+  <text x="530" y="186" text-anchor="middle" font-size="8" fill="#1B5E20">tufted hairgrass</text>
+  <circle cx="470" cy="165" r="6" fill="#8BC34A" stroke="#558B2F" stroke-width="0.5"/>
+  <circle cx="500" cy="160" r="6" fill="#8BC34A" stroke="#558B2F" stroke-width="0.5"/>
+  <circle cx="560" cy="163" r="6" fill="#8BC34A" stroke="#558B2F" stroke-width="0.5"/>
+  <circle cx="590" cy="168" r="6" fill="#8BC34A" stroke="#558B2F" stroke-width="0.5"/>
+
+  <!-- Kinnikinnick groundcover - right bed -->
+  <rect x="425" y="320" width="220" height="40" fill="#9CCC65" rx="2"/>
+  <text x="535" y="344" text-anchor="middle" font-size="9" fill="#33691E">Kinnikinnick groundcover (native)</text>
+
+  <!-- FOUNDATION STRIP: 2 ft = 40px, y=85 to y=125 -->
+  <rect x="30" y="85" width="280" height="40" fill="#8B6914" rx="2"/>
+  <rect x="390" y="85" width="280" height="40" fill="#8B6914" rx="2"/>
+
+  <!-- Rosemary hedge left -->
+  <rect x="70" y="92" width="200" height="26" fill="#66BB6A" rx="2"/>
+  <text x="170" y="109" text-anchor="middle" font-size="8" fill="#1B5E20">Rosemary hedge (edible, evergreen)</text>
+
+  <!-- Blueberry anchors left -->
+  <circle cx="48" cy="105" r="12" fill="#4CAF50" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="48" y="125" text-anchor="middle" font-size="7" fill="#0D47A1">BB</text>
+
+  <!-- Rosemary hedge right -->
+  <rect x="430" y="92" width="200" height="26" fill="#66BB6A" rx="2"/>
+  <text x="530" y="109" text-anchor="middle" font-size="8" fill="#1B5E20">Rosemary hedge (edible, evergreen)</text>
+
+  <!-- Blueberry anchor right -->
+  <circle cx="652" cy="105" r="12" fill="#4CAF50" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="652" y="125" text-anchor="middle" font-size="7" fill="#0D47A1">BB</text>
+
+  <!-- HOUSE -->
+  <rect x="30" y="50" width="640" height="35" fill="#78909C" stroke="#455A64" stroke-width="1.5"/>
+  <text x="350" y="72" text-anchor="middle" font-size="12" fill="white" font-weight="bold">HOUSE</text>
+  <!-- Front door -->
+  <rect x="335" y="72" width="30" height="13" fill="#5D4037"/>
+  <text x="350" y="82" text-anchor="middle" font-size="7" fill="white">Door</text>
+
+  <!-- Dimension labels -->
+  <line x1="30" y1="545" x2="670" y2="545" stroke="#999" stroke-width="0.5" stroke-dasharray="4,2"/>
+  <text x="350" y="543" text-anchor="middle" font-size="9" fill="#777">← 30 ft →</text>
+  <line x1="685" y1="85" x2="685" y2="385" stroke="#999" stroke-width="0.5" stroke-dasharray="4,2"/>
+  <text x="693" y="240" text-anchor="middle" font-size="9" fill="#777" transform="rotate(90,693,240)">← 15 ft →</text>
+
+  <!-- LEGEND -->
+  <rect x="30" y="460" width="310" height="90" fill="#FAFAFA" stroke="#CCC" stroke-width="1" rx="3"/>
+  <text x="40" y="476" font-size="10" font-weight="bold">Legend</text>
+  <rect x="40" y="482" width="12" height="12" fill="#7CB342"/>
+  <text x="58" y="493" font-size="8">Planting bed</text>
+  <rect x="40" y="498" width="12" height="12" fill="#E0E0E0"/>
+  <text x="58" y="509" font-size="8">Gravel border</text>
+  <rect x="40" y="514" width="12" height="12" fill="#D7CCC8"/>
+  <text x="58" y="525" font-size="8">Walkway (flagstone)</text>
+  <circle cx="166" cy="488" r="6" fill="#4CAF50" stroke="#1565C0" stroke-width="1.5"/>
+  <text x="178" y="491" font-size="8">Blueberry (edible)</text>
+  <circle cx="166" cy="504" r="6" fill="#4CAF50" stroke="#2E7D32" stroke-width="1.5"/>
+  <text x="178" y="508" font-size="8">Serviceberry (edible)</text>
+  <rect x="160" y="516" width="12" height="10" fill="#9CCC65"/>
+  <text x="178" y="525" font-size="8">Groundcover (thyme / kinnikinnick)</text>
+</svg>

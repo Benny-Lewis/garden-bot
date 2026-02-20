@@ -1,0 +1,20 @@
+
+
+`? Insight -------------------------------------`
+The user has approved Option B and wants me to save canonical files. But I realize I'm missing critical context — I never actually created the preview SVGs because I was still waiting for dimensions. Let me re-read the conversation: the user provided structural details (walkway, foundation strip, planting strip) but I asked for overall dimensions, driveway location, sun exposure, zone, and existing plants. They never answered those questions — they jumped to approving "option B."
+
+This means I need to ask for the missing dimensions before I can create any SVGs. The landscape-design skill is explicit: **"If dimensions aren't recorded, ask — don't assume."**
+`-------------------------------------------------`
+
+I appreciate the enthusiasm for Option B! But I need to pause — I haven't actually generated the SVG layouts yet because I'm still missing some critical measurements. Without these, any layout I draw would have invented dimensions.
+
+**I still need before I can draw:**
+
+1. **Overall front yard dimensions** — width along the street × depth from sidewalk to house (even rough estimates like "40 ft wide, 25 ft deep" work)
+2. **Driveway** — is there one? Which side, how wide?
+3. **Sun exposure** — full sun, part shade?
+4. **PNW location** — city or zone (for plant selection)
+
+Once I have these I'll generate two SVG preview options with the details you've described (straight walkway slightly right of center, 2 ft foundation strip, 5 ft planting strip, clean modern PNW native style, stealth edibles) — then you can pick your favorite and I'll save everything.
+
+Saved: none — still need yard dimensions to generate accurate layouts.

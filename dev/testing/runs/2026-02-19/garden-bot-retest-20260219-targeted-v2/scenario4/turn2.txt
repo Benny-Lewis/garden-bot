@@ -1,0 +1,11 @@
+`? Insight -------------------------------------`
+**Iteration discipline in practice:** The skill requires showing a preview before saving, then saving all related files (SVG, area `.md`, log, calendar) after approval. This ensures the visual and text always agree — the area file's zone summary matches what's in the SVG, and the calendar captures the physical tasks needed to make the design real.
+`-------------------------------------------------`
+
+All saved. Here's what was updated:
+
+Saved:
+- `areas/backyard-south-layout.svg` — fire pit east, 2 raised beds west
+- `areas/backyard-south.md` — updated features, zone summary, and key decisions
+- `log/2026-02.md` — appended design revision entry
+- `calendar.md` — added March tasks for moving fire pit and repositioning beds

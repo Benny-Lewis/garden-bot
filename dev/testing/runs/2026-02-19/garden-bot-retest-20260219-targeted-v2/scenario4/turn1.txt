@@ -1,0 +1,15 @@
+`? Insight -------------------------------------`
+**Swapping features in a small yard (20×18 ft):** Moving the fire pit east opens the west side for the 2 remaining raised beds. This actually improves the layout — beds on the west side get better afternoon sun exposure (south-facing yard), and the fire pit on the east side keeps heat and smoke away from the planting area. Reducing from 4 to 2 beds also frees up significant space on that side.
+`-------------------------------------------------`
+
+I've opened the revised preview in Chrome. Here's what changed:
+
+| Feature | Before | After |
+|---------|--------|-------|
+| Fire pit | West side | **East side** |
+| Raised beds | 4 on east side (2×2 grid) | **2 on west side** (stacked) |
+| Seating | Center-south near patio | Center-south near patio (unchanged) |
+
+The 2 raised beds are now vertically stacked on the west side where the fire pit used to be, and the fire pit has moved to the east side where the beds were — freeing up a lot of open space.
+
+Does this look right, or would you like any adjustments before I save it?

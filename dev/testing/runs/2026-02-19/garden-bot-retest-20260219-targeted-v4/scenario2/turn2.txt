@@ -1,0 +1,12 @@
+All recorded. Here's a quick summary of the time-based follow-ups now in your calendar:
+
+| When | Action |
+|------|--------|
+| **Today (Feb 19)** | Remove infected leaves, switch to base watering, mulch bed |
+| **Feb 26** | First copper fungicide application |
+| **March (ongoing)** | Copper spray every 7–10 days; weekly leaf inspections |
+| **2028 season** | Earliest to plant tomatoes/peppers/potatoes in this bed again |
+
+The single biggest thing you can do right now is **stop the overhead evening watering** — that overnight leaf wetness is fueling the fungus more than anything else.
+
+Saved: `plants/tomatoes-2026.md`, `calendar.md`, `log/2026-02.md`

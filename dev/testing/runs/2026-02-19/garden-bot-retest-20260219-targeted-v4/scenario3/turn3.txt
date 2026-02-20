@@ -1,0 +1,11 @@
+Design saved. Here's what's committed:
+
+**Native Tapestry — your approved front yard design** with 8 stealth edible species woven through 4 zones, maintaining a clear sightline to the door via the walkway corridor.
+
+`? Insight -------------------------------------`
+- **Blueberry soil prep is the critical path item.** Portland soil is typically pH 5.5–6.5, but blueberries need 4.5–5.5. Start the soil test now — sulfur takes weeks to lower pH, so February isn't too early.
+- **'Desert King' fig is uniquely suited to Portland** because it fruits on the breba crop (last year's wood), not the main crop. Most fig varieties need a longer, hotter summer than Portland provides. Protect the previous year's growth from hard freezes and you get reliable fruit.
+- **Your immediate action items** are in the calendar: source plants and get a soil test this month, then begin bed prep in March after last frost.
+`-------------------------------------------------`
+
+Saved: front-yard-layout.svg, profile.md, areas/front-yard.md, plants/vine-maple.md, plants/red-flowering-currant.md, plants/salal.md, plants/sword-fern.md, plants/fig-desert-king.md, plants/blueberries.md, plants/creeping-thyme.md, plants/rosemary.md, plants/oregon-grape.md, plants/western-serviceberry.md, plants/carex-pensylvanica.md, calendar.md, log/2026-02.md

@@ -1,0 +1,10 @@
+All follow-ups are recorded. The key takeaway: **the biggest single change you can make is stopping overhead evening watering** — that alone dramatically reduces the leaf wetness hours that fuel this disease.
+
+Your plants should recover fine once you remove the affected leaves and improve conditions. Early blight rarely kills tomato plants outright, especially when caught early like this.
+
+**Sources:**
+- [UMN Extension — Early Blight in Tomato and Potato](https://extension.umn.edu/disease-management/early-blight-tomato-and-potato)
+- [NC State Extension — Early Blight of Tomato](https://content.ces.ncsu.edu/early-blight-of-tomato)
+- [UMD Extension — Early Blight of Tomatoes](https://extension.umd.edu/resource/early-blight-tomatoes)
+
+Saved: `plants/tomatoes-2026.md` (new), `log/2026-02-19.md` (new), `calendar.md` (new)
