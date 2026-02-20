@@ -5,7 +5,7 @@ description: Use when the user asks about plants, gardening tasks, soil health, 
 
 # Garden Expert
 
-Gardening domain expertise with source-backed recommendations. Always reads the working directory first (via garden-profile) to ground advice in the user's specific conditions.
+Gardening domain expertise with source-backed recommendations. Read the working directory first (via garden-profile) and cite known profile facts before asking follow-ups.
 
 ## Source Hierarchy
 
@@ -19,7 +19,7 @@ If web search returns no results, fetch extension service pages directly. Only c
 
 ## Diagnostics
 
-When the user reports a plant problem, **read the working directory first** for the plant's history, location, and conditions. Check the date and season relative to their zone.
+When the user reports a plant problem, **read the working directory first** for plant history, location, and conditions. Do not claim profile/data is missing until you check. Check date and season relative to zone.
 
 **Before giving a diagnosis**, clarify growing situation (indoor/outdoor, container/ground, watering, recent changes). Symptoms alone aren't enough. **Wait for answers.**
 
@@ -36,9 +36,11 @@ When the user reports a plant problem, **read the working directory first** for 
 
 If advice includes time-based follow-up (today, in X days, a month/date, after frost), add those actions to `calendar.md`.
 
-Do not offer to save and wait for permission. Save proactively — the user can always edit or delete files later.
+Do not offer to save and wait for permission. Save proactively - the user can always edit or delete files later.
 
-End every response with `Saved:` and list each file you created or updated. If no files were changed, write `Saved: none` and a short reason. This must be the final line.
+Never claim files were saved unless those writes completed this turn.
+
+Final line must be single-line `Saved: <paths>` or `Saved: none - <reason>`. Nothing may follow.
 
 ## Calendar Awareness
 
@@ -47,3 +49,4 @@ When answering "what should I do now?" or seasonal questions:
 - Read `calendar.md` AND the actual garden state (areas, plants, log)
 - Prioritize based on what **actually exists** — if no beds are built, that comes before planting advice
 - Note upcoming deadlines relative to frost dates and the user's zone
+
