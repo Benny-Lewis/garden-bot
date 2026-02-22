@@ -1,0 +1,14 @@
+﻿`★ Insight ─────────────────────────────────────`
+**Preview-then-commit workflow**: The skill enforces a two-phase save — preview SVGs use `-option-a`/`-option-b` suffixes and are never written to the canonical `-layout.svg` path until approved. This prevents accidental overwrites of a working design during iteration. After approval, preview files get cleaned up so the `areas/` folder stays tidy.
+
+**Append-only log discipline**: The log file only gets new entries appended — previous entries are never edited or reordered. This preserves a reliable audit trail of design decisions over time.
+`─────────────────────────────────────────────────`
+
+Design saved. Here's what was updated:
+
+- **Layout SVG** — fire pit moved to east, 2 beds on west, seating centered near patio
+- **Area file** — zone summary and key decisions updated to reflect the swap
+- **Log** — recorded the revision with date
+- **Calendar** — added March tasks for physically moving the fire pit and relocating the beds
+
+Saved: areas/backyard-south-layout.svg, areas/backyard-south.md, log/2026-02.md, calendar.md

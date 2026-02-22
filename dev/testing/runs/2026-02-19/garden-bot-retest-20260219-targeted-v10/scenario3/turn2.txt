@@ -1,0 +1,55 @@
+﻿Both layouts are open in Chrome. Here's the comparison:
+
+---
+
+## Option A — Structured Symmetry
+
+**Concept:** Mirrored beds flanking the walkway, clean lines, lawn retained between beds and sidewalk.
+
+| Zone | Plants |
+|------|--------|
+| **Left bed** (13×6 ft) | 2 blueberries, rosemary, lavender, strawberry groundcover edge |
+| **Right bed** (9×6 ft) | 1 blueberry, echinacea, salvia, strawberry groundcover edge |
+| **Foundation strip** | Thyme + oregano carpet |
+| **Planting strip** | 3× Karl Foerster feather reed grass |
+
+**Stealth edibles:** Blueberries (3), rosemary, strawberry groundcover, thyme, oregano
+
+**Tradeoffs:**
+- **Pro:** Tidy, predictable, easy to maintain. Strong curb appeal — reads "intentional."
+- **Pro:** Lawn retained for open feel.
+- **Con:** Less food production. Less PNW-native character (Karl Foerster is Eurasian).
+- **Con:** Symmetric can feel stiff in a PNW context.
+
+---
+
+## Option B — Asymmetric Drift
+
+**Concept:** Larger sweeping left bed anchored by a dwarf fig, smaller right accent bed. Decomposed granite replaces lawn. More strongly PNW native.
+
+| Zone | Plants |
+|------|--------|
+| **Left main bed** (14×7 ft) | Dwarf fig 'Petite Negra', 3 blueberries, rosemary, kinnikinnick + alpine strawberry groundcover |
+| **Right accent bed** (10×5.5 ft) | Oregon grape, salal, heuchera |
+| **Foundation strip** | Thyme + creeping rosemary (left), oregano + chives (right) |
+| **Planting strip** | Deschampsia + Carex oshimensis (true PNW natives) |
+
+**Stealth edibles:** Dwarf fig, blueberries (3), Oregon grape, salal, rosemary, alpine strawberry, thyme, oregano, chives
+
+**Tradeoffs:**
+- **Pro:** Higher food yield (fig + native berries). More authentically PNW.
+- **Pro:** Decomposed granite = zero lawn maintenance, modern feel.
+- **Con:** Asymmetry is bolder — some HOAs/neighbors may prefer traditional.
+- **Con:** Fig needs winter protection in some 8b years (fleece wrap).
+
+---
+
+`★ Insight ─────────────────────────────────────`
+- **Oregon grape** (Mahonia aquifolium) is Oregon's state flower and produces tart edible berries — perfect stealth edible that reads as a native ornamental shrub.
+- **Decomposed granite** (Option B) is a signature PNW modern material — permeable, low-maintenance, and provides clean contrast against green plantings.
+- Both options use the **foundation strip for herbs** — this 2 ft zone is often wasted but gets full reflected heat from the house wall, making it ideal for Mediterranean herbs.
+`─────────────────────────────────────────────────`
+
+Which option do you prefer, or would you like to mix elements from both? Once you approve a direction, I'll save the canonical layout and all plant/calendar/log files.
+
+Saved: none - awaiting user input

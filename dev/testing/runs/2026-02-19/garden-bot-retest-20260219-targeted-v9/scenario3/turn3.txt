@@ -1,0 +1,28 @@
+﻿Design approved and all canonical files saved. Here's what was committed:
+
+**Layout:** `areas/front-yard-layout.svg` — Structured Modern design with geometric beds, gravel mulch, and basalt accents.
+
+**Area file:** `areas/front-yard.md` — Updated with full design section including zone summary, key decisions, and optional ideas.
+
+**8 plant files created:**
+| Plant | File | Stealth Role |
+|-------|------|-------------|
+| Evergreen huckleberry (8) | `plants/evergreen-huckleberry.md` | Foundation hedge → berries |
+| Blueberry 'Duke' | `plants/blueberry-duke.md` | Sculptural shrub → June fruit |
+| Blueberry 'Pink Lemonade' | `plants/blueberry-pink-lemonade.md` | Ornamental → July pink fruit |
+| Blueberry 'Sunshine Blue' | `plants/blueberry-sunshine-blue.md` | Compact evergreen → Aug fruit |
+| Rosemary standards (2) | `plants/rosemary.md` | Topiary → culinary herb |
+| Lavender 'Hidcote' (6) | `plants/lavender-hidcote.md` | Fragrant border → culinary |
+| Mahonia gracilis (5) | `plants/mahonia-gracilis.md` | Native hedge → edible berries |
+| Deschampsia cespitosa (15) | `plants/deschampsia-cespitosa.md` | Curb strip grass (native) |
+
+**Calendar:** 13 scheduled tasks from March ordering through October fall assessment.
+
+**Log:** Design session recorded in `log/2026-02.md`.
+
+`★ Insight ─────────────────────────────────────`
+- The timeline targets **mid-April planting** which is ideal for Portland Zone 8b — after last frost risk (~April 10) but early enough for plants to establish root systems before summer dry season.
+- **Ordering by March 15** is important because specialty items like rosemary standards and 'Pink Lemonade' blueberries can sell out at PNW nurseries. Portland Nursery, Cistus, and Xera Plants are good local sources for the native species.
+`─────────────────────────────────────────────────`
+
+Saved: areas/front-yard-layout.svg, areas/front-yard.md, plants/evergreen-huckleberry.md, plants/blueberry-duke.md, plants/blueberry-pink-lemonade.md, plants/blueberry-sunshine-blue.md, plants/rosemary.md, plants/lavender-hidcote.md, plants/mahonia-gracilis.md, plants/deschampsia-cespitosa.md, calendar.md, log/2026-02.md

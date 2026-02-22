@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <rect x="0" y="0" width="800" height="560" fill="#f6f3ea" />
+  <rect x="40" y="60" width="720" height="440" fill="none" stroke="#333" stroke-width="2" />
+  <text x="50" y="40" font-size="15" font-weight="bold" fill="#111">Backyard South Layout (20×18 ft)</text>
+
+  <!-- Orientation labels -->
+  <text x="370" y="80" font-size="12" fill="#666">N (Lawn)</text>
+  <text x="370" y="515" font-size="12" fill="#666">S (Patio)</text>
+  <text x="48" y="290" font-size="12" fill="#666">W</text>
+  <text x="740" y="290" font-size="12" fill="#666">E</text>
+
+  <!-- 2 Raised beds — west side -->
+  <rect x="110" y="160" width="100" height="70" fill="#8b5a2b" stroke="#333" stroke-width="1.5" />
+  <text x="123" y="200" font-size="12" fill="#fff">Bed 1 (4×3)</text>
+  <rect x="110" y="270" width="100" height="70" fill="#8b5a2b" stroke="#333" stroke-width="1.5" />
+  <text x="123" y="310" font-size="12" fill="#fff">Bed 2 (4×3)</text>
+
+  <!-- Fire pit — east side -->
+  <circle cx="620" cy="250" r="55" fill="#9e9e9e" stroke="#333" stroke-width="1.5" />
+  <text x="588" y="255" font-size="13" fill="#111">Fire Pit</text>
+
+  <!-- Seating — near patio, centered -->
+  <rect x="290" y="380" width="180" height="70" fill="#d0d0d0" stroke="#333" stroke-width="1.5" />
+  <text x="330" y="422" font-size="13" fill="#111">Seating</text>
+
+  <!-- Scale reference -->
+  <line x1="40" y1="535" x2="760" y2="535" stroke="#333" />
+  <text x="45" y="552" font-size="11" fill="#111">Scale: plot width = 20 ft | plot height = 18 ft</text>
+
+  <!-- Legend -->
+  <rect x="570" y="440" width="14" height="14" fill="#8b5a2b" stroke="#333" />
+  <text x="590" y="452" font-size="11" fill="#111">Raised bed</text>
+  <circle cx="577" cy="470" r="7" fill="#9e9e9e" stroke="#333" />
+  <text x="590" y="474" font-size="11" fill="#111">Fire pit</text>
+  <rect x="570" y="482" width="14" height="14" fill="#d0d0d0" stroke="#333" />
+  <text x="590" y="494" font-size="11" fill="#111">Seating</text>
+</svg>

@@ -1,0 +1,26 @@
+﻿`★ Insight ─────────────────────────────────────`
+- **Stealth edible count:** 9 out of 13 plant species in this design are edible — dwarf fig, blueberry, rosemary, Oregon grape, salal, alpine strawberry, thyme, oregano, chives. Yet the front yard reads as a polished modern landscape, not a food garden.
+- **Three-season edible harvest:** Herbs year-round → strawberries June–frost → blueberries June–Sept → Oregon grape/salal July–Aug → figs Aug–Sept. The calendar tasks are timed so you're planting in early April when Portland's last frost risk is past.
+- **Foundation strip microclimate:** That 2 ft strip against a south-facing house wall is a heat trap — reflected warmth makes it behave more like Zone 9 for Mediterranean herbs. It's often the most underused planting space in a front yard.
+`─────────────────────────────────────────────────`
+
+Design is saved. Here's everything that was written:
+
+| File | What |
+|------|------|
+| `areas/front-yard-layout.svg` | Canonical layout visual |
+| `areas/front-yard.md` | Updated area file with design section, zone summary, key decisions |
+| `plants/dwarf-fig.md` | Dwarf fig 'Petite Negra' |
+| `plants/blueberry.md` | Blueberry trio |
+| `plants/rosemary.md` | Rosemary (upright + creeping) |
+| `plants/oregon-grape.md` | Oregon grape |
+| `plants/salal.md` | Salal |
+| `plants/alpine-strawberry.md` | Alpine strawberry |
+| `plants/heuchera.md` | Heuchera |
+| `plants/thyme.md` | Thyme |
+| `plants/oregano.md` | Oregano |
+| `plants/chives.md` | Chives |
+| `calendar.md` | Planting schedule March–December 2026 |
+| `log/2026-02.md` | Design session entry |
+
+Saved: areas/front-yard-layout.svg, areas/front-yard.md, plants/dwarf-fig.md, plants/blueberry.md, plants/rosemary.md, plants/oregon-grape.md, plants/salal.md, plants/alpine-strawberry.md, plants/heuchera.md, plants/thyme.md, plants/oregano.md, plants/chives.md, calendar.md, log/2026-02.md

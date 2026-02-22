@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300">
+  <title>Side Yard Option A — Stroll Path</title>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="720" height="300" fill="#f5f2eb"/>
+
+  <!-- Title -->
+  <text x="360" y="22" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#333">Option A — Stroll Path (24 × 8 ft, East–West)</text>
+
+  <!-- Compass -->
+  <text x="680" y="55" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">N ↑</text>
+  <line x1="680" y1="58" x2="680" y2="72" stroke="#555" stroke-width="1"/>
+  <text x="680" y="82" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">S</text>
+
+  <!-- Scale bar -->
+  <line x1="20" y1="290" x2="140" y2="290" stroke="#333" stroke-width="2"/>
+  <line x1="20" y1="285" x2="20" y2="295" stroke="#333" stroke-width="2"/>
+  <line x1="140" y1="285" x2="140" y2="295" stroke="#333" stroke-width="2"/>
+  <text x="80" y="283" text-anchor="middle" font-family="Arial" font-size="9" fill="#333">4 ft</text>
+
+  <!-- Area outline 24x8 mapped to 600x200 at offset (60,40) -->
+  <rect x="60" y="40" width="600" height="200" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="6,3"/>
+
+  <!-- North fence -->
+  <rect x="60" y="38" width="600" height="6" fill="#8B7355" opacity="0.7"/>
+  <text x="360" y="35" text-anchor="middle" font-family="Arial" font-size="9" fill="#8B7355">── North Fence ──</text>
+
+  <!-- ZONE 1: Entry grove (east end, 0-6 ft = 0-150px) -->
+  <!-- Vine maple canopy -->
+  <circle cx="135" cy="90" r="45" fill="#5B8C3E" opacity="0.35"/>
+  <text x="135" y="93" text-anchor="middle" font-family="Arial" font-size="9" fill="#2d5016">Vine</text>
+  <text x="135" y="103" text-anchor="middle" font-family="Arial" font-size="9" fill="#2d5016">Maple</text>
+  <!-- Sword fern mass under maple -->
+  <circle cx="100" cy="130" r="22" fill="#4a7a2e" opacity="0.4"/>
+  <text x="100" y="133" text-anchor="middle" font-family="Arial" font-size="8" fill="#2d5016">Sword</text>
+  <text x="100" y="142" text-anchor="middle" font-family="Arial" font-size="8" fill="#2d5016">Fern</text>
+
+  <!-- ZONE 2: Stepping stone path (meander through full length) -->
+  <!-- Stones: irregular spacing, offset from center -->
+  <rect x="155" y="170" width="28" height="22" rx="6" fill="#a0a0a0" opacity="0.7"/>
+  <rect x="205" y="145" width="28" height="22" rx="6" fill="#a0a0a0" opacity="0.7"/>
+  <rect x="265" y="155" width="28" height="22" rx="6" fill="#a0a0a0" opacity="0.7"/>
+  <rect x="325" y="135" width="28" height="22" rx="6" fill="#a0a0a0" opacity="0.7"/>
+  <rect x="385" y="155" width="28" height="22" rx="6" fill="#a0a0a0" opacity="0.7"/>
+  <rect x="440" y="140" width="28" height="22" rx="6" fill="#a0a0a0" opacity="0.7"/>
+  <rect x="505" y="160" width="28" height="22" rx="6" fill="#a0a0a0" opacity="0.7"/>
+  <rect x="565" y="145" width="28" height="22" rx="6" fill="#a0a0a0" opacity="0.7"/>
+  <!-- Moss/ground cover between stones -->
+  <rect x="60" y="200" width="600" height="40" fill="#6b8e4e" opacity="0.15"/>
+  <text x="360" y="228" text-anchor="middle" font-family="Arial" font-size="8" fill="#4a6b30">── Moss &amp; Native Ground Cover (Bunchberry, Wild Ginger) ──</text>
+
+  <!-- ZONE 3: Fern & shrub border along north fence -->
+  <rect x="175" y="48" width="100" height="45" rx="8" fill="#3d7a1e" opacity="0.25"/>
+  <text x="225" y="73" text-anchor="middle" font-family="Arial" font-size="8" fill="#2d5016">Oregon Grape</text>
+  <rect x="300" y="48" width="80" height="40" rx="8" fill="#4a7a2e" opacity="0.25"/>
+  <text x="340" y="72" text-anchor="middle" font-family="Arial" font-size="8" fill="#2d5016">Deer Fern</text>
+  <rect x="410" y="48" width="90" height="45" rx="8" fill="#3d7a1e" opacity="0.25"/>
+  <text x="455" y="73" text-anchor="middle" font-family="Arial" font-size="8" fill="#2d5016">Salal</text>
+
+  <!-- ZONE 4: Accent stone grouping (mid-corridor, off-path) -->
+  <circle cx="350" cy="100" r="12" fill="#7a7a7a" opacity="0.5"/>
+  <circle cx="370" cy="108" r="8" fill="#8a8a8a" opacity="0.5"/>
+  <text x="360" y="85" text-anchor="middle" font-family="Arial" font-size="8" fill="#555">Stone Group</text>
+
+  <!-- ZONE 5: Exit planting (west end, 18-24 ft = 450-600px) -->
+  <circle cx="590" cy="85" r="35" fill="#5B8C3E" opacity="0.3"/>
+  <text x="590" y="83" text-anchor="middle" font-family="Arial" font-size="9" fill="#2d5016">Red</text>
+  <text x="590" y="93" text-anchor="middle" font-family="Arial" font-size="9" fill="#2d5016">Huckleberry</text>
+  <circle cx="625" cy="140" r="20" fill="#4a7a2e" opacity="0.35"/>
+  <text x="625" y="143" text-anchor="middle" font-family="Arial" font-size="8" fill="#2d5016">Sword</text>
+  <text x="625" y="152" text-anchor="middle" font-family="Arial" font-size="8" fill="#2d5016">Fern</text>
+
+  <!-- Entry/exit labels -->
+  <text x="68" y="195" font-family="Arial" font-size="10" fill="#c44" font-weight="bold">→ East Entry</text>
+  <text x="590" y="200" text-anchor="end" font-family="Arial" font-size="10" fill="#c44" font-weight="bold">West Exit ←</text>
+
+  <!-- Legend -->
+  <rect x="60" y="250" width="600" height="40" fill="#fff" opacity="0.6" rx="4"/>
+  <circle cx="85" cy="270" r="7" fill="#5B8C3E" opacity="0.4"/>
+  <text x="96" y="273" font-family="Arial" font-size="9" fill="#333">Trees/Shrubs</text>
+  <rect x="170" y="263" width="14" height="14" rx="3" fill="#a0a0a0" opacity="0.7"/>
+  <text x="188" y="273" font-family="Arial" font-size="9" fill="#333">Stepping Stones</text>
+  <circle cx="285" cy="270" r="7" fill="#7a7a7a" opacity="0.5"/>
+  <text x="296" y="273" font-family="Arial" font-size="9" fill="#333">Accent Stone</text>
+  <rect x="380" y="263" width="14" height="14" rx="3" fill="#4a7a2e" opacity="0.3"/>
+  <text x="398" y="273" font-family="Arial" font-size="9" fill="#333">Ferns/Groundcover</text>
+  <rect x="500" y="263" width="14" height="14" rx="3" fill="#6b8e4e" opacity="0.2"/>
+  <text x="518" y="273" font-family="Arial" font-size="9" fill="#333">Moss Ground Plane</text>
+</svg>

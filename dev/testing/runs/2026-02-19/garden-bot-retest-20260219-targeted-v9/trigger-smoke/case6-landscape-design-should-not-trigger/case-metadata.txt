@@ -1,0 +1,3 @@
+Skill under test: landscape-design
+Expectation: not-trigger
+Prompt: Record today's watering and fertilizer notes in my log.

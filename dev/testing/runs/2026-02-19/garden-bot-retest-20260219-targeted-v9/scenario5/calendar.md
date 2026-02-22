@@ -1,0 +1,11 @@
+﻿# Calendar
+- 2026-03-01: Source stone triad and tsukubai basin for side yard dry garden.
+- 2026-03-01: Order crushed gravel for side yard path and raked gravel panel.
+- 2026-03-15: Install gravel path and raked gravel panel in side yard.
+- 2026-03-15: Place stone triad and tsukubai in dry garden area.
+- 2026-03-15: Install stone bench under vine maple location.
+- 2026-04-01: Plant vine maple in west-center alcove.
+- 2026-04-01: Plant Oregon grape screen at east entry.
+- 2026-04-01: Plant sword fern, salal, deer fern, and wild ginger in designated zones.
+- 2026-04-15: Transplant or establish moss mounds in raked gravel panel.
+- 2026-05-01: Evaluate establishment; first fill of tsukubai.

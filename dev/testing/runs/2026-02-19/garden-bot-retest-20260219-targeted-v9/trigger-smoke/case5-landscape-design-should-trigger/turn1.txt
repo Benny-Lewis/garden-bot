@@ -1,0 +1,55 @@
+Both layouts are open in Chrome. Here's a comparison:
+
+---
+
+## Option A: Cottage Garden
+
+A lush, romantic design that maximizes flowers and color throughout the seasons.
+
+| Zone | Plants | Purpose |
+|------|--------|---------|
+| **Mixed Perennial Bed** (NW) | Lavender, Salvia, Echinacea, Catmint, Geranium | Year-round color and pollinator habitat |
+| **Rose Garden** (NE, expanded) | Existing roses + David Austin, with Nepeta & Alchemilla | Preserves your roses and adds companions that suppress leaf spot |
+| **Low Border** (SW) | Boxwood edging, Heuchera, seasonal annuals | Clean street-facing edge with swappable color |
+| **Cottage Mix** (SE) | Peonies, Foxglove, Delphiniums, Hollyhocks, Sweet peas | Tall, dramatic cottage backdrop |
+| **Accent Lawn** (center-west) | Small turf panel | Visual breathing room |
+
+**Walkway:** Gently curving path from sidewalk to door — informal, inviting feel.
+
+---
+
+## Option B: Modern PNW Native
+
+A lower-maintenance, ecologically focused design using Pacific Northwest natives with clean geometry.
+
+| Zone | Plants | Purpose |
+|------|--------|---------|
+| **Native Shrub Bed** (NW) | Oregon grape, Red huckleberry, Kinnikinnick | Evergreen structure, wildlife food |
+| **Native Meadow Strip** (W-center) | Festuca, Camas, Yarrow | Seasonal wildflower interest, no-mow |
+| **Rain Garden** (SW) | Juncus, Carex, Iris tenax | Manages clay soil runoff naturally |
+| **Roses (structured)** (NE) | Existing roses with gravel mulch border | Preserved in a clean, modern frame |
+| **Native Grass Panel** (E-center) | Deschampsia, Festuca idahoensis | Textural movement, drought-tolerant |
+| **Fern + Boulder** (SE) | Sword fern, Deer fern, basalt accent | PNW woodland feel, year-round green |
+
+**Walkway:** Wide 4 ft flagstone — clean, welcoming, modern.
+
+---
+
+## Tradeoffs
+
+| Factor | Option A: Cottage | Option B: Modern Native |
+|--------|-------------------|------------------------|
+| **Maintenance** | Higher — deadheading, seasonal replanting, more watering | Lower — natives are adapted to Portland climate |
+| **Water use** | Moderate — perennials need summer irrigation | Low — natives + rain garden reduce irrigation needs |
+| **Curb appeal** | Lush, colorful, traditional charm | Clean, contemporary, "Portland natural" aesthetic |
+| **Wildlife** | Good pollinator support | Excellent — full native food web |
+| **Clay soil fit** | OK with amendments | Excellent — natives thrive in clay loam |
+| **Cost** | Moderate — many perennial varieties | Lower plant cost, but flagstone + boulders add hardscape cost |
+
+`? Insight -------------------------------------`
+The rain garden in Option B is particularly well-suited to your clay loam — clay's slow drainage causes runoff, and a bioswale captures that water and lets it infiltrate gradually. In Portland's rainy winters, this can meaningfully reduce erosion and standing water near the walkway.
+`-------------------------------------------------`
+
+Which option speaks to you, or would you like to mix elements from both? Once you approve a direction, I'll save the canonical layout and update your garden files.
+
+Saved: none - awaiting user input

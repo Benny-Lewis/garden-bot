@@ -1,0 +1,11 @@
+﻿`★ Insight ─────────────────────────────────────`
+The skill's **preview-vs-canonical gating** is a key safety pattern: preview SVGs go into `areas/` with `-option-a` suffixes during iteration, while canonical files (`-layout.svg`, area `.md`, `log/`, `calendar.md`) are only written after explicit approval. This prevents half-baked designs from overwriting committed state. The log file is append-only — new entries are added at the end, never reordering or editing previous entries — preserving a reliable audit trail.
+`─────────────────────────────────────────────────`
+
+Design saved. Here's what was updated:
+
+- **Layout SVG** — fire pit now east, 2 raised beds on west
+- **Area file** — updated zone summary and key decisions documenting the changes and rationale
+- **Log** — appended the revision entry for today
+
+Saved: areas/backyard-south-layout.svg, areas/backyard-south.md, log/2026-02.md

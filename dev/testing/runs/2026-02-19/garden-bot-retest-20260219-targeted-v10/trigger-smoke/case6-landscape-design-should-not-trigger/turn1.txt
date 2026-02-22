@@ -1,0 +1,7 @@
+I can see your garden profile and existing log. Before I record the entry, I need a few details:
+
+1. **What did you water?** (specific areas like front yard, backyard, or specific plants like the roses?)
+2. **What fertilizer did you apply?** (type/brand, ratio like 10-10-10, and where you applied it?)
+3. **Any amounts or other notes?** (how long you watered, how much fertilizer, etc.)
+
+Saved: none - awaiting user input

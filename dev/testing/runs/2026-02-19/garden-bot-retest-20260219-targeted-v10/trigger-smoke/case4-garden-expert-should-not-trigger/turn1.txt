@@ -1,0 +1,19 @@
+`? Insight -------------------------------------`
+The landscape-design skill requires me to **read existing files first** and **never assume dimensions**. Your backyard file already has dimensions (40x30 ft), so that's covered. But the skill also says I should ask rather than assume what goes in the space.
+`-------------------------------------------------`
+
+Great — I found your existing garden data:
+
+- **Location:** Portland, OR (Zone 8b, clay loam)
+- **Backyard:** 40x30 ft, mixed sun, existing patio and lawn
+
+Before I create layout options, I need a few details about your entertaining vision:
+
+1. **What features do you want?** For example: dining table area, fire pit, grill/outdoor kitchen, seating lounge, string lights, planting borders, water feature, etc.
+2. **Where is the existing patio?** (e.g., against the house along the 40 ft side? a corner?)
+3. **Any style preference?** (e.g., modern/clean, cozy/rustic, PNW native plantings)
+4. **Budget-sensitive constraints?** (e.g., keep existing patio hardscape, no new concrete)
+
+I'll then create two SVG layout options with tradeoffs for you to compare.
+
+Saved: none - awaiting user input

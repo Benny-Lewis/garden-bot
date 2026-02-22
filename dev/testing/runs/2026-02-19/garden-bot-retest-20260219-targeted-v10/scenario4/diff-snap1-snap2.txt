@@ -1,0 +1,3 @@
+﻿MODIFIED	areas\backyard-south.md
+MODIFIED	areas\backyard-south-layout.svg
+MODIFIED	log\2026-02.md

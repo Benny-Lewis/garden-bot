@@ -1,0 +1,15 @@
+`? Insight -------------------------------------`
+**Progressive infrastructure** — the garden-profile skill creates files incrementally as new data arrives. Rather than requiring a full garden inventory upfront, recording the blueberries created a new `plants/blueberries.md` file alongside updates to the existing log and calendar. This keeps the barrier to entry low while building a richer data set over time.
+
+**Zone 8b + blueberries** — Portland's zone 8b is excellent for blueberries. Late February is a solid planting window since the bushes are still dormant and can establish roots before spring growth. Blueberries do prefer acidic soil (pH 4.5–5.5), so with your clay loam you may want to amend with sulfur or peat moss — something to keep in mind.
+`-------------------------------------------------`
+
+Recorded your two blueberry bushes across three files:
+
+- **plants/blueberries.md** — new plant file with quantity, planting date, and site conditions
+- **log/2026-02.md** — appended today's planting entry
+- **calendar.md** — noted the planting date
+
+If you let me know which area (backyard, front yard, etc.) you planted them in, I can link them to the right area file too.
+
+Saved: plants/blueberries.md, log/2026-02.md, calendar.md

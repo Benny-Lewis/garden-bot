@@ -1,0 +1,19 @@
+﻿`★ Insight ─────────────────────────────────────`
+The Woodland Corridor design works so well here because it solves the core tension in a narrow side yard: **movement vs. planting**. The offset DG curve creates a sense of depth that a straight path can't — a Japanese garden technique called *nobedan* (staggered path) adapted to casual Western materials. The three-layer structure (tall fence screen → path → low groundcover) compresses a forest edge into 8 feet of width.
+`─────────────────────────────────────────────────`
+
+All canonical files are saved. The layout is open in Chrome. Here's what was written:
+
+| File | Content |
+|------|---------|
+| `areas/side-yard-layout.svg` | Canonical Woodland Corridor layout |
+| `areas/side-yard.md` | Updated with design section, zone summary, key decisions, optional ideas |
+| `plants/sword-fern.md` | Polystichum munitum — north bed west |
+| `plants/red-huckleberry.md` | Vaccinium parvifolium — north bed east |
+| `plants/kinnikinnick.md` | Arctostaphylos uva-ursi — south groundcover west |
+| `plants/low-oregon-grape.md` | Mahonia nervosa — south groundcover east |
+| `plants/vine-maple.md` | Acer circinatum — east end specimen |
+| `calendar.md` | 7 action items: sourcing (Mar), install (Apr), vine maple (Oct) |
+| `log/2026-02.md` | Design approval entry appended |
+
+Saved: areas/side-yard-layout.svg, areas/side-yard.md, plants/sword-fern.md, plants/red-huckleberry.md, plants/kinnikinnick.md, plants/low-oregon-grape.md, plants/vine-maple.md, calendar.md, log/2026-02.md

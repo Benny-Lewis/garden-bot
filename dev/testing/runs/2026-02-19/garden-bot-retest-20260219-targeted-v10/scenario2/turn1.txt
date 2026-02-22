@@ -1,0 +1,21 @@
+﻿Good news — I found your existing garden profile. Here's what I know so far:
+
+- **Location:** Portland, OR (Zone 8b, last frost ~Apr 15)
+- **Tomatoes:** 12 mixed slicer seedlings, transplanted to the south raised bed on **Feb 18** — just 3 days ago
+- **Soil:** Clay loam
+- **Sun:** Full sun in the south half of the backyard
+
+`★ Insight ─────────────────────────────────────`
+The symptom you describe — **yellow lower leaves with dark brown concentric (bull's-eye) spots** — is a classic presentation of **Early Blight** (*Alternaria solani*). But accurate diagnosis depends on the growing conditions, not just symptoms. Several issues can mimic this pattern, including cold stress and transplant shock, which matters here because your transplant date (Feb 18) is about **8 weeks before your last frost** — quite early for outdoor tomatoes in 8b.
+`─────────────────────────────────────────────────`
+
+Before I give you a definitive diagnosis and treatment plan, I need to clarify a few things about the growing situation:
+
+1. **Are the seedlings protected?** Row cover, cold frame, hoop house, or fully exposed outdoors?
+2. **Watering:** How often and how much have you been watering since transplant?
+3. **Were the seedlings hardened off** (gradually acclimated to outdoor conditions) before transplanting, or did they go straight from indoors to the bed?
+4. **How many plants are affected**, and is the spotting only on the very lowest leaves, or spreading upward?
+
+These details will help me distinguish between Early Blight (fungal), cold/transplant stress, or a nutrient issue — the treatment is very different for each.
+
+Saved: none - awaiting user input

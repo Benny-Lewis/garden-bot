@@ -1,0 +1,4 @@
+Status: FAIL
+Reason: final-line-not-saved-contract
+FinalNonEmptyLine: If you'd like a specific diagnosis for your roses — including a treatment plan tailored to your region and growing conditions — feel free to share photos or describe the symptoms in more detail and I can use the garden-expert skill for a thorough workup.
+Rule: final non-empty line must be Saved: <paths> or Saved: none - <reason>

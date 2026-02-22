@@ -1,0 +1,24 @@
+
+
+`? Insight -------------------------------------`
+This is a straightforward gardening knowledge question. The `garden-expert` skill is designed for plant problem diagnosis, so let me invoke it to provide a grounded answer.
+`-------------------------------------------------`
+
+Several fungal diseases cause leaf spots on roses, with the most common being:
+
+**Black spot (*Diplocarpon rosae*)** — The most prevalent rose leaf disease. It produces circular black spots (often with fringed margins) on upper leaf surfaces. Leaves yellow and drop prematurely. It thrives in warm, humid conditions with wet foliage.
+
+**Cercospora leaf spot (*Cercospora rosicola*)** — Produces smaller, darker spots, sometimes with a purplish halo.
+
+**Anthracnose (*Sphaceloma rosarum*)** — Causes dark, sunken spots on leaves and canes, often with gray centers.
+
+**Septoria leaf spot** — Less common, produces small spots with dark borders and lighter centers.
+
+**Black spot** is by far the most frequent culprit. Management basics:
+
+- Water at the base (avoid wetting foliage)
+- Improve air circulation through pruning
+- Remove and dispose of fallen leaves (the fungus overwinters on debris)
+- Fungicide sprays (neem oil, copper-based, or chlorothalonil) applied preventively
+
+If you'd like a specific diagnosis for your roses — including a treatment plan tailored to your region and growing conditions — feel free to share photos or describe the symptoms in more detail and I can use the garden-expert skill for a thorough workup.

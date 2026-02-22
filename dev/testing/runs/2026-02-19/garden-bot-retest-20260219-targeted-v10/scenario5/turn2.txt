@@ -1,0 +1,51 @@
+﻿Both layouts should now be open in Chrome. Here's the comparison, with your **low maintenance** priority highlighted:
+
+---
+
+## Option A: Moss Garden Path (Japanese-Leaning)
+
+| Zone | Plants / Materials |
+|------|-------------------|
+| **North bed** (along fence) | Sword fern + cloud-pruned vine maple |
+| **Ground plane** | Moss carpet with irregular basalt stepping stones |
+| **South bed** | Low Oregon grape (west half) + kinnikinnick (east half) |
+| **West entry** | Basalt boulder grouping |
+| **East accent** | Stone lantern |
+
+**Character:** Meditative, formal. Stepping stones slow the pace. Cloud-pruned vine maple is the signature Japanese element.
+
+---
+
+## Option B: Woodland Corridor (PNW-Leaning)
+
+| Zone | Plants / Materials |
+|------|-------------------|
+| **North bed** (along fence) | Sword fern mass (west) + red huckleberry screen (east) |
+| **Path** | Decomposed granite, gentle curve |
+| **South bed** | Kinnikinnick → moss patches → low Oregon grape |
+| **Accents** | Nurse log (mid-corridor) + vine maple specimen (east) |
+
+**Character:** Loose, naturalistic forest-floor feel. DG path is easy-care and drains well.
+
+---
+
+## Tradeoffs — with Low Maintenance Lens
+
+| Factor | Option A (Moss Path) | Option B (Woodland) |
+|--------|---------------------|---------------------|
+| **Maintenance** | **Higher** — moss needs consistent moisture + weeding; cloud pruning is annual skilled work | **Lower** — DG path self-drains, groundcovers fill in, vine maple grows naturally |
+| **Japanese feel** | Strong — stone lantern, stepping stones, cloud pruning | Subtler — vine maple form, asymmetric nurse-log accent |
+| **PNW native feel** | Present but restrained | Dominant — huckleberry, nurse log, DG |
+| **Winter screening** | High — all evergreen along fence | Mixed — huckleberry is deciduous |
+| **Path usability** | Stepping stones (deliberate, uneven footing) | DG gravel (even, cart/wheelbarrow friendly) |
+| **Summer resilience** | Moss risks browning in dry spells | DG + tough groundcovers handle drought fine |
+
+`★ Insight ─────────────────────────────────────`
+- **Moss vs. DG is the pivotal choice.** Portland's wet winters grow moss beautifully, but increasingly hot summers stress it. If low maintenance is a priority, DG with *patches* of moss (Option B's approach) gives you the look without full commitment.
+- **Cloud pruning (Option A) is beautiful but ongoing work** — you'd prune 1-2x/year to maintain the sculptural form. An unpruned vine maple (Option B) is equally striking in a more natural way, and zero effort.
+- **You can mix elements.** Option B's DG path + Option A's stone lantern and boulder grouping would give you Japanese accents on a low-maintenance PNW backbone.
+`─────────────────────────────────────────────────`
+
+No canonical files have been touched — only these two preview SVGs exist under `areas/`. **Which direction appeals to you, or would you like a hybrid?**
+
+Saved: none - awaiting user input

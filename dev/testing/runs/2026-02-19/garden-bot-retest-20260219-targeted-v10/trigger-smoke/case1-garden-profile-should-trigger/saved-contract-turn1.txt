@@ -1,0 +1,4 @@
+Status: PASS
+Reason: matches-paths-format
+FinalNonEmptyLine: Saved: plants/blueberries.md, log/2026-02.md, calendar.md
+Rule: final non-empty line must be Saved: <paths> or Saved: none - <reason>

@@ -1,0 +1,21 @@
+﻿All files updated. Here's a summary of what was recorded:
+
+**Diagnosis** — plants/tomatoes-2026.md now tracks the early blight diagnosis, full treatment plan, and extension source links.
+
+**Calendar follow-ups saved:**
+| Date | Action |
+|------|--------|
+| Feb 21 (today) | Prune leaves, switch watering, add mulch |
+| Feb 22 | First copper fungicide spray |
+| Feb 28 | Reapply copper + light fertilizer |
+| Mar 1 | Inspect for new spots, prune if needed |
+| Mar 7 | Reapply copper if wet weather persists |
+| Mar 14 | Reassess; adjust spray schedule |
+| Apr 15 | Last frost — evaluate removing row covers |
+| Oct 31 | End-of-season cleanup; begin 3-4 year rotation |
+
+**Log** — Feb 21 entry recorded with diagnosis details and treatment summary.
+
+The most important thing you can do **today** is prune those spotted lower leaves, stop the overhead watering, and get mulch down. That alone will dramatically slow the spread. The copper spray tomorrow will protect the new growth going forward.
+
+Saved: plants/tomatoes-2026.md, calendar.md, log/2026-02.md

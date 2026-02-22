@@ -1,0 +1,4 @@
+﻿Status: PASS
+Reason: matches-none-format
+FinalNonEmptyLine: Saved: none - awaiting user input
+Rule: final non-empty line must be Saved: <paths> or Saved: none - <reason>

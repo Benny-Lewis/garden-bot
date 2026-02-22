@@ -1,0 +1,4 @@
+Status: FAIL
+Reason: final-line-not-saved-contract
+FinalNonEmptyLine: Share whatever details you have and I'll get it logged.
+Rule: final non-empty line must be Saved: <paths> or Saved: none - <reason>

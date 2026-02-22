@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="Arial, sans-serif">
+  <title>Front Yard Option B — Asymmetric Drift</title>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="720" height="460" fill="#f5f5f0"/>
+
+  <!-- Scale: 1ft = 24px. Yard: 30ft wide (720px) x 15ft deep (360px) -->
+
+  <!-- Street planting strip (5ft) -->
+  <rect x="0" y="0" width="720" height="120" fill="#c8d8a0" stroke="#888" stroke-width="1"/>
+  <text x="360" y="18" text-anchor="middle" font-size="11" fill="#555">STREET</text>
+
+  <!-- Planting strip — mixed native grasses + sedge -->
+  <circle cx="90" cy="60" r="26" fill="#7a9e3a" opacity="0.7"/>
+  <text x="90" y="100" text-anchor="middle" font-size="8" fill="#333">Deschampsia</text>
+  <circle cx="250" cy="55" r="22" fill="#8aae4a" opacity="0.7"/>
+  <text x="250" y="90" text-anchor="middle" font-size="8" fill="#333">Carex oshim.</text>
+  <circle cx="430" cy="60" r="26" fill="#7a9e3a" opacity="0.7"/>
+  <text x="430" y="100" text-anchor="middle" font-size="8" fill="#333">Deschampsia</text>
+  <circle cx="610" cy="55" r="22" fill="#8aae4a" opacity="0.7"/>
+  <text x="610" y="90" text-anchor="middle" font-size="8" fill="#333">Carex oshim.</text>
+
+  <!-- Sidewalk -->
+  <rect x="0" y="120" width="720" height="14" fill="#ccc" stroke="#888" stroke-width="1"/>
+  <text x="360" y="131" text-anchor="middle" font-size="9" fill="#555">SIDEWALK</text>
+
+  <!-- Main yard - gravel/low-water groundplane -->
+  <rect x="0" y="134" width="720" height="226" fill="#d4cdb8"/>
+
+  <!-- Walkway — 4ft wide (96px), center at 408px -->
+  <rect x="360" y="134" width="96" height="226" fill="#c0b8a8" stroke="#999" stroke-width="1"/>
+  <text x="408" y="250" text-anchor="middle" font-size="10" fill="#555" transform="rotate(-90,408,250)">WALKWAY 4ft</text>
+
+  <!-- LEFT ZONE — large sweeping bed, deeper on left (organic shape via rects) -->
+  <rect x="12" y="150" width="336" height="170" rx="10" fill="#8B6940" opacity="0.45" stroke="#7a5c30" stroke-width="1.5"/>
+  <text x="180" y="167" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">LEFT — MAIN BED</text>
+
+  <!-- Dwarf fig tree — anchor (stealth edible, architectural) -->
+  <circle cx="80" cy="220" r="32" fill="#3a7a3a" opacity="0.8"/>
+  <text x="80" y="262" text-anchor="middle" font-size="9" font-weight="bold" fill="#333">Dwarf Fig</text>
+  <text x="80" y="272" text-anchor="middle" font-size="7" fill="#666">'Petite Negra'</text>
+
+  <!-- Blueberry trio (stealth edible, fall color) -->
+  <circle cx="170" cy="210" r="22" fill="#4a7a3a" opacity="0.8"/>
+  <circle cx="210" cy="230" r="22" fill="#4a7a3a" opacity="0.8"/>
+  <circle cx="250" cy="210" r="22" fill="#4a7a3a" opacity="0.8"/>
+  <text x="210" y="262" text-anchor="middle" font-size="8" fill="#333">Blueberry trio</text>
+
+  <!-- Rosemary (stealth herb, evergreen mound) -->
+  <circle cx="316" cy="220" r="20" fill="#5a8a4a" opacity="0.8"/>
+  <text x="316" y="248" text-anchor="middle" font-size="8" fill="#333">Rosemary</text>
+
+  <!-- Kinnikinnick groundcover under plantings -->
+  <rect x="40" y="286" width="290" height="24" rx="12" fill="#6aaa4a" opacity="0.5"/>
+  <text x="185" y="302" text-anchor="middle" font-size="8" fill="#fff">Kinnikinnick + alpine strawberry</text>
+
+  <!-- RIGHT ZONE — narrower accent bed -->
+  <rect x="468" y="170" width="240" height="130" rx="8" fill="#8B6940" opacity="0.45" stroke="#7a5c30" stroke-width="1.5"/>
+  <text x="588" y="186" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">RIGHT — ACCENT BED</text>
+
+  <!-- Oregon grape (native, edible berries) -->
+  <circle cx="520" cy="235" r="22" fill="#4a7a3a" opacity="0.8"/>
+  <text x="520" y="266" text-anchor="middle" font-size="8" fill="#333">Oregon Grape</text>
+
+  <!-- Salal (native, edible berries) -->
+  <circle cx="590" cy="225" r="20" fill="#4a8a3a" opacity="0.8"/>
+  <text x="590" y="254" text-anchor="middle" font-size="8" fill="#333">Salal</text>
+
+  <!-- Heuchera (native ornamental) -->
+  <circle cx="660" cy="240" r="16" fill="#b05a6a" opacity="0.7"/>
+  <text x="660" y="264" text-anchor="middle" font-size="8" fill="#333">Heuchera</text>
+
+  <!-- Foundation strip (2ft) -->
+  <rect x="0" y="336" width="720" height="24" fill="#8B6940" opacity="0.4" stroke="#7a5c30" stroke-width="1"/>
+  <rect x="24" y="338" width="312" height="20" rx="4" fill="#3a6a3a" opacity="0.6"/>
+  <text x="180" y="352" text-anchor="middle" font-size="8" fill="#fff">Thyme + creeping rosemary</text>
+  <rect x="480" y="338" width="216" height="20" rx="4" fill="#3a6a3a" opacity="0.6"/>
+  <text x="588" y="352" text-anchor="middle" font-size="8" fill="#fff">Oregano + chives</text>
+
+  <!-- House wall -->
+  <rect x="0" y="360" width="720" height="30" fill="#888" stroke="#666" stroke-width="1"/>
+  <text x="360" y="380" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold">HOUSE</text>
+  <rect x="384" y="360" width="48" height="12" fill="#5a3a1a"/>
+  <text x="408" y="370" text-anchor="middle" font-size="8" fill="#fff">DOOR</text>
+
+  <!-- Compass -->
+  <circle cx="660" cy="420" r="22" fill="none" stroke="#555" stroke-width="1.5"/>
+  <text x="660" y="404" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">N</text>
+  <text x="660" y="448" text-anchor="middle" font-size="10" fill="#555">S</text>
+  <line x1="660" y1="400" x2="660" y2="414" stroke="#333" stroke-width="2"/>
+
+  <!-- Legend -->
+  <rect x="16" y="400" width="400" height="52" rx="4" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="24" y="416" font-size="10" font-weight="bold" fill="#333">Legend</text>
+  <rect x="24" y="422" width="12" height="12" fill="#3a7a3a"/><text x="40" y="432" font-size="9" fill="#333">Stealth edible tree</text>
+  <rect x="150" y="422" width="12" height="12" fill="#4a7a3a"/><text x="166" y="432" font-size="9" fill="#333">Stealth edible shrub</text>
+  <rect x="296" y="422" width="12" height="12" fill="#b05a6a"/><text x="312" y="432" font-size="9" fill="#333">Native ornamental</text>
+  <rect x="24" y="438" width="12" height="12" fill="#6aaa4a"/><text x="40" y="448" font-size="9" fill="#333">Edible groundcover</text>
+  <rect x="150" y="438" width="12" height="12" fill="#3a6a3a"/><text x="166" y="448" font-size="9" fill="#333">Herb edge</text>
+  <rect x="296" y="438" width="12" height="12" fill="#d4cdb8"/><text x="312" y="448" font-size="9" fill="#333">Decomposed granite</text>
+
+  <!-- Title -->
+  <text x="360" y="456" text-anchor="middle" font-size="11" fill="#666">Option B — Asymmetric Drift | 30ft W × 15ft D | Scale: 1ft ≈ 24px</text>
+</svg>

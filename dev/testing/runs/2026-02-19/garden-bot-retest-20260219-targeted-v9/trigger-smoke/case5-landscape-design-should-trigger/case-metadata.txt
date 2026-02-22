@@ -1,0 +1,3 @@
+Skill under test: landscape-design
+Expectation: trigger
+Prompt: Redesign my front yard and show two layout options.

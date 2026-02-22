@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300">
+  <title>Side Yard Option A — Moss Garden Path</title>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="720" height="300" fill="#f5f5f0"/>
+
+  <!-- Title and orientation -->
+  <text x="360" y="24" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Option A: Moss Garden Path (Japanese-Leaning) — 24×8 ft</text>
+  <text x="695" y="60" text-anchor="end" font-family="Arial" font-size="11" fill="#666">N ↑</text>
+  <line x1="688" y1="48" x2="688" y2="38" stroke="#666" stroke-width="1.5" marker-end="none"/>
+  <text x="695" y="80" text-anchor="end" font-family="Arial" font-size="10" fill="#999">Scale: 1 sq = 2 ft</text>
+
+  <!-- Plot boundary (24x8 ft → 600x200 px at 25px/ft) -->
+  <rect x="60" y="50" width="600" height="200" fill="none" stroke="#444" stroke-width="2" stroke-dasharray="6,3"/>
+
+  <!-- North fence -->
+  <line x1="60" y1="50" x2="660" y2="50" stroke="#8B6914" stroke-width="4"/>
+  <text x="360" y="44" text-anchor="middle" font-family="Arial" font-size="10" fill="#8B6914">— North Fence —</text>
+
+  <!-- Direction labels -->
+  <text x="40" y="150" text-anchor="middle" font-family="Arial" font-size="10" fill="#888" transform="rotate(-90,40,150)">W entry</text>
+  <text x="680" y="150" text-anchor="middle" font-family="Arial" font-size="10" fill="#888" transform="rotate(90,680,150)">E entry</text>
+
+  <!-- Zone 1: Entry stone grouping (west end) -->
+  <circle cx="100" cy="140" r="18" fill="#9E9E9E" opacity="0.6"/>
+  <circle cx="115" cy="125" r="10" fill="#808080" opacity="0.5"/>
+  <text x="107" y="175" text-anchor="middle" font-family="Arial" font-size="9" fill="#555">Basalt</text>
+  <text x="107" y="185" text-anchor="middle" font-family="Arial" font-size="9" fill="#555">Boulders</text>
+
+  <!-- Zone 2: North planting bed (along fence) — sword fern + vine maple -->
+  <rect x="140" y="55" width="480" height="55" rx="8" fill="#4a7c59" opacity="0.45"/>
+  <text x="380" y="78" text-anchor="middle" font-family="Arial" font-size="10" fill="#1a3d1a" font-weight="bold">Sword Fern + Cloud-Pruned Vine Maple</text>
+  <text x="380" y="92" text-anchor="middle" font-family="Arial" font-size="9" fill="#2a5a2a">(layered evergreen screen along fence)</text>
+
+  <!-- Zone 3: Moss groundcover (main ground plane) -->
+  <rect x="140" y="115" width="480" height="80" rx="6" fill="#7da87d" opacity="0.35"/>
+  <text x="380" y="160" text-anchor="middle" font-family="Arial" font-size="10" fill="#2d5a2d">Moss Groundcover</text>
+
+  <!-- Stepping stones (irregular path, curving slightly) -->
+  <rect x="155" y="145" width="30" height="22" rx="6" fill="#9E9E9E" opacity="0.7" transform="rotate(-8,170,156)"/>
+  <rect x="210" y="138" width="28" height="20" rx="5" fill="#9E9E9E" opacity="0.7" transform="rotate(5,224,148)"/>
+  <rect x="268" y="148" width="32" height="22" rx="6" fill="#9E9E9E" opacity="0.7" transform="rotate(-3,284,159)"/>
+  <rect x="330" y="140" width="28" height="20" rx="5" fill="#9E9E9E" opacity="0.7" transform="rotate(10,344,150)"/>
+  <rect x="390" y="150" width="30" height="22" rx="6" fill="#9E9E9E" opacity="0.7" transform="rotate(-6,405,161)"/>
+  <rect x="450" y="142" width="28" height="20" rx="5" fill="#9E9E9E" opacity="0.7" transform="rotate(4,464,152)"/>
+  <rect x="510" y="148" width="32" height="22" rx="6" fill="#9E9E9E" opacity="0.7" transform="rotate(-5,526,159)"/>
+  <rect x="572" y="140" width="28" height="20" rx="5" fill="#9E9E9E" opacity="0.7" transform="rotate(7,586,150)"/>
+  <text x="380" y="135" text-anchor="middle" font-family="Arial" font-size="9" fill="#666">— Basalt Stepping Stones —</text>
+
+  <!-- Zone 4: South low planting -->
+  <rect x="140" y="200" width="230" height="45" rx="8" fill="#5c8a4f" opacity="0.4"/>
+  <text x="255" y="226" text-anchor="middle" font-family="Arial" font-size="10" fill="#1a3d1a">Low Oregon Grape</text>
+
+  <rect x="390" y="200" width="230" height="45" rx="8" fill="#6b9e5e" opacity="0.35"/>
+  <text x="505" y="226" text-anchor="middle" font-family="Arial" font-size="10" fill="#1a3d1a">Kinnikinnick Mat</text>
+
+  <!-- Focal accent: stone lantern (east-center) -->
+  <rect x="600" y="108" width="16" height="28" rx="2" fill="#888"/>
+  <rect x="595" y="104" width="26" height="8" rx="2" fill="#777"/>
+  <text x="608" y="100" text-anchor="middle" font-family="Arial" font-size="9" fill="#555">Stone</text>
+  <text x="608" y="148" text-anchor="middle" font-family="Arial" font-size="9" fill="#555">Lantern</text>
+
+  <!-- Legend -->
+  <rect x="60" y="262" width="600" height="30" rx="4" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <rect x="72" y="270" width="14" height="14" rx="2" fill="#4a7c59" opacity="0.45"/>
+  <text x="92" y="282" font-family="Arial" font-size="9" fill="#444">Planting</text>
+  <rect x="142" y="270" width="14" height="14" rx="2" fill="#7da87d" opacity="0.35"/>
+  <text x="162" y="282" font-family="Arial" font-size="9" fill="#444">Moss</text>
+  <rect x="202" y="270" width="14" height="14" rx="2" fill="#9E9E9E" opacity="0.7"/>
+  <text x="222" y="282" font-family="Arial" font-size="9" fill="#444">Stone</text>
+  <rect x="272" y="270" width="14" height="14" rx="2" fill="#888"/>
+  <text x="292" y="282" font-family="Arial" font-size="9" fill="#444">Accent</text>
+  <line x1="352" y1="270" x2="352" y2="284" stroke="#8B6914" stroke-width="3"/>
+  <text x="362" y="282" font-family="Arial" font-size="9" fill="#444">Fence</text>
+</svg>

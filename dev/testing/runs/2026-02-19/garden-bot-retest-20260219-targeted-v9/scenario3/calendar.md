@@ -1,0 +1,15 @@
+# Calendar
+- 2026-03-01: Review front yard design options.
+- 2026-03-15: Order plants — blueberries (3 cultivars), evergreen huckleberry (8), rosemary standards (2), lavender 'Hidcote' (6), Mahonia gracilis (5), Deschampsia cespitosa (15).
+- 2026-03-15: Order materials — gray gravel (left bed + curb strip), basalt boulder, basalt stepping stones (4).
+- 2026-04-01: Prepare beds — remove existing lawn from bed areas, amend soil (sulfur for blueberry/huckleberry acidity), install gravel mulch.
+- 2026-04-15: Plant foundation huckleberry hedges (both sides).
+- 2026-04-15: Plant blueberry trio in left main bed.
+- 2026-04-15: Plant rosemary standards + lavender in right feature bed.
+- 2026-04-15: Plant Mahonia gracilis hedge (right lower).
+- 2026-04-15: Plant Deschampsia cespitosa in curb strip, lay stepping stones.
+- 2026-04-20: Seed fine fescue lawn panels (left + right).
+- 2026-06-01: First blueberry harvest check ('Duke' earliest).
+- 2026-07-01: Shear lavender after first bloom flush.
+- 2026-08-01: Clip huckleberry hedge (first shaping).
+- 2026-10-01: Fall assessment — check establishment, adjust watering schedule for winter.

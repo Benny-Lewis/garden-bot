@@ -1,0 +1,22 @@
+﻿
+
+`★ Insight ─────────────────────────────────────`
+Great — existing files give us solid context: **Portland OR, Zone 8b, 30×15 ft south-facing front yard** with lawn and a walkway. No dimensions to guess at!
+`─────────────────────────────────────────────────`
+
+Before I draft layouts, I need a few details to make the design fit your space:
+
+1. **Walkway position** — Does the walkway run down the center to the front door, off to one side, or is it an L-shape from a driveway?
+
+2. **Driveway** — Is there a driveway along one side of the front yard? Which side (left/right when facing the house)?
+
+3. **Style preference** — Any of these appeal to you?
+   - **Cottage/informal** — mixed flowering + edible beds, relaxed feel
+   - **Clean/modern** — structured beds, repetition, tidy lines
+   - **PNW native-leaning** — naturalistic plantings blended with edibles
+
+4. **Edible priorities** — Any favorites? (e.g., blueberries, herbs, fig, strawberries, dwarf fruit tree)
+
+**Wait for your answers and I'll generate two SVG layout options with tradeoffs.**
+
+Saved: none - awaiting user input

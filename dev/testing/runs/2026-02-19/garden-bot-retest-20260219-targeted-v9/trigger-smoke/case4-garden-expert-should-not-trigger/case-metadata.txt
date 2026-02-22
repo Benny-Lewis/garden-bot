@@ -1,0 +1,3 @@
+Skill under test: garden-expert
+Expectation: not-trigger
+Prompt: Create an SVG layout for my backyard entertaining area.

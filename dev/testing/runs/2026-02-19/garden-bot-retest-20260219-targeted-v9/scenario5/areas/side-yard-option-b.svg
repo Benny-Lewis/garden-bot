@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300">
+  <title>Side Yard Option B — Contemplation Garden</title>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="720" height="300" fill="#f5f2eb"/>
+
+  <!-- Title -->
+  <text x="360" y="22" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#333">Option B — Contemplation Garden (24 × 8 ft, East–West)</text>
+
+  <!-- Compass -->
+  <text x="680" y="55" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">N ↑</text>
+  <line x1="680" y1="58" x2="680" y2="72" stroke="#555" stroke-width="1"/>
+  <text x="680" y="82" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">S</text>
+
+  <!-- Scale bar -->
+  <line x1="20" y1="290" x2="140" y2="290" stroke="#333" stroke-width="2"/>
+  <line x1="20" y1="285" x2="20" y2="295" stroke="#333" stroke-width="2"/>
+  <line x1="140" y1="285" x2="140" y2="295" stroke="#333" stroke-width="2"/>
+  <text x="80" y="283" text-anchor="middle" font-family="Arial" font-size="9" fill="#333">4 ft</text>
+
+  <!-- Area outline 24x8 mapped to 600x200 at offset (60,40) -->
+  <rect x="60" y="40" width="600" height="200" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="6,3"/>
+
+  <!-- North fence -->
+  <rect x="60" y="38" width="600" height="6" fill="#8B7355" opacity="0.7"/>
+  <text x="360" y="35" text-anchor="middle" font-family="Arial" font-size="9" fill="#8B7355">── North Fence ──</text>
+
+  <!-- ZONE 1: Entry screen (east end, 0-5 ft = 0-125px) -->
+  <rect x="62" y="48" width="110" height="90" rx="8" fill="#3d7a1e" opacity="0.2"/>
+  <text x="117" y="80" text-anchor="middle" font-family="Arial" font-size="9" fill="#2d5016">Tall Oregon</text>
+  <text x="117" y="90" text-anchor="middle" font-family="Arial" font-size="9" fill="#2d5016">Grape Screen</text>
+  <circle cx="95" cy="165" r="22" fill="#4a7a2e" opacity="0.35"/>
+  <text x="95" y="163" text-anchor="middle" font-family="Arial" font-size="8" fill="#2d5016">Sword</text>
+  <text x="95" y="172" text-anchor="middle" font-family="Arial" font-size="8" fill="#2d5016">Fern</text>
+
+  <!-- Straight path along south edge (passage clearance) -->
+  <rect x="60" y="200" width="600" height="35" rx="0" fill="#c8b99a" opacity="0.3"/>
+  <text x="360" y="222" text-anchor="middle" font-family="Arial" font-size="8" fill="#7a6b50">── Gravel Path (2.5 ft clear passage) ──</text>
+
+  <!-- ZONE 2: Dry gravel garden (center, 7-17 ft = 175-425px) -->
+  <rect x="195" y="65" width="230" height="130" rx="4" fill="#d4cbb8" opacity="0.4"/>
+  <text x="310" y="58" text-anchor="middle" font-family="Arial" font-size="9" fill="#7a6b50" font-style="italic">Raked Gravel Panel</text>
+
+  <!-- Stone grouping — 3-5-2 asymmetric -->
+  <circle cx="240" cy="110" r="14" fill="#6a6a6a" opacity="0.6"/>
+  <circle cx="260" cy="125" r="9" fill="#7a7a7a" opacity="0.55"/>
+  <circle cx="248" cy="140" r="7" fill="#8a8a8a" opacity="0.5"/>
+  <text x="250" y="165" text-anchor="middle" font-family="Arial" font-size="8" fill="#555">Stone Triad</text>
+
+  <!-- Tsukubai (water basin) -->
+  <circle cx="365" cy="120" r="16" fill="#5a8faf" opacity="0.45"/>
+  <circle cx="365" cy="120" r="10" fill="#4a7fa0" opacity="0.35"/>
+  <text x="365" y="145" text-anchor="middle" font-family="Arial" font-size="8" fill="#3a6a8a">Tsukubai</text>
+  <text x="365" y="154" text-anchor="middle" font-family="Arial" font-size="7" fill="#3a6a8a">(stone basin)</text>
+
+  <!-- Low moss mounds in gravel -->
+  <circle cx="310" cy="95" r="12" fill="#6b8e4e" opacity="0.3"/>
+  <text x="310" y="98" text-anchor="middle" font-family="Arial" font-size="7" fill="#4a6b30">Moss</text>
+  <circle cx="395" cy="100" r="10" fill="#6b8e4e" opacity="0.3"/>
+  <text x="395" y="103" text-anchor="middle" font-family="Arial" font-size="7" fill="#4a6b30">Moss</text>
+
+  <!-- ZONE 3: Vine maple focal point + bench (west-center, 16-20 ft = 400-500px) -->
+  <circle cx="500" cy="85" r="50" fill="#5B8C3E" opacity="0.3"/>
+  <text x="500" y="78" text-anchor="middle" font-family="Arial" font-size="9" fill="#2d5016">Vine</text>
+  <text x="500" y="88" text-anchor="middle" font-family="Arial" font-size="9" fill="#2d5016">Maple</text>
+  <text x="500" y="98" text-anchor="middle" font-family="Arial" font-size="8" fill="#2d5016">(canopy)</text>
+
+  <!-- Stone bench under maple -->
+  <rect x="475" y="150" width="50" height="16" rx="3" fill="#8a8a8a" opacity="0.6"/>
+  <text x="500" y="180" text-anchor="middle" font-family="Arial" font-size="8" fill="#555">Stone Bench</text>
+
+  <!-- ZONE 4: Exit planting (west end, 20-24 ft = 500-600px) -->
+  <rect x="555" y="48" width="100" height="60" rx="8" fill="#3d7a1e" opacity="0.2"/>
+  <text x="605" y="75" text-anchor="middle" font-family="Arial" font-size="8" fill="#2d5016">Salal +</text>
+  <text x="605" y="85" text-anchor="middle" font-family="Arial" font-size="8" fill="#2d5016">Deer Fern</text>
+  <circle cx="580" cy="145" r="18" fill="#4a7a2e" opacity="0.3"/>
+  <text x="580" y="143" text-anchor="middle" font-family="Arial" font-size="7" fill="#2d5016">Wild</text>
+  <text x="580" y="151" text-anchor="middle" font-family="Arial" font-size="7" fill="#2d5016">Ginger</text>
+
+  <!-- Entry/exit labels -->
+  <text x="68" y="195" font-family="Arial" font-size="10" fill="#c44" font-weight="bold">→ East Entry</text>
+  <text x="590" y="200" text-anchor="end" font-family="Arial" font-size="10" fill="#c44" font-weight="bold">West Exit ←</text>
+
+  <!-- Legend -->
+  <rect x="60" y="250" width="600" height="40" fill="#fff" opacity="0.6" rx="4"/>
+  <circle cx="85" cy="270" r="7" fill="#5B8C3E" opacity="0.4"/>
+  <text x="96" y="273" font-family="Arial" font-size="9" fill="#333">Trees/Shrubs</text>
+  <rect x="170" y="263" width="14" height="14" rx="3" fill="#d4cbb8" opacity="0.5"/>
+  <text x="188" y="273" font-family="Arial" font-size="9" fill="#333">Raked Gravel</text>
+  <circle cx="270" cy="270" r="7" fill="#6a6a6a" opacity="0.5"/>
+  <text x="281" y="273" font-family="Arial" font-size="9" fill="#333">Stone</text>
+  <circle cx="320" cy="270" r="7" fill="#5a8faf" opacity="0.4"/>
+  <text x="331" y="273" font-family="Arial" font-size="9" fill="#333">Water</text>
+  <rect x="375" y="263" width="14" height="14" rx="3" fill="#6b8e4e" opacity="0.3"/>
+  <text x="393" y="273" font-family="Arial" font-size="9" fill="#333">Moss</text>
+  <rect x="430" y="263" width="14" height="14" rx="3" fill="#c8b99a" opacity="0.4"/>
+  <text x="448" y="273" font-family="Arial" font-size="9" fill="#333">Gravel Path</text>
+  <rect x="520" y="263" width="14" height="14" rx="3" fill="#8a8a8a" opacity="0.6"/>
+  <text x="538" y="273" font-family="Arial" font-size="9" fill="#333">Bench</text>
+</svg>

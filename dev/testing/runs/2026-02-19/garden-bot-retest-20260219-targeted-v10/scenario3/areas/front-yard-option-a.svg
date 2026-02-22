@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" font-family="Arial, sans-serif">
+  <title>Front Yard Option A — Structured Symmetry</title>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="720" height="460" fill="#f5f5f0"/>
+
+  <!-- Scale: 1ft = 24px. Yard: 30ft wide (720px) x 15ft deep (360px) -->
+  <!-- Y=0 is street side, Y=360 is house side -->
+  <!-- Planting strip: Y=0..120 (5ft), Sidewalk gap at Y=120..130 -->
+  <!-- Main yard: Y=130..360 (approx 9.5ft usable) -->
+  <!-- Foundation strip: Y=312..360 (2ft) -->
+
+  <!-- Street planting strip (5ft) -->
+  <rect x="0" y="0" width="720" height="120" fill="#c8d8a0" stroke="#888" stroke-width="1"/>
+  <text x="360" y="18" text-anchor="middle" font-size="11" fill="#555">STREET</text>
+
+  <!-- Planting strip plants -->
+  <!-- 3 evenly spaced native grasses -->
+  <circle cx="120" cy="65" r="28" fill="#7a9e3a" opacity="0.7"/>
+  <text x="120" y="110" text-anchor="middle" font-size="9" fill="#333">Karl Foerster</text>
+  <circle cx="360" cy="65" r="28" fill="#7a9e3a" opacity="0.7"/>
+  <text x="360" y="110" text-anchor="middle" font-size="9" fill="#333">Karl Foerster</text>
+  <circle cx="600" cy="65" r="28" fill="#7a9e3a" opacity="0.7"/>
+  <text x="600" y="110" text-anchor="middle" font-size="9" fill="#333">Karl Foerster</text>
+
+  <!-- Sidewalk -->
+  <rect x="0" y="120" width="720" height="14" fill="#ccc" stroke="#888" stroke-width="1"/>
+  <text x="360" y="131" text-anchor="middle" font-size="9" fill="#555">SIDEWALK</text>
+
+  <!-- Main yard lawn area -->
+  <rect x="0" y="134" width="720" height="226" fill="#b8d468"/>
+
+  <!-- Walkway — 4ft wide (96px), door at 17ft from left = 408px center -->
+  <rect x="360" y="134" width="96" height="226" fill="#c0b8a8" stroke="#999" stroke-width="1"/>
+  <text x="408" y="250" text-anchor="middle" font-size="10" fill="#555" transform="rotate(-90,408,250)">WALKWAY 4ft</text>
+
+  <!-- LEFT BED — symmetric planting bed (12ft x 6ft) -->
+  <rect x="24" y="170" width="312" height="144" rx="6" fill="#8B6940" opacity="0.5" stroke="#7a5c30" stroke-width="1.5"/>
+  <text x="180" y="186" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">LEFT BED</text>
+
+  <!-- Left bed plants -->
+  <!-- Blueberry pair (stealth edible — fall color) -->
+  <circle cx="80" cy="225" r="24" fill="#4a7a3a" opacity="0.8"/>
+  <text x="80" y="258" text-anchor="middle" font-size="8" fill="#333">Blueberry</text>
+  <circle cx="140" cy="225" r="24" fill="#4a7a3a" opacity="0.8"/>
+  <text x="140" y="258" text-anchor="middle" font-size="8" fill="#333">Blueberry</text>
+
+  <!-- Rosemary (stealth edible — evergreen structure) -->
+  <circle cx="230" cy="215" r="20" fill="#5a8a4a" opacity="0.8"/>
+  <text x="230" y="244" text-anchor="middle" font-size="8" fill="#333">Rosemary</text>
+
+  <!-- Lavender (ornamental) -->
+  <circle cx="300" cy="225" r="18" fill="#9a7abf" opacity="0.7"/>
+  <text x="300" y="252" text-anchor="middle" font-size="8" fill="#333">Lavender</text>
+
+  <!-- Strawberry groundcover front edge -->
+  <rect x="50" y="280" width="260" height="24" rx="12" fill="#6aaa4a" opacity="0.6"/>
+  <text x="180" y="296" text-anchor="middle" font-size="8" fill="#fff">Strawberry groundcover</text>
+
+  <!-- RIGHT BED — symmetric planting bed (12ft x 6ft) -->
+  <rect x="480" y="170" width="216" height="144" rx="6" fill="#8B6940" opacity="0.5" stroke="#7a5c30" stroke-width="1.5"/>
+  <text x="588" y="186" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">RIGHT BED</text>
+
+  <!-- Right bed plants -->
+  <!-- Blueberry (stealth edible) -->
+  <circle cx="520" cy="225" r="24" fill="#4a7a3a" opacity="0.8"/>
+  <text x="520" y="258" text-anchor="middle" font-size="8" fill="#333">Blueberry</text>
+
+  <!-- Echinacea (PNW native ornamental) -->
+  <circle cx="590" cy="215" r="18" fill="#d47a8a" opacity="0.7"/>
+  <text x="590" y="244" text-anchor="middle" font-size="8" fill="#333">Echinacea</text>
+
+  <!-- Salvia / ornamental sage -->
+  <circle cx="660" cy="225" r="18" fill="#6a5abf" opacity="0.7"/>
+  <text x="660" y="252" text-anchor="middle" font-size="8" fill="#333">Salvia</text>
+
+  <!-- Strawberry groundcover front edge -->
+  <rect x="496" y="280" width="184" height="24" rx="12" fill="#6aaa4a" opacity="0.6"/>
+  <text x="588" y="296" text-anchor="middle" font-size="8" fill="#fff">Strawberry groundcover</text>
+
+  <!-- Foundation strip (2ft) -->
+  <rect x="0" y="336" width="720" height="24" fill="#8B6940" opacity="0.4" stroke="#7a5c30" stroke-width="1"/>
+  <!-- Foundation plantings -->
+  <rect x="24" y="338" width="312" height="20" rx="4" fill="#3a6a3a" opacity="0.6"/>
+  <text x="180" y="352" text-anchor="middle" font-size="8" fill="#fff">Thyme + oregano (stealth herb edge)</text>
+  <rect x="480" y="338" width="216" height="20" rx="4" fill="#3a6a3a" opacity="0.6"/>
+  <text x="588" y="352" text-anchor="middle" font-size="8" fill="#fff">Thyme + oregano</text>
+
+  <!-- House wall -->
+  <rect x="0" y="360" width="720" height="30" fill="#888" stroke="#666" stroke-width="1"/>
+  <text x="360" y="380" text-anchor="middle" font-size="12" fill="#fff" font-weight="bold">HOUSE</text>
+  <!-- Front door -->
+  <rect x="384" y="360" width="48" height="12" fill="#5a3a1a"/>
+  <text x="408" y="370" text-anchor="middle" font-size="8" fill="#fff">DOOR</text>
+
+  <!-- Compass -->
+  <circle cx="660" cy="420" r="22" fill="none" stroke="#555" stroke-width="1.5"/>
+  <text x="660" y="404" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">N</text>
+  <text x="660" y="448" text-anchor="middle" font-size="10" fill="#555">S</text>
+  <line x1="660" y1="400" x2="660" y2="414" stroke="#333" stroke-width="2"/>
+
+  <!-- Legend -->
+  <rect x="16" y="400" width="350" height="52" rx="4" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="24" y="416" font-size="10" font-weight="bold" fill="#333">Legend</text>
+  <rect x="24" y="422" width="12" height="12" fill="#4a7a3a"/><text x="40" y="432" font-size="9" fill="#333">Stealth edible</text>
+  <rect x="120" y="422" width="12" height="12" fill="#9a7abf"/><text x="136" y="432" font-size="9" fill="#333">Ornamental</text>
+  <rect x="220" y="422" width="12" height="12" fill="#6aaa4a"/><text x="236" y="432" font-size="9" fill="#333">Edible groundcover</text>
+  <rect x="24" y="438" width="12" height="12" fill="#c0b8a8"/><text x="40" y="448" font-size="9" fill="#333">Hardscape</text>
+  <rect x="120" y="438" width="12" height="12" fill="#7a9e3a"/><text x="136" y="448" font-size="9" fill="#333">Ornamental grass</text>
+  <rect x="220" y="438" width="12" height="12" fill="#3a6a3a"/><text x="236" y="448" font-size="9" fill="#333">Herb edge</text>
+
+  <!-- Title -->
+  <text x="360" y="456" text-anchor="middle" font-size="11" fill="#666">Option A — Structured Symmetry | 30ft W × 15ft D | Scale: 1ft ≈ 24px</text>
+</svg>

@@ -1,0 +1,14 @@
+﻿Here's what the revised layout does:
+
+**Changes from current design:**
+| Feature | Before | After |
+|---------|--------|-------|
+| Fire pit | West side | **East side** |
+| Raised beds | 4 on east side (2×2 grid) | **2 on west side** (stacked vertically) |
+| Seating | Near patio (center-south) | Unchanged |
+
+The fire pit and raised beds have essentially swapped sides. The two remaining beds are arranged in a vertical stack on the west, giving each bed more individual space than the previous 4-bed grid. The seating area stays centered near the patio for easy access.
+
+Does this layout look right, or would you like any adjustments before I save it?
+
+Saved: none - awaiting approval

@@ -1,0 +1,10 @@
+﻿MODIFIED	areas\side-yard.md
+ADDED	areas\side-yard-layout.svg
+MODIFIED	calendar.md
+MODIFIED	log\2026-02.md
+ADDED	plants\deer-fern.md
+ADDED	plants\oregon-grape.md
+ADDED	plants\salal.md
+ADDED	plants\sword-fern.md
+ADDED	plants\vine-maple.md
+ADDED	plants\wild-ginger.md
