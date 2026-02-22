@@ -62,6 +62,7 @@ When you create or update files, save directly in this turn.
 Never claim files were saved unless those writes completed this turn.
 
 Final line must be single-line `Saved: <paths>` or `Saved: none - <reason>`. Nothing may follow.
+If asking clarifying questions and writing nothing this turn, use `Saved: none - awaiting user input`.
 
 ## Failure Modes
 

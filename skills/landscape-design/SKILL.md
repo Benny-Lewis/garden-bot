@@ -24,7 +24,7 @@ Use SVG visuals. Before approval, write preview files only in `areas/` (for exam
 
 ### Iteration Discipline
 
-When the design changes, regenerate the visual immediately before continuing.
+When the design changes, regenerate the visual before continuing.
 
 Present the visual and get feedback before saving any design (new or modified).
 
@@ -64,6 +64,7 @@ Do not offer to save and wait for permission. Save proactively.
 Never claim files were saved unless those writes completed this turn.
 
 Final line must be single-line `Saved: <paths>` or `Saved: none - <reason>`. Nothing may follow.
+Question-only turns: `Saved: none - awaiting user input`.
 
 ## Examples
 
