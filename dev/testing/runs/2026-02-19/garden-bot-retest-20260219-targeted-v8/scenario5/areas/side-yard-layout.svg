@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 380">
+  <style>
+    text { font-family: Arial, sans-serif; }
+    .title { font-size: 16px; font-weight: bold; }
+    .label { font-size: 11px; }
+    .dim { font-size: 10px; fill: #555; }
+    .legend { font-size: 10px; }
+  </style>
+
+  <!-- Title -->
+  <text x="370" y="22" text-anchor="middle" class="title">Side Yard — Zen Corridor (PNW Native + Japanese)</text>
+
+  <!-- Orientation -->
+  <text x="700" y="55" text-anchor="middle" class="dim">N</text>
+  <line x1="700" y1="58" x2="700" y2="78" stroke="#555" stroke-width="1.5"/>
+  <line x1="700" y1="58" x2="695" y2="65" stroke="#555" stroke-width="1.5"/>
+  <line x1="700" y1="58" x2="705" y2="65" stroke="#555" stroke-width="1.5"/>
+  <text x="700" y="90" text-anchor="middle" class="dim">S</text>
+  <text x="680" y="75" text-anchor="middle" class="dim">W</text>
+  <text x="720" y="75" text-anchor="middle" class="dim">E</text>
+
+  <!-- Dimensions -->
+  <text x="370" y="42" text-anchor="middle" class="dim">24 ft (east–west)</text>
+  <text x="28" y="175" text-anchor="middle" class="dim" transform="rotate(-90,28,175)">8 ft</text>
+
+  <!-- Garden area background -->
+  <rect x="50" y="55" width="600" height="200" fill="#d4c9a8" rx="2"/>
+
+  <!-- North fence (top) -->
+  <line x1="50" y1="55" x2="650" y2="55" stroke="#8B4513" stroke-width="4"/>
+  <text x="350" y="50" text-anchor="middle" class="dim">North fence</text>
+
+  <!-- South house wall (bottom) -->
+  <rect x="50" y="255" width="600" height="8" fill="#888"/>
+  <text x="350" y="278" text-anchor="middle" class="dim">House wall (south)</text>
+
+  <!-- Decomposed granite path (straight, center) -->
+  <rect x="50" y="130" width="600" height="45" fill="#c4b896" rx="1"/>
+  <rect x="55" y="133" width="590" height="39" fill="#d4c9a8" rx="1"/>
+  <text x="350" y="158" text-anchor="middle" class="label" fill="#777">decomposed granite path (3 ft wide)</text>
+
+  <!-- Stone edging lines -->
+  <line x1="50" y1="130" x2="650" y2="130" stroke="#999" stroke-width="2" stroke-dasharray="8,4"/>
+  <line x1="50" y1="175" x2="650" y2="175" stroke="#999" stroke-width="2" stroke-dasharray="8,4"/>
+
+  <!-- North bed — Deer Fern + Nandina screen -->
+  <rect x="55" y="60" width="280" height="65" fill="#2d5a27" opacity="0.55" rx="3"/>
+  <text x="195" y="82" text-anchor="middle" class="label" fill="white">Deer Fern mass</text>
+  <text x="195" y="100" text-anchor="middle" class="label" fill="#cfc">(Blechnum spicant)</text>
+  <rect x="345" y="60" width="300" height="65" fill="#3d6b37" opacity="0.55" rx="3"/>
+  <text x="495" y="82" text-anchor="middle" class="label" fill="white">Nandina (compact)</text>
+  <text x="495" y="100" text-anchor="middle" class="label" fill="#cfc">fence screen layer</text>
+
+  <!-- South bed — Kinnikinnick + Moss -->
+  <rect x="55" y="180" width="350" height="65" fill="#4a8a44" opacity="0.45" rx="3"/>
+  <text x="230" y="205" text-anchor="middle" class="label" fill="white">Kinnikinnick groundcover</text>
+  <text x="230" y="220" text-anchor="middle" class="label" fill="#cfc">(Arctostaphylos uva-ursi)</text>
+  <rect x="415" y="180" width="230" height="65" fill="#6b9a65" opacity="0.4" rx="3"/>
+  <text x="530" y="205" text-anchor="middle" class="label" fill="white">Moss panels</text>
+
+  <!-- Japanese Maple focal point (west end) -->
+  <circle cx="100" cy="155" r="24" fill="#6b8e23" opacity="0.7"/>
+  <circle cx="100" cy="155" r="15" fill="#556b2f"/>
+  <text x="100" y="159" text-anchor="middle" class="label" fill="white">JM</text>
+  <text x="100" y="195" text-anchor="middle" class="dim">Japanese</text>
+  <text x="100" y="205" text-anchor="middle" class="dim">Maple</text>
+
+  <!-- Tsukubai water basin (east end) -->
+  <circle cx="590" cy="155" r="16" fill="#6699cc" opacity="0.6"/>
+  <circle cx="590" cy="155" r="9" fill="#4477aa"/>
+  <text x="590" y="159" text-anchor="middle" class="legend" fill="white">水</text>
+  <text x="590" y="195" text-anchor="middle" class="dim">Tsukubai</text>
+  <text x="590" y="205" text-anchor="middle" class="dim">(water basin)</text>
+
+  <!-- Accent rocks near tsukubai -->
+  <circle cx="565" cy="140" r="6" fill="#aaa"/>
+  <circle cx="610" cy="170" r="7" fill="#aaa"/>
+
+  <!-- Entry labels -->
+  <text x="55" y="155" text-anchor="middle" class="dim" transform="rotate(-90,42,155)">← West entry</text>
+  <text x="665" y="155" text-anchor="middle" class="dim" transform="rotate(90,665,155)">← East entry</text>
+
+  <!-- Legend -->
+  <rect x="50" y="295" width="600" height="80" fill="#f5f5f0" stroke="#ccc" rx="4"/>
+  <text x="60" y="312" class="legend" font-weight="bold">Legend:</text>
+  <rect x="60" y="318" width="14" height="14" fill="#2d5a27" opacity="0.55"/>
+  <text x="80" y="330" class="legend">Deer Fern bed</text>
+  <rect x="190" y="318" width="14" height="14" fill="#3d6b37" opacity="0.55"/>
+  <text x="210" y="330" class="legend">Nandina screen</text>
+  <rect x="320" y="318" width="14" height="14" fill="#4a8a44" opacity="0.45"/>
+  <text x="340" y="330" class="legend">Kinnikinnick</text>
+  <rect x="440" y="318" width="14" height="14" fill="#d4c9a8"/>
+  <text x="460" y="330" class="legend">DG path</text>
+  <circle cx="567" cy="325" r="7" fill="#4477aa"/>
+  <text x="580" y="330" class="legend">Water basin</text>
+  <circle cx="67" cy="355" r="7" fill="#556b2f"/>
+  <text x="80" y="358" class="legend">Japanese Maple</text>
+  <rect x="190" y="348" width="14" height="14" fill="#6b9a65" opacity="0.4"/>
+  <text x="210" y="360" class="legend">Moss panels</text>
+  <circle cx="327" cy="355" r="6" fill="#aaa"/>
+  <text x="340" y="358" class="legend">Accent rock</text>
+</svg>

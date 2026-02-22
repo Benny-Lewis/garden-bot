@@ -1,0 +1,4 @@
+﻿Status: FAIL
+Reason: final-line-not-saved-contract
+FinalNonEmptyLine: 4. **Any must-keeps or must-avoids?** (Existing plants to keep, utilities to work around, materials you love or dislike?)
+Rule: final non-empty line must be Saved: <paths> or Saved: none - <reason>

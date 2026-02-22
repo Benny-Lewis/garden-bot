@@ -1,0 +1,4 @@
+﻿Status: FAIL
+Reason: final-line-not-saved-contract
+FinalNonEmptyLine: **Waiting for your answers before giving a diagnosis.**
+Rule: final non-empty line must be Saved: <paths> or Saved: none - <reason>

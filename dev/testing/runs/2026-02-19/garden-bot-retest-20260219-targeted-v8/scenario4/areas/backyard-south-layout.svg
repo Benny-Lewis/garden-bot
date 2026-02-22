@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520">
+  <rect x="0" y="0" width="800" height="520" fill="#f6f3ea" />
+  <rect x="40" y="40" width="720" height="440" fill="none" stroke="#333" stroke-width="2" />
+  <text x="50" y="30" font-size="14" fill="#111">Backyard South Layout</text>
+
+  <!-- Raised Beds (2) — West side -->
+  <rect x="120" y="150" width="80" height="60" fill="#8b5a2b" stroke="#333" />
+  <rect x="120" y="240" width="80" height="60" fill="#8b5a2b" stroke="#333" />
+  <text x="105" y="135" font-size="13" fill="#111">Raised Beds (2)</text>
+
+  <!-- Fire Pit — East side -->
+  <circle cx="620" cy="250" r="55" fill="#9e9e9e" stroke="#333" />
+  <text x="575" y="255" font-size="14" fill="#111">Fire Pit</text>
+
+  <!-- Seating — near patio -->
+  <rect x="300" y="360" width="180" height="70" fill="#d0d0d0" stroke="#333" />
+  <text x="340" y="402" font-size="13" fill="#111">Seating</text>
+
+  <!-- South edge label -->
+  <line x1="40" y1="495" x2="760" y2="495" stroke="#333" />
+  <text x="45" y="512" font-size="12" fill="#111">South (Patio Side)</text>
+
+  <!-- Orientation -->
+  <text x="720" y="30" font-size="12" fill="#666">N ↑</text>
+
+  <!-- Legend -->
+  <rect x="40" y="500" width="12" height="12" fill="#8b5a2b" stroke="#333" />
+  <text x="56" y="511" font-size="11" fill="#333">Beds</text>
+  <rect x="110" y="500" width="12" height="12" fill="#9e9e9e" stroke="#333" />
+  <text x="126" y="511" font-size="11" fill="#333">Hardscape</text>
+  <rect x="200" y="500" width="12" height="12" fill="#d0d0d0" stroke="#333" />
+  <text x="216" y="511" font-size="11" fill="#333">Seating</text>
+
+  <!-- Dimensions -->
+  <text x="370" y="58" font-size="11" fill="#666">20 ft</text>
+  <text x="765" y="270" font-size="11" fill="#666" transform="rotate(90,765,270)">18 ft</text>
+</svg>

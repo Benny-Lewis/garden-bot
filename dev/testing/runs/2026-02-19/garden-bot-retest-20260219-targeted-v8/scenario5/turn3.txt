@@ -1,0 +1,21 @@
+﻿Option B "Zen Corridor" is now saved as your canonical design. Here's everything that was written:
+
+**Layout:** `areas/side-yard-layout.svg` — canonical SVG linked from the area file
+
+**Area file:** `areas/side-yard.md` — updated with full design section (zone summary, key decisions, style rationale)
+
+**Plant files created:**
+- `plants/japanese-maple.md` — west focal point
+- `plants/deer-fern.md` — north fence mass planting
+- `plants/nandina.md` — fence screen layer
+- `plants/kinnikinnick.md` — south groundcover
+
+**Calendar:** `calendar.md` — installation schedule from March (sourcing materials) through June (first summer watering)
+
+**Log:** `log/2026-02.md` — design session recorded
+
+`★ Insight ─────────────────────────────────────`
+The Zen Corridor design works well in this 8-ft width because it uses a single straight axis (the DG path) rather than curves, which would feel cramped. The two focal endpoints — living (maple) and mineral (tsukubai) — give the corridor a sense of journey despite being only 24 ft long. This is a core Japanese garden principle: *miegakure* (hide and reveal), adapted here as destination framing in a linear space.
+`─────────────────────────────────────────────────`
+
+Saved: areas/side-yard-layout.svg, areas/side-yard.md, plants/japanese-maple.md, plants/deer-fern.md, plants/nandina.md, plants/kinnikinnick.md, calendar.md, log/2026-02.md

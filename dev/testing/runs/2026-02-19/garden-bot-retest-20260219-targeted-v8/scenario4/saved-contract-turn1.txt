@@ -1,0 +1,4 @@
+﻿Status: PASS
+Reason: matches-none-format
+FinalNonEmptyLine: Saved: none - preview only, awaiting approval
+Rule: final non-empty line must be Saved: <paths> or Saved: none - <reason>

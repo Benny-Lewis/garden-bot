@@ -1,0 +1,2 @@
+﻿ADDED	areas\side-yard-option-a.svg
+ADDED	areas\side-yard-option-b.svg

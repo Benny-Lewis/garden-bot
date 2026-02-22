@@ -1,0 +1,13 @@
+﻿I've opened the preview in Chrome. Here's what changed:
+
+| Feature | Before | After |
+|---|---|---|
+| **Fire pit** | West side (left) | East side (right) |
+| **Raised beds** | 4, east side (right) | 2, west side (left) |
+| **Seating** | Near patio (unchanged) | Near patio (unchanged) |
+
+The two raised beds are stacked vertically on the west side where the fire pit used to be, and the fire pit now occupies the east side.
+
+Does this layout look good, or would you like any adjustments before I save it?
+
+Saved: none - preview only, awaiting approval

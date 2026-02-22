@@ -1,0 +1,17 @@
+﻿Great, I've got your existing garden data. Here's what I'm working with:
+
+- **Location:** Portland, OR — Zone 8b
+- **Side yard:** 24 × 8 ft, east-west corridor, partial shade
+- **Existing:** Narrow path, fence on north edge
+- **Style direction:** PNW native + Japanese influence
+
+`★ Insight ─────────────────────────────────────`
+PNW native and Japanese garden aesthetics pair naturally — both emphasize moss, evergreen structure, restrained palettes, and a reverence for natural forms. In Portland's Zone 8b climate, many classic Japanese garden plants (Japanese maples, ferns, mosses) thrive alongside PNW natives (sword fern, Oregon grape, salal) without supplemental irrigation once established.
+`─────────────────────────────────────────────────`
+
+Before I draw up two layout options, I need a few spatial details that aren't in your area file:
+
+1. **South boundary** — what's along the south edge? (House wall, another fence, neighbor's structure?)
+2. **Access points** — where do you enter and exit the side yard? (West end from front yard? East end from backyard? Both?)
+3. **Path use** — is this mainly a pass-through corridor, or do you want a spot to pause/sit along the way?
+4. **Any must-keeps or must-avoids?** (Existing plants to keep, utilities to work around, materials you love or dislike?)

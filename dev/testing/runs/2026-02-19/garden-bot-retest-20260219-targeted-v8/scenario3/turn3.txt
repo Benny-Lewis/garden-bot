@@ -1,0 +1,31 @@
+﻿`★ Insight ─────────────────────────────────────`
+**Stealth edible harvest calendar for this design:**
+- **March–April:** Rosemary + thyme available year-round (established plants)
+- **June:** Serviceberry berries, first blueberries, artichoke buds
+- **July–August:** Peak blueberry harvest
+- **September–October:** Huckleberry harvest
+- **Year-round:** Bay laurel leaves for cooking
+
+That's 7 months of harvesting from a yard that looks like a modern landscape design to anyone walking by.
+`─────────────────────────────────────────────────`
+
+Design saved. Here's everything that was written:
+
+| File | What |
+|------|------|
+| `areas/front-yard-layout.svg` | Canonical layout SVG |
+| `areas/front-yard.md` | Updated area file with design section, zone summary, key decisions |
+| `plants/blueberry.md` | 4 plants, left bed hedge |
+| `plants/evergreen-huckleberry.md` | 4 plants, right bed hedge |
+| `plants/serviceberry.md` | 1 multi-stem, planting strip |
+| `plants/bay-laurel.md` | 1 standard form, right bed |
+| `plants/artichoke.md` | 2 architectural accents, right bed |
+| `plants/oregon-grape.md` | 6–8 in foundation strip |
+| `plants/rosemary.md` | 2–3 in foundation strip (west) |
+| `plants/creeping-thyme.md` | Foundation strip (east) + gravel gaps |
+| `calendar.md` | Full planting schedule March 2026 – Feb 2027 |
+| `log/2026-02.md` | Design session logged |
+
+Your first action items are in March: sourcing plants and prepping beds. The blueberry bed will need acidic soil amendment before planting.
+
+Saved: areas/front-yard-layout.svg, areas/front-yard.md, plants/blueberry.md, plants/evergreen-huckleberry.md, plants/serviceberry.md, plants/bay-laurel.md, plants/artichoke.md, plants/oregon-grape.md, plants/rosemary.md, plants/creeping-thyme.md, calendar.md, log/2026-02.md

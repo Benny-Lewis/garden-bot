@@ -1,0 +1,4 @@
+﻿Status: PASS
+Reason: matches-paths-format
+FinalNonEmptyLine: Saved: areas/side-yard-layout.svg, areas/side-yard.md, plants/japanese-maple.md, plants/deer-fern.md, plants/nandina.md, plants/kinnikinnick.md, calendar.md, log/2026-02.md
+Rule: final non-empty line must be Saved: <paths> or Saved: none - <reason>

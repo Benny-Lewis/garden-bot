@@ -1,0 +1,12 @@
+﻿MODIFIED	areas\front-yard.md
+ADDED	areas\front-yard-layout.svg
+MODIFIED	calendar.md
+MODIFIED	log\2026-02.md
+ADDED	plants\artichoke.md
+ADDED	plants\bay-laurel.md
+ADDED	plants\blueberry.md
+ADDED	plants\creeping-thyme.md
+ADDED	plants\evergreen-huckleberry.md
+ADDED	plants\oregon-grape.md
+ADDED	plants\rosemary.md
+ADDED	plants\serviceberry.md

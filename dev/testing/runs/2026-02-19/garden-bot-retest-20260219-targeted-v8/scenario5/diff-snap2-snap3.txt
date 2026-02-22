@@ -1,0 +1,8 @@
+﻿MODIFIED	areas\side-yard.md
+ADDED	areas\side-yard-layout.svg
+MODIFIED	calendar.md
+MODIFIED	log\2026-02.md
+ADDED	plants\deer-fern.md
+ADDED	plants\japanese-maple.md
+ADDED	plants\kinnikinnick.md
+ADDED	plants\nandina.md
