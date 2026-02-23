@@ -1,21 +1,25 @@
 ﻿# Documentation Index
 
-This repository keeps planning and testing documentation under `docs/`.
+## Start Here by Audience
 
-## Plans
+For plugin users:
+- `README.md`
+- `docs/overview.md`
 
-- Index: `docs/plans/README.md`
-- Active plans: `docs/plans/active/`
-- Historical plans: `docs/plans/archive/`
+For contributors:
+- `CONTRIBUTING.md`
+- `docs/architecture.md`
+- `docs/contracts.md`
+- `docs/runbooks/regression.md`
+- `docs/runbooks/evidence-capture.md`
 
-## Testing Results
+## Project Docs
 
-- Index: `docs/testing/results/README.md`
-- Active results: `docs/testing/results/active/`
-- Historical results: `docs/testing/results/archive/`
+- Plans index: `docs/plans/README.md`
+- Testing docs index: `docs/testing/README.md`
+- Changelog: `docs/changelog.md`
 
-## Runtime Test Artifacts
+## Runtime Artifact References
 
-- Retention policy and active run pointers: `dev/testing/runs/README.md`
-- Archived run folders: `dev/testing/runs/archive/`
-- Harness definition: `dev/testing/regression-harness.md`
+- Regression harness: `dev/testing/regression-harness.md`
+- Runs retention policy: `dev/testing/runs/README.md`

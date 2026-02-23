@@ -1,8 +1,8 @@
 ﻿# Testing Results Index
 
-Testing result documents are split into active and archive sets.
+Testing result docs are grouped into active and archive sets.
 
-## Active
+## Active (Current Truth)
 
 - `docs/testing/results/active/retest-matrix-2026-02-19-full-v1.md`
 - `docs/testing/results/active/retest-matrix-2026-02-19-targeted-v10.md`
@@ -10,13 +10,17 @@ Testing result documents are split into active and archive sets.
 - `docs/testing/results/active/anthropic-guidance-compliance-2026-02-20.md`
 - `docs/testing/results/active/retest-matrix-template.md`
 
-## Archive
-
-Historical and superseded outputs are in:
+## Archive (Historical)
 
 - `docs/testing/results/archive/`
 
-## Related
+## Related Runbooks
 
-- Harness spec: `dev/testing/regression-harness.md`
-- Run artifacts and retention: `dev/testing/runs/README.md`
+- Regression execution: `docs/runbooks/regression.md`
+- Evidence capture: `docs/runbooks/evidence-capture.md`
+- Contracts: `docs/contracts.md`
+
+## Runtime Artifacts
+
+- Harness scenarios/invariants: `dev/testing/regression-harness.md`
+- Run folder retention: `dev/testing/runs/README.md`

@@ -6,6 +6,12 @@ Use this harness after any change to `skills/*/SKILL.md`.
 
 Catch behavior regressions quickly across persistence, sourcing, design approval flow, and cross-skill integration.
 
+## Canonical References
+
+- Runtime contract definitions: `docs/contracts.md`
+- Execution procedure: `docs/runbooks/regression.md`
+- Evidence capture procedure: `docs/runbooks/evidence-capture.md`
+
 ## Test Setup
 
 - Run tests in a fresh Claude session.
