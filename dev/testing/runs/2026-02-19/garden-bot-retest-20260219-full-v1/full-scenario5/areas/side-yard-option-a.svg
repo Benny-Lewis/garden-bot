@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="580" height="300">
+  <!-- Title -->
+  <text x="290" y="20" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">Option A: Roji Passage — 24×8 ft Side Yard</text>
+  <text x="290" y="35" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">PNW Native + Japanese Tea Garden Path</text>
+
+  <!-- Orientation -->
+  <text x="555" y="160" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold">N↑</text>
+  <line x1="555" y1="165" x2="555" y2="180" stroke="#333" stroke-width="1.5"/>
+  <text x="555" y="192" text-anchor="middle" font-family="Arial" font-size="11">S↓</text>
+  <text x="30" y="155" text-anchor="middle" font-family="Arial" font-size="10">W</text>
+  <text x="530" y="155" text-anchor="middle" font-family="Arial" font-size="10">E</text>
+
+  <!-- Scale -->
+  <line x1="50" y1="275" x2="150" y2="275" stroke="#333" stroke-width="2"/>
+  <text x="100" y="290" text-anchor="middle" font-family="Arial" font-size="9">5 ft</text>
+
+  <!-- Yard outline: 24ft x 8ft at 20px/ft = 480x160, offset at (50, 50) -->
+  <rect x="50" y="50" width="480" height="160" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- North fence -->
+  <rect x="50" y="50" width="480" height="6" fill="#8B6914"/>
+  <text x="290" y="47" text-anchor="middle" font-family="Arial" font-size="9" fill="#8B6914">— North Fence —</text>
+
+  <!-- Zone 1: North planting bed (fence-side, 3ft deep) -->
+  <rect x="50" y="56" width="480" height="60" fill="#5B8C3E" opacity="0.3" stroke="#5B8C3E" stroke-width="1"/>
+
+  <!-- Tall plants along fence: Vine Maple + Sword Fern clusters -->
+  <circle cx="110" cy="80" r="18" fill="#3A6B2A" opacity="0.6"/>
+  <text x="110" y="84" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Vine</text>
+  <text x="110" y="92" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Maple</text>
+
+  <circle cx="200" cy="85" r="12" fill="#4A7C3A" opacity="0.6"/>
+  <text x="200" y="88" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Sword</text>
+  <text x="200" y="96" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Fern</text>
+
+  <circle cx="280" cy="80" r="12" fill="#4A7C3A" opacity="0.6"/>
+  <text x="280" y="84" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Sword</text>
+  <text x="280" y="92" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Fern</text>
+
+  <circle cx="370" cy="78" r="16" fill="#3A6B2A" opacity="0.6"/>
+  <text x="370" y="82" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Vine</text>
+  <text x="370" y="90" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Maple</text>
+
+  <circle cx="460" cy="85" r="12" fill="#4A7C3A" opacity="0.6"/>
+  <text x="460" y="88" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Sword</text>
+  <text x="460" y="96" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Fern</text>
+
+  <!-- Zone 2: Moss groundcover (center, 2ft) -->
+  <rect x="50" y="116" width="480" height="40" fill="#7BA05B" opacity="0.25"/>
+
+  <!-- Stepping stones through moss -->
+  <rect x="80" y="126" width="22" height="18" rx="4" fill="#A0A0A0" stroke="#888" stroke-width="1"/>
+  <rect x="130" y="130" width="20" height="16" rx="4" fill="#A0A0A0" stroke="#888" stroke-width="1"/>
+  <rect x="180" y="125" width="22" height="18" rx="4" fill="#A0A0A0" stroke="#888" stroke-width="1"/>
+  <rect x="235" y="130" width="20" height="16" rx="4" fill="#A0A0A0" stroke="#888" stroke-width="1"/>
+  <rect x="288" y="126" width="22" height="18" rx="4" fill="#A0A0A0" stroke="#888" stroke-width="1"/>
+  <rect x="340" y="130" width="20" height="16" rx="4" fill="#A0A0A0" stroke="#888" stroke-width="1"/>
+  <rect x="392" y="125" width="22" height="18" rx="4" fill="#A0A0A0" stroke="#888" stroke-width="1"/>
+  <rect x="445" y="130" width="20" height="16" rx="4" fill="#A0A0A0" stroke="#888" stroke-width="1"/>
+  <rect x="498" y="126" width="22" height="18" rx="4" fill="#A0A0A0" stroke="#888" stroke-width="1"/>
+
+  <!-- Stone basin (tsukubai) focal point at ~16ft mark -->
+  <circle cx="370" cy="136" r="14" fill="#7899B0" stroke="#5577A0" stroke-width="1.5"/>
+  <text x="370" y="140" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Tsukubai</text>
+
+  <!-- Zone 3: South planting bed (lower, 3ft) -->
+  <rect x="50" y="156" width="480" height="54" fill="#5B8C3E" opacity="0.2" stroke="#5B8C3E" stroke-width="1"/>
+
+  <!-- Low plants: Oregon Grape, Kinnikinnick -->
+  <circle cx="100" cy="178" r="14" fill="#6B9C4A" opacity="0.5"/>
+  <text x="100" y="175" text-anchor="middle" font-family="Arial" font-size="6">Oregon</text>
+  <text x="100" y="183" text-anchor="middle" font-family="Arial" font-size="6">Grape</text>
+
+  <circle cx="190" cy="182" r="12" fill="#8BAC6A" opacity="0.5"/>
+  <text x="190" y="185" text-anchor="middle" font-family="Arial" font-size="6">Kinni-</text>
+  <text x="190" y="193" text-anchor="middle" font-family="Arial" font-size="6">kinnick</text>
+
+  <circle cx="280" cy="178" r="14" fill="#6B9C4A" opacity="0.5"/>
+  <text x="280" y="175" text-anchor="middle" font-family="Arial" font-size="6">Oregon</text>
+  <text x="280" y="183" text-anchor="middle" font-family="Arial" font-size="6">Grape</text>
+
+  <circle cx="430" cy="182" r="12" fill="#8BAC6A" opacity="0.5"/>
+  <text x="430" y="185" text-anchor="middle" font-family="Arial" font-size="6">Kinni-</text>
+  <text x="430" y="193" text-anchor="middle" font-family="Arial" font-size="6">kinnick</text>
+
+  <circle cx="500" cy="178" r="13" fill="#6B9C4A" opacity="0.5"/>
+  <text x="500" y="175" text-anchor="middle" font-family="Arial" font-size="6">Oregon</text>
+  <text x="500" y="183" text-anchor="middle" font-family="Arial" font-size="6">Grape</text>
+
+  <!-- Legend -->
+  <rect x="50" y="230" width="200" height="55" fill="white" stroke="#ccc" stroke-width="1" rx="3"/>
+  <text x="60" y="244" font-family="Arial" font-size="9" font-weight="bold">Legend</text>
+  <rect x="60" y="249" width="10" height="10" fill="#3A6B2A" opacity="0.6"/>
+  <text x="75" y="258" font-family="Arial" font-size="8">Tall: Vine Maple, Sword Fern</text>
+  <rect x="60" y="263" width="10" height="10" fill="#6B9C4A" opacity="0.5"/>
+  <text x="75" y="272" font-family="Arial" font-size="8">Low: Oregon Grape, Kinnikinnick</text>
+  <rect x="160" y="249" width="10" height="10" fill="#A0A0A0"/>
+  <text x="175" y="258" font-family="Arial" font-size="8">Stepping stone</text>
+  <circle cx="165" cy="268" r="5" fill="#7899B0"/>
+  <text x="175" y="272" font-family="Arial" font-size="8">Stone basin</text>
+</svg>

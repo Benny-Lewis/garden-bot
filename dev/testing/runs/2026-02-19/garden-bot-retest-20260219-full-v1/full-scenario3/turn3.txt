@@ -1,0 +1,13 @@
+﻿Design saved. Here's what was created:
+
+**Layout:** Asymmetric Drift — serviceberry anchors the left with a sweeping edible/native drift, clean herb row and gravel garden on the right keep the sightline to your door open.
+
+**Stealth edibles in the design (7 species):** serviceberry, blueberry (×2), evergreen huckleberry, alpine strawberry, rosemary, sage, lavender, oregano, creeping thyme, Oregon grape — all chosen to read as ornamental first.
+
+**Calendar:** Bed prep in March, main planting in April, finishing touches in May, first harvest checks by June.
+
+`★ Insight ─────────────────────────────────────`
+**Why this works for Portland curb appeal:** The layered heights (serviceberry 12-15 ft → blueberry 4-6 ft → fescue 1-2 ft → groundcover 6 in) create depth in just 15 ft of yard. The south-facing exposure means Mediterranean herbs on the right side will thrive with zero summer irrigation once established, while the left drift's serviceberry and blueberries get the moisture they prefer from Portland's natural rainfall pattern.
+`─────────────────────────────────────────────────`
+
+Saved: areas/front-yard-layout.svg, areas/front-yard.md, plants/serviceberry.md, plants/blueberry.md, plants/rosemary.md, plants/evergreen-huckleberry.md, plants/alpine-strawberry.md, plants/sage.md, plants/lavender.md, plants/oregano.md, plants/oregon-grape.md, plants/sword-fern.md, plants/kinnikinnick.md, plants/creeping-thyme.md, plants/idaho-fescue.md, calendar.md, log/2026-02.md

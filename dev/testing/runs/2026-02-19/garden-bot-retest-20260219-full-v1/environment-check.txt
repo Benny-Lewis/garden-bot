@@ -1,0 +1,15 @@
+﻿Timestamp: 2026-02-22T18:57:24.2971754-08:00
+SVG user choice:
+
+
+ProgId       : Applications\Illustrator.exe
+Hash         : AHr6btAwBWE=
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.svg\UserChoice
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.svg
+PSChildName  : UserChoice
+PSDrive      : HKCU
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+Chrome paths:
+C:\Program Files\Google\Chrome\Application\chrome.exe => True
+C:\Program Files (x86)\Google\Chrome\Application\chrome.exe => False

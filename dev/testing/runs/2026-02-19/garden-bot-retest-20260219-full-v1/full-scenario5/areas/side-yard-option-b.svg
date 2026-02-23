@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="580" height="300">
+  <!-- Title -->
+  <text x="290" y="20" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">Option B: Woodland Drift — 24×8 ft Side Yard</text>
+  <text x="290" y="35" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">PNW Native + Japanese Naturalistic Restraint</text>
+
+  <!-- Orientation -->
+  <text x="555" y="160" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold">N↑</text>
+  <line x1="555" y1="165" x2="555" y2="180" stroke="#333" stroke-width="1.5"/>
+  <text x="555" y="192" text-anchor="middle" font-family="Arial" font-size="11">S↓</text>
+  <text x="30" y="155" text-anchor="middle" font-family="Arial" font-size="10">W</text>
+  <text x="530" y="155" text-anchor="middle" font-family="Arial" font-size="10">E</text>
+
+  <!-- Scale -->
+  <line x1="50" y1="275" x2="150" y2="275" stroke="#333" stroke-width="2"/>
+  <text x="100" y="290" text-anchor="middle" font-family="Arial" font-size="9">5 ft</text>
+
+  <!-- Yard outline -->
+  <rect x="50" y="50" width="480" height="160" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- North fence -->
+  <rect x="50" y="50" width="480" height="6" fill="#8B6914"/>
+  <text x="290" y="47" text-anchor="middle" font-family="Arial" font-size="9" fill="#8B6914">— North Fence —</text>
+
+  <!-- Zone 1: North planting bed (fence-side, varied depth 2-4ft) -->
+  <rect x="50" y="56" width="160" height="50" fill="#5B8C3E" opacity="0.3" stroke="#5B8C3E" stroke-width="1"/>
+  <rect x="210" y="56" width="120" height="70" fill="#5B8C3E" opacity="0.3" stroke="#5B8C3E" stroke-width="1"/>
+  <rect x="330" y="56" width="200" height="55" fill="#5B8C3E" opacity="0.3" stroke="#5B8C3E" stroke-width="1"/>
+
+  <!-- Tall layer: Red Huckleberry, Sword Fern -->
+  <circle cx="100" cy="78" r="16" fill="#3A6B2A" opacity="0.6"/>
+  <text x="100" y="75" text-anchor="middle" font-family="Arial" font-size="6" fill="white">Red</text>
+  <text x="100" y="83" text-anchor="middle" font-family="Arial" font-size="6" fill="white">Huckle.</text>
+
+  <circle cx="175" cy="82" r="12" fill="#4A7C3A" opacity="0.6"/>
+  <text x="175" y="85" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Sword</text>
+  <text x="175" y="93" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Fern</text>
+
+  <circle cx="270" cy="82" r="20" fill="#2E5A1E" opacity="0.55"/>
+  <text x="270" y="79" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Vine</text>
+  <text x="270" y="87" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Maple</text>
+
+  <circle cx="380" cy="80" r="12" fill="#4A7C3A" opacity="0.6"/>
+  <text x="380" y="83" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Sword</text>
+  <text x="380" y="91" text-anchor="middle" font-family="Arial" font-size="7" fill="white">Fern</text>
+
+  <circle cx="470" cy="78" r="16" fill="#3A6B2A" opacity="0.6"/>
+  <text x="470" y="75" text-anchor="middle" font-family="Arial" font-size="6" fill="white">Red</text>
+  <text x="470" y="83" text-anchor="middle" font-family="Arial" font-size="6" fill="white">Huckle.</text>
+
+  <!-- Dry stream bed (diagonal accent, ~8ft long) -->
+  <rect x="210" y="116" width="30" height="12" rx="6" fill="#B8C4D0" stroke="#8899AA" stroke-width="1"/>
+  <rect x="235" y="122" width="35" height="12" rx="6" fill="#B8C4D0" stroke="#8899AA" stroke-width="1"/>
+  <rect x="265" y="126" width="30" height="12" rx="6" fill="#B8C4D0" stroke="#8899AA" stroke-width="1"/>
+  <text x="260" y="115" text-anchor="middle" font-family="Arial" font-size="7" fill="#5577A0">Dry Stream</text>
+
+  <!-- Gravel path (curving, center-south) -->
+  <rect x="60" y="140" width="90" height="24" rx="3" fill="#C8B896" opacity="0.6" stroke="#B0A080" stroke-width="1"/>
+  <rect x="140" y="136" width="80" height="24" rx="3" fill="#C8B896" opacity="0.6" stroke="#B0A080" stroke-width="1"/>
+  <rect x="290" y="138" width="90" height="24" rx="3" fill="#C8B896" opacity="0.6" stroke="#B0A080" stroke-width="1"/>
+  <rect x="370" y="142" width="80" height="24" rx="3" fill="#C8B896" opacity="0.6" stroke="#B0A080" stroke-width="1"/>
+  <rect x="440" y="138" width="80" height="24" rx="3" fill="#C8B896" opacity="0.6" stroke="#B0A080" stroke-width="1"/>
+  <text x="290" y="154" text-anchor="middle" font-family="Arial" font-size="8" fill="#776644">Gravel Path</text>
+
+  <!-- South planting pockets -->
+  <rect x="50" y="164" width="480" height="46" fill="#5B8C3E" opacity="0.15"/>
+
+  <circle cx="90" cy="182" r="13" fill="#8BAC6A" opacity="0.5"/>
+  <text x="90" y="179" text-anchor="middle" font-family="Arial" font-size="6">Inside-out</text>
+  <text x="90" y="187" text-anchor="middle" font-family="Arial" font-size="6">Flower</text>
+
+  <circle cx="180" cy="186" r="11" fill="#6B9C4A" opacity="0.5"/>
+  <text x="180" y="183" text-anchor="middle" font-family="Arial" font-size="6">Oregon</text>
+  <text x="180" y="191" text-anchor="middle" font-family="Arial" font-size="6">Grape</text>
+
+  <circle cx="330" cy="182" r="14" fill="#8BAC6A" opacity="0.5"/>
+  <text x="330" y="179" text-anchor="middle" font-family="Arial" font-size="6">Salal</text>
+  <text x="330" y="187" text-anchor="middle" font-family="Arial" font-size="6">Drift</text>
+
+  <circle cx="430" cy="186" r="11" fill="#6B9C4A" opacity="0.5"/>
+  <text x="430" y="183" text-anchor="middle" font-family="Arial" font-size="6">Oregon</text>
+  <text x="430" y="191" text-anchor="middle" font-family="Arial" font-size="6">Grape</text>
+
+  <circle cx="510" cy="182" r="12" fill="#8BAC6A" opacity="0.5"/>
+  <text x="510" y="179" text-anchor="middle" font-family="Arial" font-size="6">Inside-out</text>
+  <text x="510" y="187" text-anchor="middle" font-family="Arial" font-size="6">Flower</text>
+
+  <!-- Legend -->
+  <rect x="50" y="225" width="280" height="65" fill="white" stroke="#ccc" stroke-width="1" rx="3"/>
+  <text x="60" y="239" font-family="Arial" font-size="9" font-weight="bold">Legend</text>
+  <rect x="60" y="244" width="10" height="10" fill="#3A6B2A" opacity="0.6"/>
+  <text x="75" y="253" font-family="Arial" font-size="8">Tall: Vine Maple, Red Huckleberry, Sword Fern</text>
+  <rect x="60" y="258" width="10" height="10" fill="#8BAC6A" opacity="0.5"/>
+  <text x="75" y="267" font-family="Arial" font-size="8">Low: Salal, Inside-out Flower, Oregon Grape</text>
+  <rect x="60" y="272" width="10" height="10" fill="#C8B896" opacity="0.6"/>
+  <text x="75" y="281" font-family="Arial" font-size="8">Gravel path</text>
+  <rect x="180" y="272" width="10" height="10" fill="#B8C4D0"/>
+  <text x="195" y="281" font-family="Arial" font-size="8">Dry stream (river rock)</text>
+</svg>

@@ -1,0 +1,12 @@
+# Calendar
+- 2026-03-01: Review front yard design options.
+- 2026-03: Remove existing lawn in front yard beds. Sheet-mulch or solarize bed areas.
+- 2026-03: Amend soil in planting beds — add compost and sulfur for blueberry acidity.
+- 2026-03: Install gravel garden area (right side) — landscape fabric + decomposed granite.
+- 2026-04: Plant serviceberry, blueberries, evergreen huckleberry, Oregon grape, sword fern, kinnikinnick.
+- 2026-04: Plant herbs — rosemary, sage, lavender, oregano, creeping thyme.
+- 2026-04: Plant alpine strawberry and Idaho fescue.
+- 2026-05: Install planting strip plants — ornamental grass and native sedge.
+- 2026-05: Mulch all beds (bark mulch for blueberries/serviceberry, gravel for herb bed).
+- 2026-06: First serviceberry and blueberry harvest check.
+- 2027-01: Prune serviceberry for shape. Cut back oregano. Remove old sword fern fronds.

@@ -1,0 +1,5 @@
+﻿ADDED	areas\backyard.md
+ADDED	areas\front-yard.md
+MODIFIED	calendar.md
+ADDED	log\2026-02.md
+ADDED	profile.md

@@ -1,0 +1,17 @@
+﻿Your garden is set up. Here's what was created:
+
+| File | Purpose |
+|---|---|
+| `profile.md` | Master overview — location, zone, soil, goals, links to areas |
+| `areas/front-yard.md` | 30×15 south-facing lawn with planting notes |
+| `areas/backyard.md` | 40×30 oak + patio area with sun/shade zoning notes |
+| `calendar.md` | Rough seasonal calendar for Portland 8b |
+| `log/2026-02.md` | Today's setup entry |
+
+`★ Insight ─────────────────────────────────────`
+Your two areas have very different microclimates, which is actually a strength. The south-facing front yard gets enough sun for a pollinator meadow strip that practically maintains itself once established. The backyard's oak creates a natural "room" — sunny south side for a raised bed or two of easy edibles (herbs, lettuce, bush beans), shady north side for native groundcovers like sword fern or wild ginger that thrive in clay with zero fuss. Starting with the patio-adjacent sunny zone keeps everything near the hose bib, which is the simplest irrigation path for a beginner.
+`─────────────────────────────────────────────────`
+
+From here you can ask me to design a layout for either area, figure out what to plant now, or just add notes as you go — the files will grow with your garden.
+
+Saved: profile.md, areas/front-yard.md, areas/backyard.md, calendar.md, log/2026-02.md

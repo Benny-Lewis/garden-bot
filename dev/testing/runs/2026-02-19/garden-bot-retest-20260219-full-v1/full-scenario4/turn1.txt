@@ -1,0 +1,17 @@
+﻿Here's what changed in the preview (now open in Chrome):
+
+| Element | Before | After |
+|---|---|---|
+| **Fire pit** | West side | **East side** |
+| **Raised beds** | 4 (2×2 grid, east) | **2 (stacked, west)** |
+| **Seating** | Near patio (south) | Unchanged |
+
+The two features essentially swap sides — beds move west where the fire pit was, and the fire pit takes the east zone. With only 2 beds, the west side stays open and uncluttered.
+
+`★ Insight ─────────────────────────────────────`
+Swapping the fire pit east gives it more distance from the patio seating, which is better for smoke drift (prevailing westerlies in Portland push smoke away from the house). Consolidating to 2 beds on the west keeps your growing area close to the patio for convenient harvesting.
+`─────────────────────────────────────────────────`
+
+Does this layout look right, or would you like any adjustments before I save it as the canonical design?
+
+Saved: none - awaiting user input

@@ -1,0 +1,4 @@
+﻿Status: PASS
+Reason: matches-paths-format
+FinalNonEmptyLine: Saved: profile.md, areas/front-yard.md, areas/backyard.md, calendar.md, log/2026-02.md
+Rule: final non-empty line must be Saved: <paths> or Saved: none - <reason>

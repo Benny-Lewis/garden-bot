@@ -1,0 +1,17 @@
+﻿MODIFIED	areas\front-yard.md
+ADDED	areas\front-yard-layout.svg
+MODIFIED	calendar.md
+MODIFIED	log\2026-02.md
+ADDED	plants\alpine-strawberry.md
+ADDED	plants\blueberry.md
+ADDED	plants\creeping-thyme.md
+ADDED	plants\evergreen-huckleberry.md
+ADDED	plants\idaho-fescue.md
+ADDED	plants\kinnikinnick.md
+ADDED	plants\lavender.md
+ADDED	plants\oregano.md
+ADDED	plants\oregon-grape.md
+ADDED	plants\rosemary.md
+ADDED	plants\sage.md
+ADDED	plants\serviceberry.md
+ADDED	plants\sword-fern.md

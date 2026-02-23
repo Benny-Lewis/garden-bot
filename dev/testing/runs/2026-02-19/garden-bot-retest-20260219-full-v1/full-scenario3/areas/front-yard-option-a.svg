@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Arial, sans-serif" font-size="11">
+  <title>Front Yard Option A - Symmetric Modern</title>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="400" fill="#f5f5f0"/>
+
+  <!-- Title and orientation -->
+  <text x="300" y="22" text-anchor="middle" font-size="16" font-weight="bold">Option A: Symmetric Modern</text>
+  <text x="300" y="38" text-anchor="middle" font-size="11" fill="#666">30 ft wide x 15 ft deep — South-facing</text>
+  <text x="570" y="60" text-anchor="middle" font-size="10" font-weight="bold">N</text>
+  <line x1="570" y1="63" x2="570" y2="80" stroke="#333" stroke-width="1.5"/>
+  <line x1="570" y1="63" x2="565" y2="70" stroke="#333" stroke-width="1.5"/>
+  <line x1="570" y1="63" x2="575" y2="70" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Scale -->
+  <line x1="30" y1="385" x2="130" y2="385" stroke="#333" stroke-width="2"/>
+  <text x="80" y="396" text-anchor="middle" font-size="9">5 ft</text>
+
+  <!-- Street / Curb (bottom = south) -->
+  <rect x="30" y="340" width="540" height="10" fill="#999" rx="1"/>
+  <text x="300" y="362" text-anchor="middle" font-size="9" fill="#666">STREET (South)</text>
+
+  <!-- Planting strip between sidewalk and curb: 5 ft deep -->
+  <rect x="30" y="300" width="540" height="40" fill="#8fbc8f" stroke="#6a9a6a" stroke-width="1" rx="2"/>
+  <text x="300" y="324" text-anchor="middle" font-size="10" font-weight="bold">Planting Strip (5 ft)</text>
+  <text x="120" y="314" text-anchor="middle" font-size="9" fill="#2d5a2d">Native sedge</text>
+  <text x="480" y="314" text-anchor="middle" font-size="9" fill="#2d5a2d">Native sedge</text>
+
+  <!-- Sidewalk -->
+  <rect x="30" y="288" width="540" height="12" fill="#ccc" stroke="#aaa" stroke-width="1"/>
+  <text x="300" y="297" text-anchor="middle" font-size="8">SIDEWALK</text>
+
+  <!-- Main yard area -->
+  <rect x="30" y="108" width="540" height="180" fill="#c8dbbe" stroke="#999" stroke-width="1"/>
+
+  <!-- Foundation strip (2 ft along house = top) -->
+  <rect x="30" y="60" width="540" height="48" fill="#a0c090" stroke="#7a9a6a" stroke-width="1" rx="2"/>
+  <text x="300" y="82" text-anchor="middle" font-size="10" font-weight="bold">Foundation Bed (2 ft)</text>
+  <text x="120" y="96" text-anchor="middle" font-size="9" fill="#2d5a2d">Rosemary</text>
+  <text x="300" y="96" text-anchor="middle" font-size="9" fill="#2d5a2d">Sword fern</text>
+  <text x="480" y="96" text-anchor="middle" font-size="9" fill="#2d5a2d">Rosemary</text>
+
+  <!-- House wall -->
+  <rect x="30" y="50" width="540" height="10" fill="#8B7355" stroke="#6B5335" stroke-width="1"/>
+  <text x="300" y="47" text-anchor="middle" font-size="10" font-weight="bold">HOUSE (North)</text>
+
+  <!-- Front door slightly right of center -->
+  <rect x="320" y="50" width="40" height="10" fill="#D2691E" stroke="#6B5335" stroke-width="1"/>
+  <text x="340" y="47" text-anchor="middle" font-size="8" fill="#8B4513">Door</text>
+
+  <!-- Walkway: 4 ft wide, straight from door to sidewalk -->
+  <rect x="320" y="60" width="40" height="228" fill="#d4caba" stroke="#b0a898" stroke-width="1"/>
+  <text x="340" y="200" text-anchor="middle" font-size="9" fill="#666" transform="rotate(-90,340,200)">WALKWAY (4 ft)</text>
+
+  <!-- LEFT BED: structured planting -->
+  <rect x="50" y="120" width="255" height="70" fill="#6b8e5a" stroke="#4a6e3a" stroke-width="1.5" rx="4"/>
+  <text x="178" y="137" text-anchor="middle" font-size="10" font-weight="bold" fill="white">Left Bed — Blueberry + Grass</text>
+  <circle cx="90" cy="162" r="14" fill="#4a6e8a" stroke="#3a5e7a" stroke-width="1"/>
+  <text x="90" y="166" text-anchor="middle" font-size="7" fill="white">Blueberry</text>
+  <circle cx="150" cy="162" r="14" fill="#4a6e8a" stroke="#3a5e7a" stroke-width="1"/>
+  <text x="150" y="166" text-anchor="middle" font-size="7" fill="white">Blueberry</text>
+  <circle cx="210" cy="162" r="14" fill="#4a6e8a" stroke="#3a5e7a" stroke-width="1"/>
+  <text x="210" y="166" text-anchor="middle" font-size="7" fill="white">Blueberry</text>
+  <circle cx="270" cy="162" r="10" fill="#9ab88a" stroke="#7a9a6a" stroke-width="1"/>
+  <text x="270" y="165" text-anchor="middle" font-size="6" fill="#2d4a2d">Grass</text>
+
+  <!-- RIGHT BED -->
+  <rect x="375" y="120" width="180" height="70" fill="#6b8e5a" stroke="#4a6e3a" stroke-width="1.5" rx="4"/>
+  <text x="465" y="137" text-anchor="middle" font-size="10" font-weight="bold" fill="white">Right Bed — Herbs + Sage</text>
+  <circle cx="410" cy="162" r="14" fill="#8a7a5a" stroke="#6a5a3a" stroke-width="1"/>
+  <text x="410" y="166" text-anchor="middle" font-size="7" fill="white">Sage</text>
+  <circle cx="465" cy="162" r="14" fill="#7a9a5a" stroke="#5a7a3a" stroke-width="1"/>
+  <text x="465" y="166" text-anchor="middle" font-size="7" fill="white">Thyme</text>
+  <circle cx="520" cy="162" r="14" fill="#8a7a5a" stroke="#6a5a3a" stroke-width="1"/>
+  <text x="520" y="166" text-anchor="middle" font-size="7" fill="white">Sage</text>
+
+  <!-- Lower accent beds near sidewalk -->
+  <rect x="50" y="230" width="255" height="48" fill="#7a9e6a" stroke="#5a7e4a" stroke-width="1" rx="3"/>
+  <text x="178" y="248" text-anchor="middle" font-size="9" font-weight="bold" fill="white">Kinnikinnick groundcover</text>
+  <text x="178" y="264" text-anchor="middle" font-size="8" fill="#ddd">+ Alpine strawberry edge</text>
+
+  <rect x="375" y="230" width="180" height="48" fill="#7a9e6a" stroke="#5a7e4a" stroke-width="1" rx="3"/>
+  <text x="465" y="248" text-anchor="middle" font-size="9" font-weight="bold" fill="white">Oregon grape low</text>
+  <text x="465" y="264" text-anchor="middle" font-size="8" fill="#ddd">+ Creeping thyme edge</text>
+
+  <!-- Gravel mulch areas -->
+  <rect x="50" y="195" width="255" height="30" fill="#d9d0c0" stroke="#b9b0a0" stroke-width="1" rx="2"/>
+  <text x="178" y="214" text-anchor="middle" font-size="8" fill="#777">Gravel mulch path</text>
+  <rect x="375" y="195" width="180" height="30" fill="#d9d0c0" stroke="#b9b0a0" stroke-width="1" rx="2"/>
+  <text x="465" y="214" text-anchor="middle" font-size="8" fill="#777">Gravel mulch path</text>
+
+  <!-- LEGEND -->
+  <rect x="30" y="370" width="540" height="3" fill="#ddd"/>
+  <rect x="40" y="375" width="10" height="8" fill="#6b8e5a"/>
+  <text x="55" y="382" font-size="8">Planting bed</text>
+  <rect x="120" y="375" width="10" height="8" fill="#d9d0c0"/>
+  <text x="135" y="382" font-size="8">Gravel</text>
+  <rect x="190" y="375" width="10" height="8" fill="#d4caba"/>
+  <text x="205" y="382" font-size="8">Walkway</text>
+  <rect x="265" y="375" width="10" height="8" fill="#8fbc8f"/>
+  <text x="280" y="382" font-size="8">Strip planting</text>
+  <rect x="365" y="375" width="10" height="8" fill="#a0c090"/>
+  <text x="380" y="382" font-size="8">Foundation</text>
+  <circle cx="460" cy="379" r="4" fill="#4a6e8a"/>
+  <text x="468" y="382" font-size="8">Edible</text>
+  <circle cx="520" cy="379" r="4" fill="#9ab88a"/>
+  <text x="528" y="382" font-size="8">Ornamental</text>
+</svg>

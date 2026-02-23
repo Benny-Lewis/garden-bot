@@ -1,0 +1,22 @@
+﻿Welcome to Portland — great gardening city! You've given me a solid start with your layout. No `profile.md` exists yet, so before I create your garden files I'd like to fill in a few gaps.
+
+`★ Insight ─────────────────────────────────────`
+Zone 8b in Portland means mild winters (15–20°F lows) and dry summers — a climate that supports an enormous range of plants, from Mediterranean herbs to Japanese maples to food crops. Knowing your goals and soil early shapes every recommendation downstream.
+`─────────────────────────────────────────────────`
+
+Here's what I already have from you:
+
+| Detail | Value |
+|---|---|
+| Location | Portland, OR — USDA 8b |
+| Front yard | 30 × 15 ft, south-facing, currently lawn |
+| Backyard | 40 × 30 ft, large oak (north half), 10 × 12 patio |
+
+A few questions before I set everything up:
+
+1. **Goals** — What are you hoping to do with the space? (e.g., curb appeal, food garden, low-maintenance native plantings, kid/pet play area, entertaining, pollinator habitat — or a mix?)
+2. **Experience** — How would you describe your gardening experience? (beginner / some experience / experienced)
+3. **Soil & irrigation** — Do you know anything about the soil (clay-heavy is common in Portland)? Is there any irrigation in place, or are you starting from scratch?
+4. **Intended use** — Any specific way you want to use front vs. back? (e.g., front for looks, back for food + hangout space)
+
+Saved: none - awaiting user input

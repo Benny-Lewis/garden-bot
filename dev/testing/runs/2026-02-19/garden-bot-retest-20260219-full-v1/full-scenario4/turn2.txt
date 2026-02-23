@@ -1,0 +1,12 @@
+﻿`★ Insight ─────────────────────────────────────`
+The canonical save touches four files in one turn — this is the "after approval" contract from the skill: layout SVG, area `.md`, `calendar.md`, and `log/`. The preview file is cleaned up since it's no longer needed. Calendar entries use concrete dates so future sessions can surface them as reminders.
+`─────────────────────────────────────────────────`
+
+Design saved. Here's what was written:
+
+- **`areas/backyard-south-layout.svg`** — canonical layout with fire pit east, 2 beds west
+- **`areas/backyard-south.md`** — updated zone summary and key decisions
+- **`calendar.md`** — added March 15 tasks for moving fire pit and relocating beds
+- **`log/2026-02.md`** — appended today's design revision entry
+
+Saved: areas/backyard-south-layout.svg, areas/backyard-south.md, calendar.md, log/2026-02.md

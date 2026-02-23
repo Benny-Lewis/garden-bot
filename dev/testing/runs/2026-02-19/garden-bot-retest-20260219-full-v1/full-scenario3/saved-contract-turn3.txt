@@ -1,0 +1,4 @@
+﻿Status: PASS
+Reason: matches-paths-format
+FinalNonEmptyLine: Saved: areas/front-yard-layout.svg, areas/front-yard.md, plants/serviceberry.md, plants/blueberry.md, plants/rosemary.md, plants/evergreen-huckleberry.md, plants/alpine-strawberry.md, plants/sage.md, plants/lavender.md, plants/oregano.md, plants/oregon-grape.md, plants/sword-fern.md, plants/kinnikinnick.md, plants/creeping-thyme.md, plants/idaho-fescue.md, calendar.md, log/2026-02.md
+Rule: final non-empty line must be Saved: <paths> or Saved: none - <reason>

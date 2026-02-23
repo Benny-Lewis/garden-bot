@@ -1,0 +1,13 @@
+﻿`★ Insight ─────────────────────────────────────`
+**Why the skill saves proactively:** The garden-expert skill is designed to write recommendations to files *without asking permission first*. This "save what you recommend" pattern prevents the common failure mode where Claude offers to save but then waits for a confirmation that breaks the workflow. The calendar entries with specific dates ensure follow-up tasks aren't forgotten weeks later.
+`─────────────────────────────────────────────────`
+
+All files updated. Here's a summary of what was recorded:
+
+- **plants/tomatoes-2026.md** — added early blight diagnosis details, contributing factors, sources, and full 8-step treatment plan
+- **calendar.md** — added 7 time-based follow-ups: today's immediate actions, a 3-day recheck, weekly inspections through mid-March, fertilization on Mar 7, a copper fungicide decision point on Mar 15, and a last-frost cold-protection evaluation on Apr 15
+- **log/2026-02.md** — logged today's diagnosis and treatment decisions
+
+The most important thing you can do **right now** is switch from evening overhead watering to morning base watering — that single change eliminates the overnight leaf wetness that *Alternaria* depends on to spread.
+
+Saved: plants/tomatoes-2026.md, calendar.md, log/2026-02.md
