@@ -1,37 +1,37 @@
-# Garden-Bot Plugin
+﻿# Garden-Bot Plugin
 
-Claude Code plugin with 3 skills for gardening/landscaping assistance.
+Claude Code plugin with 3 skills for gardening and landscaping assistance.
 
 ## Architecture
-- **Plugin manifest:** `.claude-plugin/plugin.json` (MPL-2.0)
-- **Skills:** `skills/{garden-profile,garden-expert,landscape-design}/SKILL.md`
-- **User data:** current working directory (profile.md, areas/, plants/, log/, calendar.md)
-- **Design doc:** `dev/plans/2026-02-16-garden-bot-design.md`
-- **Implementation plan:** `dev/plans/2026-02-16-garden-bot-implementation.md`
-- **Development docs:** `dev/plans/` (design, implementation plan, retrospectives)
-- **Test results:** `dev/testing/results/`
-- **Regression harness:** `dev/testing/regression-harness.md`
+- Plugin manifest: `.claude-plugin/plugin.json` (MPL-2.0)
+- Skills: `skills/{garden-profile,garden-expert,landscape-design}/SKILL.md`
+- User data: current working directory (`profile.md`, `areas/`, `plants/`, `log/`, `calendar.md`)
+- Design doc: `docs/plans/active/2026-02-16-garden-bot-design.md`
+- Implementation plan: `docs/plans/active/2026-02-16-garden-bot-implementation.md`
+- Development docs index: `docs/plans/README.md`
+- Testing results index: `docs/testing/results/README.md`
+- Regression harness: `dev/testing/regression-harness.md`
 
 ## Skill Authoring
-- Skills should be <500 words body. Only teach what Claude doesn't already know.
-- **Gating > procedures**: "Do X before Y" works; numbered "1. Ask 2. Create" steps get collapsed when user input already provides data.
-- **Persistence gating**: "Before ending your response, save..." + "Do not offer to save and wait for permission" — without this, Claude offers but doesn't act.
-- **Bold for critical instructions**: "**Wait for answers before giving a diagnosis.**" resists rationalization better than plain text.
-- Conversation-first patterns produce better output (richer context → personalized files).
-- Follow the Bitter Lesson: structure the data, not rigid workflows. Trust Claude's intelligence.
-- **REFACTOR workflow**: Edit SKILL.md → set up test env → user runs test in separate session → review transcript → update test results doc.
-- Do not add broad gardening knowledge reference docs. Keep skills focused on process, grounding, and persistence.
-- If a reference file is needed, keep it short and operational (lookup aid), and add explicit gating in SKILL.md for when it should be read.
+- Skills should be <500 words body. Only teach what Claude does not already know.
+- Gating over procedures: "Do X before Y" works better than rigid numbered steps.
+- Persistence gating: "Before ending your response, save..." and "Do not offer to save and wait for permission" are both required.
+- Bold critical instructions for fragile rules (for example, wait for answers before diagnosis).
+- Conversation-first patterns produce richer context and better persistence quality.
+- Follow the Bitter Lesson: structure the data, not rigid workflows.
+- Refactor workflow: edit `SKILL.md` -> set up test env -> run test -> review transcript -> update testing docs.
+- Do not add broad static gardening knowledge references.
+- If a reference file is needed, keep it short and operational and add explicit read gating.
 
 ## Conventions
-- Don't mention "claude" in git commit messages
+- Do not mention "claude" in git commit messages.
 
 ## Enforced Runtime Contracts
 - Final response contract: final non-empty line must be `Saved: <paths>` or `Saved: none - <reason>`.
 - Design preview-vs-canonical gating:
   - Before approval, write preview SVGs only under `areas/` (`{area-name}-option-a.svg`, `{area-name}-option-b.svg`).
   - Before approval, do not modify canonical `areas/{area-name}-layout.svg`, area `.md`, `calendar.md`, `log/`, or `plants/`.
-  - After approval, write canonical layout + related area/plant/calendar/log updates in the same turn.
+  - After approval, write canonical layout and related area/plant/calendar/log updates in the same turn.
 - SVG open policy:
   - Open SVGs in Google Chrome when available, otherwise default web browser.
   - On Windows, launch Chrome directly rather than relying on `.svg` association.
