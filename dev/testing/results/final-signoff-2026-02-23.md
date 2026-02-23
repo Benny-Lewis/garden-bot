@@ -15,9 +15,9 @@ Scope: pre-reset hardening and post-reset regression validation through full-v1.
   - `dev/testing/runs/2026-02-19/garden-bot-retest-20260219-full-v1/full-scenario3/open-evidence.md`
   - `dev/testing/runs/2026-02-19/garden-bot-retest-20260219-full-v1/full-scenario4/open-evidence.md`
   - `dev/testing/runs/2026-02-19/garden-bot-retest-20260219-full-v1/full-scenario5/open-evidence.md`
-- Screenshot references used: `[Image #1]`, `[Image #2]`, `[Image #3]`.
-- Observation date was captured as 2026-02-22; exact open-time timestamps were not captured at observation time.
-- Evidence record timestamp was backfilled on 2026-02-23 12:54:06 -08:00 in each open-evidence file.
+- Screenshot references used: user-provided screenshot sets on 2026-02-22 and 2026-02-23.
+- Observation dates were captured as 2026-02-22 and 2026-02-23; exact open-time timestamps were not captured at observation time.
+- Evidence record timestamp was updated on 2026-02-23 13:12:00 -08:00 in each open-evidence file.
 
 ## Key Closing Commits
 
